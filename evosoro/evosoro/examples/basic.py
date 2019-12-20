@@ -112,7 +112,7 @@ class MyGenotype(Genotype):
 # Define a custom phenotype, inheriting from the Phenotype class
 class MyPhenotype(Phenotype):
     def is_valid(self, min_percent_full=0.3, min_percent_muscle=0.1):
-        # override super class function to redefine what constitutes a valid individuals
+        # override super class function to redefine what constitutes a valid individual
         for name, details in self.genotype.to_phenotype_mapping.items():
             if np.isnan(details["state"]).any():
                 return False
