@@ -30,10 +30,10 @@ class Wann(Neat):
                 [4,:] == Generation evolved
       gen     - (int)      - Current generation
     """
-    Neat.__init__(self,hyp)
+    Neat.__init__(self, hyp)
     self.indType = WannInd
 
-  def tell(self,reward):
+  def tell(self, reward):
     """Assigns fitness to current population
 
     Args:
@@ -42,8 +42,8 @@ class Wann(Neat):
 
     """
     for i in range(np.shape(reward)[0]):
-      self.pop[i].fitness = np.mean(reward[i,:])
-      self.pop[i].fitMax  = np.max( reward[i,:])
+      self.pop[i].fitness = np.mean(reward[i, :])
+      self.pop[i].fitMax  = np.max(reward[i, :])
       self.pop[i].nConn   = self.pop[i].nConn
   
 
@@ -55,7 +55,7 @@ def probMoo(self):
     maxFit  = np.asarray([ind.fitMax  for ind in self.pop])
     nConns  = np.asarray([ind.nConn   for ind in self.pop])
     nConns[nConns==0] = 1 # No conns is always pareto optimal (but boring)
-    objVals = np.c_[meanFit,maxFit,1/nConns] # Maximize
+    objVals = np.c_[meanFit, maxFit, 1 / nConns]  # Maximize
 
     # Alternate second objective
     if self.p['alg_probMoo'] < np.random.rand():

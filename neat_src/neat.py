@@ -40,7 +40,7 @@ class Neat():
   ''' Subfunctions '''
   from ._variation import evolvePop, recombine
   from ._speciate  import Species, speciate, compatDist,\
-                          assignSpecies, assignOffspring  
+                          assignSpecies, assignOffspring
 
   def ask(self):
     """Returns newly evolved population
@@ -50,11 +50,11 @@ class Neat():
     else:
       self.probMoo()      # Rank population according to objectivess
       self.speciate()     # Divide population into species
-      self.evolvePop()    # Create child population 
+      self.evolvePop()    # Create child population
 
     return self.pop       # Send child population for evaluation
 
-  def tell(self,reward):
+  def tell(self, reward):
     """Assigns fitness to current population
 
     Args:
@@ -64,39 +64,38 @@ class Neat():
     """
     for i in range(np.shape(reward)[0]):
       self.pop[i].fitness = reward[i]
-      self.pop[i].nConn   = self.pop[i].nConn
-  
+
   def initPop(self):
     """Initialize population with a list of random individuals
     """
     ##  Create base individual
-    p = self.p # readability
-    
+    p = self.p  # readability
+
     # - Create Nodes -
-    nodeId = np.arange(0,p['ann_nInput']+ p['ann_nOutput']+1,1)
-    node = np.empty((3,len(nodeId)))
-    node[0,:] = nodeId
-    
+    nodeId = np.arange(0, p['ann_nInput'] + p['ann_nOutput'] + 1, 1)
+    node = np.empty((3, len(nodeId)))
+    node[0, :] = nodeId
+
     # Node types: [1:input, 2:hidden, 3:bias, 4:output]
-    node[1,0]             = 4 # Bias
-    node[1,1:p['ann_nInput']+1] = 1 # Input Nodes
-    node[1,(p['ann_nInput']+1):\
-           (p['ann_nInput']+p['ann_nOutput']+1)]  = 2 # Output Nodes
-    
+    node[1, 0]             = 4  # Bias
+    node[1, 1:p['ann_nInput'] + 1] = 1  # Input Nodes
+    node[1, (p['ann_nInput'] + 1):
+         (p['ann_nInput'] + p['ann_nOutput'] + 1)] = 2  # Output Nodes
+
     # Node Activations
     node[2,:] = p['ann_initAct']
     # - Create Conns -
     nConn = (p['ann_nInput']+1) * p['ann_nOutput']
     ins   = np.arange(0,p['ann_nInput']+1,1)            # Input and Bias Ids
     outs  = (p['ann_nInput']+1) + np.arange(0,p['ann_nOutput']) # Output Ids
-    
+
     conn = np.empty((5,nConn,))
     conn[0,:] = np.arange(0,nConn,1)    # Connection Id
     conn[1,:] = np.tile(ins, len(outs)) # Source Nodes
     conn[2,:] = np.tile(outs,len(ins) ) # Destination Nodes
     conn[3,:] = np.nan                  # Weight Values
     conn[4,:] = 1                       # Enabled?
-        
+
     # Create population of individuals with varied weights
     pop = []
     for i in range(p['popSize']):
