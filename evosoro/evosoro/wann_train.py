@@ -26,20 +26,20 @@ def master():
   alg  = Wann(hyp)
 
   for gen in range(hyp['maxGen']):        
-    pop = alg.ask()            # Get newly evolved individuals from NEAT  
+    pop = alg.ask()            # Get newly evolved individuals from NEAT
     reward = batchMpiEval(pop)  # Send pop to be evaluated by workers
-    alg.tell(reward)           # Send fitness to NEAT    
+    alg.tell(reward)           # Send fitness to NEAT
 
-    data = gatherData(data,alg,gen,hyp)
+    data = gatherData(data, alg, gen, hyp)
     print(gen, '\t', data.display())
 
   # Clean up and data gathering at run end
-  data = gatherData(data,alg,gen,hyp,savePop=True)
+  data = gatherData(data, alg, gen, hyp, savePop=True)
   data.save()
-  data.savePop(alg.pop,fileName) # Save population as 2D numpy arrays
+  data.savePop(alg.pop,fileName)  # Save population as 2D numpy arrays
   stopAllWorkers()
 
-def gatherData(data,alg,gen,hyp,savePop=False):
+def gatherData(data, alg, gen, hyp, savePop=False):
   """Collects run data, saves it to disk, and exports pickled population
 
   Args:
@@ -119,17 +119,17 @@ def batchMpiEval(pop, sameSeedForEachIndividual=True):
     * Asynchronous evaluation instead of batches
   """
   global nWorker, hyp
-  nSlave = nWorker-1
+  nSlave = nWorker - 1
   nJobs = len(pop)
   nBatch= math.ceil(nJobs/nSlave) # First worker is master
 
-    # Set same seed for each individual
+  # Set same seed for each individual
   if sameSeedForEachIndividual is False:
     seed = np.random.randint(1000, size=nJobs)
   else:
     seed = np.random.randint(1000)
 
-  reward = np.empty( (nJobs,hyp['alg_nVals']), dtype=np.float64)
+  reward = np.empty((nJobs, hyp['alg_nVals']), dtype=np.float64)
   i = 0 # Index of fitness we are filling
   for iBatch in range(nBatch): # Send one batch of individuals
     for iWork in range(nSlave): # (one to each worker if there)
