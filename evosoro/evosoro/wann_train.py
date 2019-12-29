@@ -1,11 +1,10 @@
 import os
 import sys
-import time
 import math
 import argparse
 import subprocess
 import numpy as np
-np.set_printoptions(precision=2, linewidth=160) 
+np.set_printoptions(precision=2, linewidth=160)
 
 # MPI
 from mpi4py import MPI
@@ -13,12 +12,12 @@ comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
 
 # prettyNeat
-from neat_src import * # NEAT and WANNs
-from domain import *   # Task environments
+from neat_src import *  # NEAT and WANNs
+from domain import *    # Task environments
 
 
 # -- Run NEAT ------------------------------------------------------------ -- #
-def master(): 
+def master():
   """Main NEAT optimization script
   """
   global fileName, hyp
@@ -59,7 +58,7 @@ def gatherData(data, alg, gen, hyp, savePop=False):
     data = checkBest(data)
     data.save(gen)
 
-  if savePop is True: # Get a sample pop to play with in notebooks    
+  if savePop is True:  # Get a sample pop to play with in notebooks
     global fileName
     pref = 'log/' + fileName
     import pickle
@@ -130,9 +129,9 @@ def batchMpiEval(pop, sameSeedForEachIndividual=True):
     seed = np.random.randint(1000)
 
   reward = np.empty((nJobs, hyp['alg_nVals']), dtype=np.float64)
-  i = 0 # Index of fitness we are filling
-  for iBatch in range(nBatch): # Send one batch of individuals
-    for iWork in range(nSlave): # (one to each worker if there)
+  i = 0  # Index of fitness we are filling
+  for iBatch in range(nBatch):  # Send one batch of individuals
+    for iWork in range(nSlave):  # (one to each worker if there)
       if i < nJobs:
         wVec   = pop[i].wMat.flatten()
         n_wVec = np.shape(wVec)[0]
