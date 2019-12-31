@@ -12,7 +12,7 @@ games = {}
 
 # > 32 latent vectors (includes past frames)
 vae_racing_stack = Game(env_name='VAERacingStack-v0',
-  actionSelect='all', # all, soft, hard
+  actionSelect='all',  # all, soft, hard
   input_size=32,
   output_size=3,
   time_factor=0,
@@ -48,21 +48,21 @@ games['vae_racing'] = vae_racing
 
 # > Scikit learn digits data set
 classify = Game(env_name='Classify_digits',
-  actionSelect='softmax', # all, soft, hard
+  actionSelect='softmax',  # all, soft, hard
   input_size=64,
   output_size=10,
   time_factor=0,
-  layers=[128,9],
-  i_act=np.full(64,1),
-  h_act=[1,3,4,5,6,7,8,9,10], # No step function
-  o_act=np.full(10,1),
-  weightCap = 2.0,
+  layers=[128, 9],
+  i_act=np.full(64, 1),
+  h_act=[1, 3, 4, 5, 6, 7, 8, 9, 10],  # No step function
+  o_act=np.full(10, 1),
+  weightCap=2.0,
   noise_bias=0.0,
   output_noise=[False, False, False],
-  max_episode_length = 0,
-  in_out_labels = []
+  max_episode_length=0,
+  in_out_labels=[]
 )
-L = [list(range(1, classify.input_size)),\
+L = [list(range(1, classify.input_size)),
      list(range(0, classify.output_size))]
 label = [item for sublist in L for item in sublist]
 classify = classify._replace(in_out_labels=label)
@@ -170,3 +170,24 @@ bullet_ant = Game(env_name='AntBulletEnv-v0',
 )
 games['bullet_ant'] = bullet_ant
 
+
+# -- Softbots ------------------------------------------------------------ -- #
+
+# > Softbot desing
+soro = Game(env_name='Evosoro',
+  actionSelect='all',  # all, soft, hard
+  input_size=3,
+  output_size=4,
+  time_factor=0,
+  layers=[128, 9],
+  i_act=np.full(64, 1),
+  h_act=[1,2,3,4,5,6,7,8,9,10]
+  o_act=np.full(4, 1),
+  weightCap=2.0,
+  noise_bias=0.0,
+  output_noise=[False, False, False],
+  max_episode_length=0,
+  in_out_labels=[]
+)
+
+games['softbot'] = soro
