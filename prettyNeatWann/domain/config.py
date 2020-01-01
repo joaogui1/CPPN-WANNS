@@ -186,8 +186,9 @@ soro = Game(env_name='Evosoro',
   weightCap=2.0,
   noise_bias=0.0,
   output_noise=[False, False, False],
-  max_episode_length=0,
-  in_out_labels=[]
+  max_episode_length=400,
+  in_out_labels=['x', 'y', 'z', 
+                  'material_1', 'material_2', 'material_3', 'material_4']
 )
 
 games['softbot'] = soro
