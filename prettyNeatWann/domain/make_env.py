@@ -53,6 +53,10 @@ def make_env(env_name, seed=-1, render_mode=False):
 
 
 
+  elif (env_name.startswith("Evosoro")):
+    from domain.evosoro import Evosoro
+    env = Evosoro()
+
 
   # -- Other  -------------------------------------------------------- -- #
   else:
