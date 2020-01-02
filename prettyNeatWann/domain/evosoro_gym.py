@@ -8,7 +8,7 @@ import sys
 import cv2
 import math
 
-class ClassifyEnv(gym.Env):
+class EvosoroEnv(gym.Env):
   """Classification as an unsupervised OpenAI Gym RL problem.
   Includes scikit-learn digits dataset, MNIST dataset
   """
@@ -48,7 +48,8 @@ class ClassifyEnv(gym.Env):
     return [seed]
   
   def reset(self):
-    ''' Initialize State'''
+    ''' Initialize State'''    
+    #print('Lucky number', np.random.randint(10)) # same randomness?
     self.trainOrder = np.random.permutation(len(self.target))
     self.t = 0 # timestep
     self.currIndx = self.trainOrder[self.t:self.t+self.batch]
