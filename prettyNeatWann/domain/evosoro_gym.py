@@ -1,12 +1,46 @@
-import logging
-import math
+import os
+import sys
+import subprocess as sub
+from functools import partial
 import gym
 from gym import spaces
 from gym.utils import seeding
 import numpy as np
 import sys
 import cv2
-import math
+
+sys.path.append(os.getcwd() + "/../..")
+
+from evosoro.base import Sim, Env, ObjectiveDict
+from evosoro.tools.utils import count_occurrences, make_material_tree
+from evosoro.tools.checkpointing import continue_from_checkpoint
+
+
+VOXELYZE_VERSION = '_voxcad'
+# Making sure to have the most up-to-date version of Voxelyze physics engine
+sub.call("cp ../" + VOXELYZE_VERSION + "/voxelyzeMain/voxelyze .", shell=True)
+
+NUM_RANDOM_INDS = 1  # Number of random individuals to insert each generation
+MAX_GENS = 100  # Number of generations
+POPSIZE = 20  # Population size (number of individuals in the population)
+IND_SIZE = (6, 6, 6)  # Bounding box dimensions (x,y,z). e.g. IND_SIZE = (6, 6, 6) -> workspace is a cube of 6x6x6 voxels
+SIM_TIME = 10  # (seconds), including INIT_TIME!
+INIT_TIME = 1
+DT_FRAC = 0.9  # Fraction of the optimal integration step. The lower, the more stable (and slower) the simulation.
+
+TIME_TO_TRY_AGAIN = 30  # (seconds) wait this long before assuming simulation crashed and resending
+MAX_EVAL_TIME = 60  # (seconds) wait this long before giving up on evaluating this individual
+SAVE_LINEAGES = False
+MAX_TIME = 8  # (hours) how long to wait before autosuspending
+EXTRA_GENS = 0  # extra gens to run when continuing from checkpoint
+
+RUN_DIR = "basic_data"  # Subdirectory where results are going to be generated
+RUN_NAME = "Basic"
+CHECKPOINT_EVERY = 1  # How often to save an snapshot of the execution state to later resume the algorithm
+SAVE_POPULATION_EVERY = 1  # How often (every x generations) we save a snapshot of the evolving population
+
+
+
 
 class EvosoroEnv(gym.Env):
   """Classification as an unsupervised OpenAI Gym RL problem.
@@ -46,42 +80,39 @@ class EvosoroEnv(gym.Env):
     ''' Randomly select from training set'''
     self.np_random, seed = seeding.np_random(seed)
     return [seed]
-  
+
   def reset(self):
-    ''' Initialize State'''    
-    #print('Lucky number', np.random.randint(10)) # same randomness?
+    ''' Initialize State'''
+    self.my_sim = Sim(dt_frac=DT_FRAC, simulation_time=SIM_TIME, 
+                      fitness_eval_init_time=INIT_TIME)
+    self.my_env = Env(sticky_floor=0, time_between_traces=0)
+
     self.trainOrder = np.random.permutation(len(self.target))
     self.t = 0 # timestep
     self.currIndx = self.trainOrder[self.t:self.t+self.batch]
-    self.state = self.trainSet[self.currIndx,:]
+    self.state = [0, 0, 0]
     return self.state
-  
+
   def step(self, action):
-    ''' 
-    Judge Classification, increment to next batch
-    action - [batch x output] - softmax output
     '''
-    y = self.target[self.currIndx]
-    m = y.shape[0]
+    Generates voxel for position
+    '''
+    # ---- Writes action to voxel in position state
 
-    log_likelihood = -np.log(action[range(m),y])
-    loss = np.sum(log_likelihood) / m
-    reward = -loss
-
-    if self.t_limit > 0: # We are doing batches
-      reward *= (1/self.t_limit) # average
-      self.t += 1
-      done = False
-      if self.t >= self.t_limit:
-        done = True
-      self.currIndx = self.trainOrder[(self.t*self.batch):\
-                                      (self.t*self.batch + self.batch)]
-
-      self.state = self.trainSet[self.currIndx,:]
+    if self.state[2] == 5:
+      self.state[2] = 0
+      if self.state[1] == 5:
+        self.state[1] = 0
+        self.state[0] += 1
+      else:
+        self.state[1] += 1
     else:
+      self.state[2] += 1
+
+    if self.state[0] == 6:
+      #evaluates phenotype, saves in rewards
       done = True
 
-    obs = self.state
     return obs, reward, done, {}
 
 
