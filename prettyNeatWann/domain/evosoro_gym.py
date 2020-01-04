@@ -56,21 +56,13 @@ class EvosoroEnv(gym.Env):
     Example data sets are given at the end of this file
     """
 
-    self.t = 0          # Current batch number
-    self.t_limit = 0    # Number of batches if you need them
-    self.batch   = 1000 # Number of images per batch
     self.seed()
     self.viewer = None
 
-    self.trainSet = trainSet
-    self.target   = target
-
-    nInputs = np.shape(trainSet)[1]
-    high = np.array([1.0]*nInputs)
-    self.action_space = spaces.Box(np.array(0,dtype=np.float32), \
+    self.to_phenotype_mapping = GenotypeToPhenotypeMap()
+    self.action_space = spaces.Box(np.array(0,dtype=np.float32),
                                    np.array(1,dtype=np.float32))
-    self.observation_space = spaces.Box(np.array(0,dtype=np.float32), \
-                                   np.array(1,dtype=np.float32))
+    self.observation_space = spaces.Box(shape=(3,))
 
     self.state = None
     self.trainOrder = None
@@ -88,8 +80,6 @@ class EvosoroEnv(gym.Env):
     self.my_env = Env(sticky_floor=0, time_between_traces=0)
 
     self.trainOrder = np.random.permutation(len(self.target))
-    self.t = 0 # timestep
-    self.currIndx = self.trainOrder[self.t:self.t+self.batch]
     self.state = [0, 0, 0]
     return self.state
 
@@ -97,8 +87,11 @@ class EvosoroEnv(gym.Env):
     '''
     Generates voxel for position
     '''
-    # ---- Writes action to voxel in position state
+    # Default values
+    reward = 0
+    done = False
 
+    # ---- Writes action to voxel in position state
     if self.state[2] == 5:
       self.state[2] = 0
       if self.state[1] == 5:
@@ -110,8 +103,9 @@ class EvosoroEnv(gym.Env):
       self.state[2] += 1
 
     if self.state[0] == 6:
-      #evaluates phenotype, saves in rewards
+      #  evaluates phenotype, saves in rewards
       done = True
+    obs = self.state
 
     return obs, reward, done, {}
 
@@ -205,3 +199,141 @@ def deskew(image, image_shape, negated=True):
 
 
  
+class GenotypeToPhenotypeMap(object):
+  """A mapping of the relationship from genotype (networks) to phenotype (VoxCad simulation)."""
+
+  def __init__(self):
+    self.mapping = dict()
+    self.dependencies = dict()
+
+  def items(self):
+    """to_phenotype_mapping.items() -> list of (key, value) pairs in mapping"""
+    return [(key, self.mapping[key]) for key in self.mapping]
+
+  def __contains__(self, key):
+    """Return True if key is a key str in the mapping, False otherwise. Use the expression 'key in mapping'."""
+    try:
+      return key in self.mapping
+    except TypeError:
+      return False
+
+  def __len__(self):
+    """Return the number of mappings. Use the expression 'len(mapping)'."""
+    return len(self.mapping)
+
+  def __getitem__(self, key):
+    """Return mapping for node with name 'key'.  Use the expression 'mapping[key]'."""
+    return self.mapping[key]
+
+  def __deepcopy__(self, memo):
+    """Override deepcopy to apply to class level attributes"""
+    cls = self.__class__
+    new = cls.__new__(cls)
+    new.__dict__.update(deepcopy(self.__dict__, memo))
+    return new
+
+  def add_map(self, name, tag, func=sigmoid, output_type=float, dependency_order=None, params=None, param_tags=None,
+              env_kws=None, logging_stats=np.mean):
+    """Add an association between a genotype output and a VoxCad parameter.
+
+    Parameters
+    ----------
+    name : str
+        A network output node name from the genotype.
+
+    tag : str
+        The tag used in parsing the resulting output from a VoxCad simulation.
+        If this is None then the attribute is calculated outside of VoxCad (in Python only).
+
+    func : func
+        Specifies relationship between attributes and xml tag.
+
+    output_type : type
+        The output type
+
+    dependency_order : list
+        Order of operations
+
+    params : list
+        Constants dictating parameters of the mapping
+
+    param_tags : list
+        Tags for any constants associated with the mapping
+
+    env_kws : dict
+        Specifies which function of the output state to use (on top of func) to set an Env attribute
+
+    logging_stats : func or list
+        One or more functions (statistics) of the output to be logged as additional column(s) in logging
+
+    """
+    if (dependency_order is not None) and not isinstance(dependency_order, list):
+        dependency_order = [dependency_order]
+
+    if params is not None:
+        assert (param_tags is not None)
+        if not isinstance(params, list):
+            params = [params]
+
+    if param_tags is not None:
+        assert (params is not None)
+        if not isinstance(param_tags, list):
+            param_tags = [param_tags]
+        param_tags = [xml_format(t) for t in param_tags]
+
+    if (env_kws is not None) and not isinstance(env_kws, dict):
+        env_kws = {env_kws: np.mean}
+
+    if (logging_stats is not None) and not isinstance(logging_stats, list):
+        logging_stats = [logging_stats]
+
+    if tag is not None:
+        tag = xml_format(tag)
+
+    self.mapping[name] = {"tag": tag,
+                          "func": func,
+                          "dependency_order": dependency_order,
+                          "state": None,
+                          "old_state": None,
+                          "output_type": output_type,
+                          "params": params,
+                          "param_tags": param_tags,
+                          "env_kws": env_kws,
+                          "logging_stats": logging_stats}
+
+  def add_output_dependency(self, name, dependency_name, requirement, material_if_true=None, material_if_false=None):
+    """Add a dependency between two genotype outputs.
+
+    Parameters
+    ----------
+    name : str
+        A network output node name from the genotype.
+
+    dependency_name : str
+        Another network output node name.
+
+    requirement : bool
+        Dependency must be this
+
+    material_if_true : int
+        The material if dependency meets pre-requisite
+
+    material_if_false : int
+        The material otherwise
+
+    """
+    self.dependencies[name] = {"depends_on": dependency_name,
+                                "requirement": requirement,
+                                "material_if_true": material_if_true,
+                                "material_if_false": material_if_false,
+                                "state": None}
+
+  def get_dependency(self, name, output_bool):
+    """Checks recursively if all boolean requirements were met in dependent outputs."""
+    if self.dependencies[name]["depends_on"] is not None:
+        dependency = self.dependencies[name]["depends_on"]
+        requirement = self.dependencies[name]["requirement"]
+        return np.logical_and(self.get_dependency(dependency, True) == requirement,
+                              self.dependencies[name]["state"] == output_bool)
+    else:
+        return self.dependencies[name]["state"] == output_bool
