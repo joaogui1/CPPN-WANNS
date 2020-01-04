@@ -64,7 +64,10 @@ class EvosoroEnv(gym.Env):
                                    np.array(1,dtype=np.float32))
     self.observation_space = spaces.Box(shape=(3,))
 
-    self.state = None
+    self.to_phenotype_mapping.add_map(name="material", tag="<Data>", func=make_material_tree,
+                                          dependency_order=["shape", "muscleOrTissue", "muscleType", "tissueType"], output_type=int)
+
+    self.state = [0, 0, 0]
     self.trainOrder = None
     self.currIndx = None
 
@@ -104,6 +107,7 @@ class EvosoroEnv(gym.Env):
 
     if self.state[0] == 6:
       #  evaluates phenotype, saves in rewards
+      #  Test validity before evaluating
       done = True
     obs = self.state
 
@@ -112,93 +116,6 @@ class EvosoroEnv(gym.Env):
 
 # -- Data Sets ----------------------------------------------------------- -- #
 
-def digit_raw():
-  ''' 
-  Converts 8x8 scikit digits to 
-  [samples x pixels]  ([N X 64])
-  '''  
-  from sklearn import datasets
-  digits = datasets.load_digits()
-  z = (digits.images/16)
-  z = z.reshape(-1, (64))
-  return z, digits.target
-
-def mnist_784():
-  ''' 
-  Converts 28x28 mnist digits to 
-  [samples x pixels]  ([N X 784])
-  '''  
-  import mnist
-  z = (mnist.train_images()/255)
-  z = preprocess(z,(28,28))
-  z = z.reshape(-1, (784))
-  return z, mnist.train_labels()
-
-def mnist_256():
-  ''' 
-  Converts 28x28 mnist digits to [16x16] 
-  [samples x pixels]  ([N X 256])
-  '''  
-  import mnist
-  z = (mnist.train_images()/255)
-  z = preprocess(z,(16,16))
-
-  z = z.reshape(-1, (256))
-  return z, mnist.train_labels()
-
-
-def preprocess(img,size, patchCorner=(0,0), patchDim=None, unskew=True):
-  """
-  Resizes, crops, and unskewes images
-
-  """
-  if patchDim == None: patchDim = size
-  nImg = np.shape(img)[0]
-  procImg  = np.empty((nImg,size[0],size[1]))
-
-  # Unskew and Resize
-  if unskew == True:    
-    for i in range(nImg):
-      procImg[i,:,:] = deskew(cv2.resize(img[i,:,:],size),size)
-
-  # Crop
-  cropImg  = np.empty((nImg,patchDim[0],patchDim[1]))
-  for i in range(nImg):
-    cropImg[i,:,:] = procImg[i,patchCorner[0]:patchCorner[0]+patchDim[0],\
-                               patchCorner[1]:patchCorner[1]+patchDim[1]]
-  procImg = cropImg
-
-  return procImg
-
-def deskew(image, image_shape, negated=True):
-  """
-  This method deskwes an image using moments
-  :param image: a numpy nd array input image
-  :param image_shape: a tuple denoting the image`s shape
-  :param negated: a boolean flag telling whether the input image is negated
-
-  :returns: a numpy nd array deskewd image
-
-  source: https://github.com/vsvinayak/mnist-helper
-  """
-  
-  # negate the image
-  if not negated:
-      image = 255-image
-  # calculate the moments of the image
-  m = cv2.moments(image)
-  if abs(m['mu02']) < 1e-2:
-      return image.copy()
-  # caclulating the skew
-  skew = m['mu11']/m['mu02']
-  M = np.float32([[1, skew, -0.5*image_shape[0]*skew], [0,1,0]])
-  img = cv2.warpAffine(image, M, image_shape, \
-    flags=cv2.WARP_INVERSE_MAP|cv2.INTER_LINEAR)  
-  return img
-
-
-
- 
 class GenotypeToPhenotypeMap(object):
   """A mapping of the relationship from genotype (networks) to phenotype (VoxCad simulation)."""
 

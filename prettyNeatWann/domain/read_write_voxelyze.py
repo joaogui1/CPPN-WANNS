@@ -3,40 +3,6 @@ import os
 import time
 import random
 
-
-def read_voxlyze_results(population, print_log, filename="softbotsOutput.xml"):
-    i = 0
-    max_attempts = 60
-    file_size = 0
-    this_file = ""
-
-    while (i < max_attempts) and (file_size == 0):
-        try:
-            file_size = os.stat(filename).st_size
-            this_file = open(filename)
-            this_file.close()
-        except ImportError:  # TODO: is this the correct exception?
-            file_size = 0
-        i += 1
-        time.sleep(1)
-
-    if file_size == 0:
-        print_log.message("ERROR: Cannot find a non-empty fitness file in %d attempts: abort" % max_attempts)
-        exit(1)
-
-    results = {rank: None for rank in range(len(population.objective_dict))}
-    for rank, details in population.objective_dict.items():
-        this_file = open(filename)  # TODO: is there a way to just go back to the first line without reopening the file?
-        tag = details["tag"]
-        if tag is not None:
-            for line in this_file:
-                if tag in line:
-                    results[rank] = float(line[line.find(tag) + len(tag):line.find("</" + tag[1:])])
-        this_file.close()
-
-    return results
-
-
 def write_voxelyze_file(sim, env, individual, run_directory, run_name):
 
     # update any env variables based on outputs instead of writing outputs in
