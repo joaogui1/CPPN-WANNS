@@ -61,17 +61,11 @@ class EvosoroEnv(gym.Env):
     self.orig_size = orig_size
     self.phenotype = [[]]*orig_size[2]
 
-    self.action_space = spaces.Box(np.array(0,dtype=np.float32),
-                                   np.array(1,dtype=np.float32))
-    self.observation_space = spaces.Box(shape=(3,))
-
-    self.to_phenotype_mapping.add_map(name="material", tag="<Data>", func=make_material_tree,
-                                          dependency_order=["shape", "muscleOrTissue", "muscleType", "tissueType"], output_type=int)
+    self.action_space = spaces.Box(low=0.0, high=1.0, shape=(5,))
+    self.observation_space = spaces.Box(low=np.array([0.0, 0.0, 0.0, 0.0]), 
+                                        high=np.array([orig_size[0], orig_size[1], orig_size[2], np.sum(np.square(orig_size))]))
 
     self.state = [0, 0, 0]
-    self.trainOrder = None
-    self.currIndx = None
-
   def seed(self, seed=None):
     ''' Randomly select from training set'''
     self.np_random, seed = seeding.np_random(seed)
@@ -83,7 +77,6 @@ class EvosoroEnv(gym.Env):
                       fitness_eval_init_time=INIT_TIME)
     self.my_env = Env(sticky_floor=0, time_between_traces=0)
 
-    self.trainOrder = np.random.permutation(len(self.target))
     self.state = [0, 0, 0]
     return self.state
 
