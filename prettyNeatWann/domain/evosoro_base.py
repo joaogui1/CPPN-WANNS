@@ -1,6 +1,3 @@
-from evosoro.tools.utils import xml_format
-
-
 # TODO: classes should hold dictionaries of variables, vxa tags and values
 # TODO: remove most of the hard coded text from read_write_voxelyze.py and replace with a few loops
 # TODO: add method to VoxCadParams for organizing (nested) subsections in vxa files
@@ -152,3 +149,11 @@ class ObjectiveDict(dict):
 
         # TODO: logging_only 'objectives' should be a separate 'SimStats' class
         self.max_rank += 1
+
+def xml_format(tag):
+    """Ensures that tag is encapsulated inside angle brackets."""
+    if tag[0] != "<":
+        tag = "<" + tag
+    if tag[-1:] != ">":
+        tag += ">"
+    return tag

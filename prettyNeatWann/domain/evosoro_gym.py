@@ -9,10 +9,10 @@ import numpy as np
 import sys
 import cv2
 
-sys.path.append(os.getcwd() + "/../..")
+# sys.path.append(os.getcwd() + "/../..")
 
-from evosoro.base import Sim, Env, ObjectiveDict
-from read_write_voxelyze import *
+from domain.evosoro_base import Sim, Env, ObjectiveDict
+from domain.read_write_voxelyze import *
 
 
 VOXELYZE_VERSION = '_voxcad'

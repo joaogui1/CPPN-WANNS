@@ -181,7 +181,7 @@ soro = Game(env_name='Evosoro',
   time_factor=0,
   layers=[128, 9],
   i_act=np.full(4, 1),
-  h_act=[1,2,3,4,5,6,7,8,9,10]
+  h_act=[1,2,3,4,5,6,7,8,9,10],
   o_act=np.full(5, 1),
   weightCap=2.0,
   noise_bias=0.0,
