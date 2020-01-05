@@ -12,8 +12,7 @@ import cv2
 sys.path.append(os.getcwd() + "/../..")
 
 from evosoro.base import Sim, Env, ObjectiveDict
-from evosoro.tools.utils import count_occurrences, make_material_tree
-from evosoro.tools.checkpointing import continue_from_checkpoint
+from read_write_voxelyze import *
 
 
 VOXELYZE_VERSION = '_voxcad'
