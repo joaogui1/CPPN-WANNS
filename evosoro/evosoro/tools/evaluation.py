@@ -129,7 +129,6 @@ def evaluate_all(sim, env, pop, print_log, save_vxa_every, run_directory, run_na
         # duplicated ids issue: may be due to entering here two times for the same fitness file found in the directory.
 
         if ls_check:
-            # ls_check = random.choice(ls_check.split())  # doesn't accomplish anything and undermines reproducibility
             ls_check = ls_check.split()[0]
             if "softbotsOutput--id_" in ls_check:
                 this_id = int(ls_check.split("_")[1].split(".")[0])

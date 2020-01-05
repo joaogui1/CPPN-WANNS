@@ -3,14 +3,40 @@ import os
 import time
 import random
 
-def write_voxelyze_file(sim, env, individual, run_directory, run_name):
+def read_voxlyze_results(population, print_log, filename="softbotsOutput.xml"):
+    i = 0
+    max_attempts = 60
+    file_size = 0
+    this_file = ""
 
-    # update any env variables based on outputs instead of writing outputs in
-    for name, details in individual.genotype.to_phenotype_mapping.items():
-        if details["env_kws"] is not None:
-            for env_key, env_func in details["env_kws"].items():
-                setattr(env, env_key, env_func(details["state"]))  # currently only used when evolving frequency
-                # print env_key, env_func(details["state"])
+    while (i < max_attempts) and (file_size == 0):
+        try:
+            file_size = os.stat(filename).st_size
+            this_file = open(filename)
+            this_file.close()
+        except ImportError:  # TODO: is this the correct exception?
+            file_size = 0
+        i += 1
+        time.sleep(1)
+
+    if file_size == 0:
+        print_log.message("ERROR: Cannot find a non-empty fitness file in %d attempts: abort" % max_attempts)
+        exit(1)
+
+    results = {rank: None for rank in range(len(population.objective_dict))}
+    for rank, details in population.objective_dict.items():
+        this_file = open(filename)  # TODO: is there a way to just go back to the first line without reopening the file?
+        tag = details["tag"]
+        if tag is not None:
+            for line in this_file:
+                if tag in line:
+                    results[rank] = float(line[line.find(tag) + len(tag):line.find("</" + tag[1:])])
+        this_file.close()
+
+    return results
+
+
+def write_voxelyze_file(sim, env, individual, run_directory, run_name):
 
     voxelyze_file = open(run_directory + "/voxelyzeFiles/" + run_name + "--id_%05i.vxa" % individual.id, "w")
 
@@ -79,12 +105,6 @@ def write_voxelyze_file(sim, env, individual, run_directory, run_name):
         <MaxKP>" + str(0) + "</MaxKP>\n\
         <MaxKI>" + str(0) + "</MaxKI>\n\
         <MaxANTIWINDUP>" + str(0) + "</MaxANTIWINDUP>\n")
-
-    if hasattr(individual, "parent_lifetime"):
-        if individual.parent_lifetime > 0:
-            voxelyze_file.write("<ParentLifetime>" + str(individual.parent_lifetime) + "</ParentLifetime>\n")
-        elif individual.lifetime > 0:
-            voxelyze_file.write("<ParentLifetime>" + str(individual.lifetime) + "</ParentLifetime>\n")
 
     voxelyze_file.write("</Simulator>\n")
 
@@ -307,57 +327,24 @@ def write_voxelyze_file(sim, env, individual, run_directory, run_name):
         </Material>\n\
         </Palette>\n\
         <Structure Compression=\"ASCII_READABLE\">\n\
-        <X_Voxels>" + str(individual.genotype.orig_size_xyz[0]) + "</X_Voxels>\n\
-        <Y_Voxels>" + str(individual.genotype.orig_size_xyz[1]) + "</Y_Voxels>\n\
-        <Z_Voxels>" + str(individual.genotype.orig_size_xyz[2]) + "</Z_Voxels>\n")
+        <X_Voxels>" + str(individual.orig_size[0]) + "</X_Voxels>\n\
+        <Y_Voxels>" + str(individual.orig_size[1]) + "</Y_Voxels>\n\
+        <Z_Voxels>" + str(individual.orig_size[2]) + "</Z_Voxels>\n")
 
-    all_tags = [details["tag"] for name, details in individual.genotype.to_phenotype_mapping.items()]
-    if "<Data>" not in all_tags:  # not evolving topology -- fixed presence/absence of voxels
-        voxelyze_file.write("<Data>\n")
-        for z in range(individual.genotype.orig_size_xyz[2]):
-            voxelyze_file.write("<Layer><![CDATA[")
-            for y in range(individual.genotype.orig_size_xyz[1]):
-                for x in range(individual.genotype.orig_size_xyz[0]):
-                    voxelyze_file.write("3")
-            voxelyze_file.write("]]></Layer>\n")
-        voxelyze_file.write("</Data>\n")
+    
+    voxelyze_file.write("<Data>\n")
+    
+    for z in range(individual.orig_size[2]):
+        voxelyze_file.write("<Layer><![CDATA[")
+        for y in range(individual.orig_size[1]):
+            for x in range(individual.orig_size[0]):
+                voxelyze_file.write(individual.phenotype[z][y*individual.orig_size[0] + x])
+        voxelyze_file.write("]]></Layer>\n")
+    
+    voxelyze_file.write("</Data>\n")
 
     # append custom parameters
-    string_for_md5 = ""
-
-    for name, details in individual.genotype.to_phenotype_mapping.items():
-
-        # start tag
-        if details["env_kws"] is None:
-            voxelyze_file.write(details["tag"]+"\n")
-
-        # record any additional params associated with the output
-        if details["params"] is not None:
-            for param_tag, param in zip(details["param_tags"], details["params"]):
-                voxelyze_file.write(param_tag + str(param) + "</" + param_tag[1:] + "\n")
-
-        if details["env_kws"] is None:
-            # write the output state matrix to file
-            for z in range(individual.genotype.orig_size_xyz[2]):
-                voxelyze_file.write("<Layer><![CDATA[")
-                for y in range(individual.genotype.orig_size_xyz[1]):
-                    for x in range(individual.genotype.orig_size_xyz[0]):
-
-                        state = details["output_type"](details["state"][x, y, z])
-                        # for n, network in enumerate(individual.genotype):
-                        #     if name in network.output_node_names:
-                        #         state = individual.genotype[n].graph.node[name]["state"][x, y, z]
-
-                        voxelyze_file.write(str(state))
-                        if details["tag"] != "<Data>":  # TODO more dynamic
-                            voxelyze_file.write(", ")
-                        string_for_md5 += str(state)
-
-                voxelyze_file.write("]]></Layer>\n")
-
-        # end tag
-        if details["env_kws"] is None:
-            voxelyze_file.write("</" + details["tag"][1:] + "\n")
+    # string_for_md5 = ""
 
     voxelyze_file.write(
         "</Structure>\n\
@@ -365,7 +352,7 @@ def write_voxelyze_file(sim, env, individual, run_directory, run_name):
         </VXA>")
     voxelyze_file.close()
 
-    m = hashlib.md5()
-    m.update(string_for_md5.encode('utf-8'))
+    # m = hashlib.md5()
+    # m.update(string_for_md5.encode('utf-8'))
 
-    return m.hexdigest()
+    # return m.hexdigest()
