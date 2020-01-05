@@ -176,8 +176,8 @@ games['bullet_ant'] = bullet_ant
 # > Softbot desing
 soro = Game(env_name='Evosoro',
   actionSelect='all',  # all, soft, hard
-  input_size=3,
-  output_size=4,
+  input_size=4, #  x. y. z. d
+  output_size=5, # present + type
   time_factor=0,
   layers=[128, 9],
   i_act=np.full(64, 1),
