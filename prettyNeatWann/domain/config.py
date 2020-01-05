@@ -180,13 +180,13 @@ soro = Game(env_name='Evosoro',
   output_size=5, # present + type
   time_factor=0,
   layers=[128, 9],
-  i_act=np.full(64, 1),
+  i_act=np.full(4, 1),
   h_act=[1,2,3,4,5,6,7,8,9,10]
-  o_act=np.full(4, 1),
+  o_act=np.full(5, 1),
   weightCap=2.0,
   noise_bias=0.0,
   output_noise=[False, False, False],
-  max_episode_length=400,
+  max_episode_length=2000,
   in_out_labels=['x', 'y', 'z', 
                   'material_1', 'material_2', 'material_3', 'material_4']
 )

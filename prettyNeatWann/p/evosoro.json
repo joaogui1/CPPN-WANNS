@@ -1,13 +1,13 @@
 {
-    "task":"swingup",
+    "task":"softbot",
     "alg_wDist": "standard",
     "alg_nVals": 6,
     "alg_nReps": 4,
     "alg_probMoo": 0.80,
     "alg_act": 5,
     "alg_speciate": "none",
-    "maxGen": 1024,
-    "popSize": 128,
+    "maxGen": 10,
+    "popSize": 32,
     "prob_crossover": 0.0,
     "prob_mutAct":  0.50,
     "prob_addNode": 0.25,
@@ -16,7 +16,7 @@
     "prob_initEnable": 0.5,
     "select_cullRatio": 0.2,
     "select_eliteRatio": 0.2,
-    "select_tournSize": 8,
-    "save_mod": 8,
+    "select_tournSize": 4,
+    "save_mod": 2,
     "bestReps": 20
 }

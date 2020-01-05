@@ -121,7 +121,7 @@ def batchMpiEval(pop, sameSeedForEachIndividual=True):
   global nWorker, hyp
   nSlave = nWorker-1
   nJobs = len(pop)
-  nBatch= math.ceil(nJobs/nSlave) # First worker is master
+  nBatch = math.ceil(nJobs/nSlave) # First worker is master
 
     # Set same seed for each individual
   if sameSeedForEachIndividual is False:
