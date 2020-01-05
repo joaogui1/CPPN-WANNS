@@ -107,11 +107,11 @@ class EvosoroEnv(gym.Env):
     self.state[1] %= self.orig_size[1]
 
     if self.state[2] == 6:
+      #  TODO: Test validity before evaluating
       write_voxelyze_file(self.my_sim, self.my_env, self, RUN_DIR, RUN_NAME)
       sub.Popen(f"./voxelyze  -f " + RUN_DIR + "/voxelyzeFiles/" + RUN_NAME + "--id_{self.id:05}.vxa",
                       shell=True)
-      #  evaluates phenotype, saves in rewards
-      #  Test validity before evaluating
+      reward = read_voxlyze_results()
       done = True
     obs = self.state
 

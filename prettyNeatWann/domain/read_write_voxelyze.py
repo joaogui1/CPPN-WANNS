@@ -3,7 +3,8 @@ import os
 import time
 import random
 
-def read_voxlyze_results(population, print_log, filename="softbotsOutput.xml"):
+# def read_voxlyze_results(population, print_log, filename="softbotsOutput.xml"):
+def read_voxlyze_results(filename="softbotsOutput.xml"):
     i = 0
     max_attempts = 60
     file_size = 0
@@ -19,21 +20,25 @@ def read_voxlyze_results(population, print_log, filename="softbotsOutput.xml"):
         i += 1
         time.sleep(1)
 
-    if file_size == 0:
-        print_log.message("ERROR: Cannot find a non-empty fitness file in %d attempts: abort" % max_attempts)
-        exit(1)
+    # if file_size == 0:
+    #     print_log.message("ERROR: Cannot find a non-empty fitness file in %d attempts: abort" % max_attempts)
+    #     exit(1)
 
-    results = {rank: None for rank in range(len(population.objective_dict))}
-    for rank, details in population.objective_dict.items():
-        this_file = open(filename)  # TODO: is there a way to just go back to the first line without reopening the file?
-        tag = details["tag"]
-        if tag is not None:
-            for line in this_file:
-                if tag in line:
-                    results[rank] = float(line[line.find(tag) + len(tag):line.find("</" + tag[1:])])
-        this_file.close()
+    # results = {rank: None for rank in range(len(population.objective_dict))}
+    # for rank, details in population.objective_dict.items():
+    #     this_file = open(filename)  # TODO: is there a way to just go back to the first line without reopening the file?
+    #     tag = details["tag"]
+    #     if tag is not None:
+    #         for line in this_file:
+    #             if tag in line:
+    #                 results[rank] = float(line[line.find(tag) + len(tag):line.find("</" + tag[1:])])
+    #     this_file.close()
 
-    return results
+    with open(filename) as fitfile:
+        for line in fitfiles:
+                if "<Fitness" in line:
+                    fitness = float(line[line.find("<Fitness") + len("<Fitness"):line.find("</" + "Fitness")])
+    return fitness
 
 
 def write_voxelyze_file(sim, env, individual, run_directory, run_name):
