@@ -77,7 +77,7 @@ class EvosoroEnv(gym.Env):
                       fitness_eval_init_time=INIT_TIME)
     self.my_env = Env(sticky_floor=0, time_between_traces=0)
 
-    self.state = [0, 0, 0]
+    self.state = [0, 0, 0, 0]
     return self.state
 
   def step(self, action):
@@ -107,6 +107,7 @@ class EvosoroEnv(gym.Env):
                       shell=True)
       reward = read_voxlyze_results()
       done = True
+    self.state[3] = np.sum(np.square(self.state[:-1]))
     obs = self.state
 
     return obs, reward, done, {}
