@@ -341,9 +341,10 @@ def write_voxelyze_file(sim, env, individual, run_directory, run_name):
     
     for z in range(individual.orig_size[2]):
         voxelyze_file.write("<Layer><![CDATA[")
-        for y in range(individual.orig_size[1]):
-            for x in range(individual.orig_size[0]):
-                voxelyze_file.write(individual.phenotype[z][y*individual.orig_size[0] + x])
+        voxelyze_file.write("".join(individual.phenotype[z]))
+        # for y in range(individual.orig_size[1]):
+            # for x in range(individual.orig_size[0]):
+                # voxelyze_file.write(individual.phenotype[z][y*individual.orig_size[0] + x])
         voxelyze_file.write("]]></Layer>\n")
     
     voxelyze_file.write("</Data>\n")
