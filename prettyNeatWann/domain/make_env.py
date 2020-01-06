@@ -3,7 +3,7 @@ import gym
 from matplotlib.pyplot import imread
 
 
-def make_env(env_name, seed=-1, render_mode=False):
+def make_env(env_name, seed=-1, render_mode=False, id=1):
 
   # -- Bipedal Walker ------------------------------------------------ -- #
   if (env_name.startswith("BipedalWalker")):
@@ -55,14 +55,14 @@ def make_env(env_name, seed=-1, render_mode=False):
 
   elif (env_name.startswith("Evosoro")):
     from domain.evosoro_gym import EvosoroEnv
-    env = EvosoroEnv(1)
+    env = EvosoroEnv(id)
 
 
   # -- Other  -------------------------------------------------------- -- #
   else:
     env = gym.make(env_name)
 
-  if (seed >= 0):
-    domain.seed(seed)
+  # if (seed >= 0):
+  #   domain.seed(seed)
 
   return env

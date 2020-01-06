@@ -35,9 +35,9 @@ def read_voxlyze_results(filename="softbotsOutput.xml"):
     #     this_file.close()
 
     with open(filename) as fitfile:
-        for line in fitfiles:
-                if "<Fitness" in line:
-                    fitness = float(line[line.find("<Fitness") + len("<Fitness"):line.find("</" + "Fitness")])
+        for line in fitfile:
+                if "<FinalDist" in line:
+                    fitness = float(line[line.find("<FinalDist") + len("<FinalDist>"):line.find("</" + "FinalDist")])
     return fitness
 
 
