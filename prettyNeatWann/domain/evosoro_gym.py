@@ -17,7 +17,7 @@ from domain.read_write_voxelyze import *
 
 VOXELYZE_VERSION = '_voxcad'
 # Making sure to have the most up-to-date version of Voxelyze physics engine
-sub.call("cp ../" + VOXELYZE_VERSION + "/voxelyzeMain/voxelyze .", shell=True)
+# sub.call("cp ./" + VOXELYZE_VERSION + "/voxelyzeMain/voxelyze .", shell=True)
 
 # NUM_RANDOM_INDS = 1  # Number of random individuals to insert each generation
 # MAX_GENS = 100  # Number of generations
