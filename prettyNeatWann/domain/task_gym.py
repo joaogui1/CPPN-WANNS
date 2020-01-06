@@ -8,7 +8,7 @@ from neat_src import *
 class GymTask():
   """Problem domain to be solved by neural network. Uses OpenAI Gym patterns.
   """ 
-  def __init__(self, game, paramOnly=False, nReps=1, id=1): 
+  def __init__(self, game, paramOnly=False, nReps=1): 
     """Initializes task environment
   
     Args:
@@ -31,7 +31,7 @@ class GymTask():
     self.maxEpisodeLength = game.max_episode_length
     self.actSelect = game.actionSelect
     if not paramOnly:
-      self.env = make_env(game.env_name, id)
+      self.env = make_env(game.env_name)
     
     # Special needs...
     self.needsClosed = (game.env_name.startswith("CartPoleSwingUp"))    

@@ -101,7 +101,7 @@ def checkBest(data):
 
 
 # -- Parallelization ----------------------------------------------------- -- #
-def batchMpiEval(pop, sameSeedForEachIndividual=True):
+def batchMpiEval(pop, sameSeedForEachIndividual=False):
   """Sends population to workers for evaluation one batch at a time.
 
   Args:
@@ -147,7 +147,6 @@ def batchMpiEval(pop, sameSeedForEachIndividual=True):
           comm.send(seed.item(i), dest=(iWork)+1, tag=5)
         else:
           comm.send(  seed, dest=(iWork)+1, tag=5)   
-        comm.send(iBatch*nSlave + iWork, dest=(iWork)+1, tag=6)     
 
       else: # message size of 0 is signal to shutdown workers
         n_wVec = 0
@@ -164,7 +163,7 @@ def batchMpiEval(pop, sameSeedForEachIndividual=True):
       i+=1
   return reward
 
-def slave(id=1):
+def slave():
   """Evaluation process: evaluates networks sent from master process. 
 
   PseudoArgs (recieved from master):
@@ -180,7 +179,7 @@ def slave(id=1):
     result - (float)    - fitness value of network
   """
   global hyp  
-  task = WannGymTask(games[hyp['task']], nReps=hyp['alg_nReps'], id=id)
+  task = WannGymTask(games[hyp['task']], nReps=hyp['alg_nReps'])
 
   # Evaluate any weight vectors sent this way
   while True:
