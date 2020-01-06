@@ -126,11 +126,11 @@ class EvosoroEnv(gym.Env):
         # print(self.id, time.time() - init_time)
         time.sleep(1)
         if time.time() - init_time > 30:
-          print("took too long")
+          print(f"took too long {self.id}")
           return self.state, -1, True, {}
 
       reward = read_voxlyze_results(RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id:05}.xml")
-      # print(f"Individual {self.id} has fitness {reward}")
+      print(f"Individual {self.id} has fitness {reward}")
       sub.Popen(f"rm  -f " + RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id:05}.xml", shell=True)
       done = True
     self.state[3] = np.sum(np.square(self.state[:-1]))
