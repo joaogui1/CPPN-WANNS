@@ -1,5 +1,6 @@
 import os
 import sys
+import time
 import subprocess as sub
 from functools import partial
 import gym
@@ -59,7 +60,7 @@ class EvosoroEnv(gym.Env):
     self.viewer = None
     self.id = id
     self.orig_size = orig_size
-    self.phenotype = [[]]*orig_size[2]
+    self.phenotype = [[] for i in range(orig_size[2])]
 
     self.action_space = spaces.Box(low=0.0, high=1.0, shape=(5,))
     self.observation_space = spaces.Box(low=np.array([0.0, 0.0, 0.0, 0.0]), 
@@ -78,6 +79,7 @@ class EvosoroEnv(gym.Env):
     self.my_env = Env(sticky_floor=0, time_between_traces=0)
 
     self.state = [0, 0, 0, 0]
+    self.phenotype = [[] for i in range(self.orig_size[2])]
     return self.state
 
   def step(self, action):
@@ -93,19 +95,42 @@ class EvosoroEnv(gym.Env):
       self.phenotype[self.state[2]].append(str(np.argmax(action[1:])))
     else:
       self.phenotype[self.state[2]].append('0')
+
     self.state[0] += 1
     self.state[1] += self.state[0] // self.orig_size[0]
     self.state[2] += self.state[1] // self.orig_size[1]
 
     self.state[0] %= self.orig_size[0]
     self.state[1] %= self.orig_size[1]
+    # print("action:", action, "z: ", self.state[2], "append: ", str(np.argmax(action[1:])))
+    # print([len(self.phenotype[i]) for i in range(self.orig_size[2])], sep="\n\n")
 
-    if self.state[2] == 6:
+    if self.state[2] == self.orig_size[2]:
       #  TODO: Test validity before evaluating
+      total_voxels = np.sum([[1 if j != '0' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
+      if total_voxels < 1/8 * np.prod(self.orig_size):
+        return self.state, -1, True, {}
+      print(total_voxels)
+
       write_voxelyze_file(self.my_sim, self.my_env, self, RUN_DIR, RUN_NAME)
       sub.Popen(f"./voxelyze  -f " + RUN_DIR + "/voxelyzeFiles/" + RUN_NAME + "--id_{self.id:05}.vxa",
                       shell=True)
+      
+      evaluating = True
+      init_time = time.time()
+      while evaluating:
+        ls_check = sub.check_output(["ls", RUN_DIR + "/fitnessFiles/"], encoding='utf-8')
+        if "softbotsOutput--id_" in ls_check:
+          evaluating = False
+        print(time.time() - init_time)
+        time.sleep(1)
+        if time.time() - init_time > 30:
+          print("took too long")
+          return self.state, -1, True, {}
+
+
       reward = read_voxlyze_results()
+      
       done = True
     self.state[3] = np.sum(np.square(self.state[:-1]))
     obs = self.state
