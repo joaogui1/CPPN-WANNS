@@ -43,7 +43,7 @@ def read_voxlyze_results(filename="softbotsOutput.xml"):
 
 def write_voxelyze_file(sim, env, individual, run_directory, run_name):
 
-    voxelyze_file = open(run_directory + "/voxelyzeFiles/" + run_name + "--id_%05i.vxa" % individual.id, "w")
+    voxelyze_file = open(run_directory + "/voxelyzeFiles/" + run_name + "--id_%s.vxa" % individual.id, "w")
 
     voxelyze_file.write(
         "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n\
@@ -94,10 +94,10 @@ def write_voxelyze_file(sim, env, individual, run_directory, run_name):
         </EquilibriumMode>\n\
         <GA>\n\
         <WriteFitnessFile>1</WriteFitnessFile>\n\
-        <FitnessFileName>" + run_directory + "/fitnessFiles/softbotsOutput--id_%05i.xml" % individual.id +
+        <FitnessFileName>" + run_directory + "/fitnessFiles/softbotsOutput--id_%s.xml" % individual.id +
         "</FitnessFileName>\n\
-        <QhullTmpFile>" + run_directory + "/tempFiles/qhullInput--id_%05i.txt" % individual.id + "</QhullTmpFile>\n\
-        <CurvaturesTmpFile>" + run_directory + "/tempFiles/curvatures--id_%05i.txt" % individual.id +
+        <QhullTmpFile>" + run_directory + "/tempFiles/qhullInput--id_%s.txt" % individual.id + "</QhullTmpFile>\n\
+        <CurvaturesTmpFile>" + run_directory + "/tempFiles/curvatures--id_%s.txt" % individual.id +
         "</CurvaturesTmpFile>\n\
         </GA>\n\
         <MinTempFact>" + str(sim.min_temp_fact) + "</MinTempFact>\n\

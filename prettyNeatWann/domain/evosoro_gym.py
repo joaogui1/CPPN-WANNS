@@ -1,6 +1,7 @@
 import os
 import sys
 import time
+import tempfile
 import subprocess as sub
 from functools import partial
 import gym
@@ -56,7 +57,10 @@ class EvosoroEnv(gym.Env):
     Example data sets are given at the end of this file
     """
 
-    self.id = self.seed()
+    _, self.id = tempfile.mkstemp(suffix=".vxa", prefix="Basic--id_", dir=os.path.abspath(os.getcwd()))
+    self.id = self.id.partition("id_")[2]
+    self.id = self.id[:self.id.index('.')]
+    print("My id is ", self.id)
     self.viewer = None
     self.orig_size = orig_size
     self.phenotype = [[] for i in range(orig_size[2])]
@@ -73,7 +77,7 @@ class EvosoroEnv(gym.Env):
 
   def reset(self, id=1):
     ''' Initialize State'''
-    self.id = np.random.randint(low=0, high=1000000)
+    # self.id = np.random.randint(low=0, high=1000000)
     self.my_sim = Sim(dt_frac=DT_FRAC, simulation_time=SIM_TIME, 
                       fitness_eval_init_time=INIT_TIME)
     self.my_env = Env(sticky_floor=0, time_between_traces=0)
@@ -113,7 +117,7 @@ class EvosoroEnv(gym.Env):
       # print(total_voxels)
 
       write_voxelyze_file(self.my_sim, self.my_env, self, RUN_DIR, RUN_NAME)
-      sub.Popen(f"./voxelyze  -f " + RUN_DIR + f"/voxelyzeFiles/" + RUN_NAME + f"--id_{self.id:05}.vxa",
+      sub.Popen(f"./voxelyze  -f " + RUN_DIR + f"/voxelyzeFiles/" + RUN_NAME + f"--id_{self.id}.vxa",
                       shell=True)
       
       evaluating = True
@@ -121,7 +125,7 @@ class EvosoroEnv(gym.Env):
       while evaluating:
         ls_check = sub.check_output(["ls", RUN_DIR + "/fitnessFiles/"], encoding='utf-8').split()
         # print(ls_check, f"softbotsOutput--id_{self.id:05}.xml" in ls_check)
-        if f"softbotsOutput--id_{self.id:05}.xml" in ls_check:
+        if f"softbotsOutput--id_{self.id}.xml" in ls_check:
           evaluating = False
         # print(self.id, time.time() - init_time)
         time.sleep(1)
@@ -129,9 +133,9 @@ class EvosoroEnv(gym.Env):
           print(f"took too long {self.id}")
           return self.state, -1, True, {}
 
-      reward = read_voxlyze_results(RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id:05}.xml")
+      reward = read_voxlyze_results(RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml")
       print(f"Individual {self.id} has fitness {reward}")
-      sub.Popen(f"rm  -f " + RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id:05}.xml", shell=True)
+      sub.Popen(f"rm  -f " + RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml", shell=True)
       done = True
     self.state[3] = np.sum(np.square(self.state[:-1]))
     obs = self.state
