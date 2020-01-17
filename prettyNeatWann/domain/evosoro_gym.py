@@ -114,7 +114,7 @@ class EvosoroEnv(gym.Env):
       total_voxels = np.sum([[1 if j != '0' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
       if total_voxels < 1/8 * np.prod(self.orig_size):
         # print(f"Individual {self.id} has no fitness")
-        return self.state, -1, True, {}
+        return self.state, 0.0, True, {}
       # print(total_voxels)
 
       write_voxelyze_file(self.my_sim, self.my_env, self, RUN_DIR, RUN_NAME)
@@ -128,16 +128,16 @@ class EvosoroEnv(gym.Env):
         if f"softbotsOutput--id_{self.id}.xml" in ls_check:
           evaluating = False
         time.sleep(1)
-        if time.time() - init_time > 30:
+        if time.time() - init_time > 20:
           # print(f"took too long {self.id}")
-          return self.state, -1, True, {}
+          return self.state, 0.0, True, {}
 
       reward = read_voxlyze_results(RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml")
       # print(f"Individual {self.id} has fitness {reward}")
+      done = True
       sub.Popen(f"rm  -f " + RUN_DIR + f"/voxelyzeFiles/Basic--id_{self.id}.vxa", shell=True)
       sub.Popen(f"rm  -f " + RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml", shell=True)
 
-      done = True
     self.state[3] = np.sum(np.square(self.state[:-1]))
     obs = self.state
 

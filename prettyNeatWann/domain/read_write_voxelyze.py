@@ -15,12 +15,14 @@ def read_voxlyze_results(filename="softbotsOutput.xml"):
             file_size = os.stat(filename).st_size
             this_file = open(filename)
             this_file.close()
-        except ImportError:  # TODO: is this the correct exception?
+        except:  # TODO: is this the correct exception?
             file_size = 0
         i += 1
         time.sleep(1)
 
-    # if file_size == 0:
+    if file_size == 0:
+        print(f"file {filename} wasn't present")
+        return 0
     #     print_log.message("ERROR: Cannot find a non-empty fitness file in %d attempts: abort" % max_attempts)
     #     exit(1)
 
