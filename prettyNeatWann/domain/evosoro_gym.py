@@ -113,6 +113,7 @@ class EvosoroEnv(gym.Env):
       #  TODO: Test validity before evaluating
       total_voxels = np.sum([[1 if j != '0' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
       if total_voxels < 1/8 * np.prod(self.orig_size):
+        print(f"Individual {self.id} has no fitness")
         return self.state, -1, True, {}
       # print(total_voxels)
 
@@ -124,18 +125,18 @@ class EvosoroEnv(gym.Env):
       init_time = time.time()
       while evaluating:
         ls_check = sub.check_output(["ls", RUN_DIR + "/fitnessFiles/"], encoding='utf-8').split()
-        # print(ls_check, f"softbotsOutput--id_{self.id:05}.xml" in ls_check)
         if f"softbotsOutput--id_{self.id}.xml" in ls_check:
           evaluating = False
-        # print(self.id, time.time() - init_time)
         time.sleep(1)
         if time.time() - init_time > 30:
           print(f"took too long {self.id}")
           return self.state, -1, True, {}
 
       reward = read_voxlyze_results(RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml")
-      print(f"Individual {self.id} has fitness {reward}")
+      # print(f"Individual {self.id} has fitness {reward}")
+      sub.Popen(f"rm  -f " + RUN_DIR + f"/voxelyzeFiles/Basic--id_{self.id}.vxa", shell=True)
       sub.Popen(f"rm  -f " + RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml", shell=True)
+
       done = True
     self.state[3] = np.sum(np.square(self.state[:-1]))
     obs = self.state
