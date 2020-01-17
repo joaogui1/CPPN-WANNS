@@ -271,7 +271,7 @@ if __name__ == "__main__":
    help='number of cores to use', default=2)
 
   args = parser.parse_args()
-
+  
 
   # Use MPI if parallel
   if "parent" == mpi_fork(args.num_worker+1): os._exit(0)
