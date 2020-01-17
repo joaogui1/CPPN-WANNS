@@ -36,6 +36,7 @@ def read_voxlyze_results(filename="softbotsOutput.xml"):
     #                 results[rank] = float(line[line.find(tag) + len(tag):line.find("</" + tag[1:])])
     #     this_file.close()
 
+    fitness = 0
     with open(filename) as fitfile:
         for line in fitfile:
                 if "<FinalDist" in line:
