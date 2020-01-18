@@ -52,7 +52,6 @@ class EvosoroEnv(gym.Env):
     Data set is a tuple of 
     [0] input data: [nSamples x nInputs]
     [1] labels:     [nSamples x 1]
-
     Example data sets are given at the end of this file
     """
 
@@ -111,22 +110,27 @@ class EvosoroEnv(gym.Env):
     if self.state[2] == self.orig_size[2]:
       #  TODO: Test validity before evaluating
       total_voxels = np.sum([[1 if j != '0' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
-      if total_voxels < 1/8 * np.prod(self.orig_size):
+      active_voxels = np.sum([[1 if j > '1' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
+      if total_voxels < 1/8 * np.prod(self.orig_size) or active_voxels < 1/24 * np.prod(self.orig_size):
         # print(f"Individual {self.id} has no fitness")
         return self.state, 0.0, True, {}
       # print(total_voxels)
 
       write_voxelyze_file(self.my_sim, self.my_env, self, RUN_DIR, RUN_NAME)
-      p = sub.Popen("exec " + f"./voxelyze  -f " + RUN_DIR + f"/voxelyzeFiles/" + RUN_NAME + f"--id_{self.id}.vxa",
+      sub.Popen(f"./voxelyze  -f " + RUN_DIR + f"/voxelyzeFiles/" + RUN_NAME + f"--id_{self.id}.vxa",
                       shell=True)
-      time.sleep(15)
-      ls_check = sub.check_output(["ls", RUN_DIR + "/fitnessFiles/"], encoding='utf-8').split()
-      if not (f"softbotsOutput--id_{self.id}.xml" in ls_check):
-        print(f"softbotsOutput--id_{self.id}.xml not in ls_check")
-        p.kill()
-        return self.state, 0.0, True, {}
       
-      p.kill()
+      evaluating = True
+      init_time = time.time()
+      while evaluating:
+        ls_check = sub.check_output(["ls", RUN_DIR + "/fitnessFiles/"], encoding='utf-8').split()
+        if f"softbotsOutput--id_{self.id}.xml" in ls_check:
+          evaluating = False
+        time.sleep(1)
+        if time.time() - init_time > 20:
+          # print(f"took too long {self.id}")
+          return self.state, 0.0, True, {}
+
       time.sleep(2) #weird behaviors
       reward = read_voxlyze_results(RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml")
       # print(f"Individual {self.id} has fitness {reward}")
