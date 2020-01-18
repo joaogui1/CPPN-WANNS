@@ -117,20 +117,15 @@ class EvosoroEnv(gym.Env):
       # print(total_voxels)
 
       write_voxelyze_file(self.my_sim, self.my_env, self, RUN_DIR, RUN_NAME)
-      sub.Popen(f"./voxelyze  -f " + RUN_DIR + f"/voxelyzeFiles/" + RUN_NAME + f"--id_{self.id}.vxa",
+      p = sub.Popen(f"./voxelyze  -f " + RUN_DIR + f"/voxelyzeFiles/" + RUN_NAME + f"--id_{self.id}.vxa",
                       shell=True)
+      p.wait()
+      time.sleep(1)
+      ls_check = sub.check_output(["ls", RUN_DIR + "/fitnessFiles/"], encoding='utf-8').split()
+      if not (f"softbotsOutput--id_{self.id}.xml" in ls_check):
+        print(f"softbotsOutput--id_{self.id}.xml not in ls_check")
+        return self.state, 0.0, True, {}
       
-      evaluating = True
-      init_time = time.time()
-      while evaluating:
-        ls_check = sub.check_output(["ls", RUN_DIR + "/fitnessFiles/"], encoding='utf-8').split()
-        if f"softbotsOutput--id_{self.id}.xml" in ls_check:
-          evaluating = False
-        time.sleep(1)
-        if time.time() - init_time > 20:
-          # print(f"took too long {self.id}")
-          return self.state, 0.0, True, {}
-
       time.sleep(2) #weird behaviors
       reward = read_voxlyze_results(RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml")
       # print(f"Individual {self.id} has fitness {reward}")

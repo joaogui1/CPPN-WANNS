@@ -4,7 +4,8 @@ import time
 import random
 import subprocess as sub
 
-# def read_voxlyze_results(population, print_log, filename="softbotsOutput.xml"):
+RUN_DIR = "basic_data"
+
 def read_voxlyze_results(filename="softbotsOutput.xml"):
     i = 0
     max_attempts = 60
