@@ -119,11 +119,12 @@ class EvosoroEnv(gym.Env):
       write_voxelyze_file(self.my_sim, self.my_env, self, RUN_DIR, RUN_NAME)
       p = sub.Popen(f"./voxelyze  -f " + RUN_DIR + f"/voxelyzeFiles/" + RUN_NAME + f"--id_{self.id}.vxa",
                       shell=True)
-      p.wait()
-      time.sleep(1)
+      # p.wait()
+      time.sleep(15)
       ls_check = sub.check_output(["ls", RUN_DIR + "/fitnessFiles/"], encoding='utf-8').split()
       if not (f"softbotsOutput--id_{self.id}.xml" in ls_check):
         print(f"softbotsOutput--id_{self.id}.xml not in ls_check")
+        p.kill()
         return self.state, 0.0, True, {}
       
       time.sleep(2) #weird behaviors
