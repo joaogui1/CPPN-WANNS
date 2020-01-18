@@ -117,9 +117,8 @@ class EvosoroEnv(gym.Env):
       # print(total_voxels)
 
       write_voxelyze_file(self.my_sim, self.my_env, self, RUN_DIR, RUN_NAME)
-      p = sub.Popen(f"./voxelyze  -f " + RUN_DIR + f"/voxelyzeFiles/" + RUN_NAME + f"--id_{self.id}.vxa",
+      p = sub.Popen("exec " + f"./voxelyze  -f " + RUN_DIR + f"/voxelyzeFiles/" + RUN_NAME + f"--id_{self.id}.vxa",
                       shell=True)
-      # p.wait()
       time.sleep(15)
       ls_check = sub.check_output(["ls", RUN_DIR + "/fitnessFiles/"], encoding='utf-8').split()
       if not (f"softbotsOutput--id_{self.id}.xml" in ls_check):
@@ -127,6 +126,7 @@ class EvosoroEnv(gym.Env):
         p.kill()
         return self.state, 0.0, True, {}
       
+      p.kill()
       time.sleep(2) #weird behaviors
       reward = read_voxlyze_results(RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml")
       # print(f"Individual {self.id} has fitness {reward}")
