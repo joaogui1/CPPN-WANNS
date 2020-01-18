@@ -2,6 +2,7 @@ import hashlib
 import os
 import time
 import random
+import subprocess as sub
 
 # def read_voxlyze_results(population, print_log, filename="softbotsOutput.xml"):
 def read_voxlyze_results(filename="softbotsOutput.xml"):
@@ -15,7 +16,7 @@ def read_voxlyze_results(filename="softbotsOutput.xml"):
             file_size = os.stat(filename).st_size
             this_file = open(filename)
             this_file.close()
-        except:  # TODO: is this the correct exception?
+        except FileNotFoundError:
             file_size = 0
         i += 1
         time.sleep(1)
@@ -23,24 +24,16 @@ def read_voxlyze_results(filename="softbotsOutput.xml"):
     if file_size == 0:
         print(f"file {filename} wasn't present")
         return 0
-    #     print_log.message("ERROR: Cannot find a non-empty fitness file in %d attempts: abort" % max_attempts)
-    #     exit(1)
-
-    # results = {rank: None for rank in range(len(population.objective_dict))}
-    # for rank, details in population.objective_dict.items():
-    #     this_file = open(filename)  # TODO: is there a way to just go back to the first line without reopening the file?
-    #     tag = details["tag"]
-    #     if tag is not None:
-    #         for line in this_file:
-    #             if tag in line:
-    #                 results[rank] = float(line[line.find(tag) + len(tag):line.find("</" + tag[1:])])
-    #     this_file.close()
-
+    
     fitness = 0
-    with open(filename) as fitfile:
-        for line in fitfile:
+    try:
+        with open(filename) as fitfile:
+            for line in fitfile:
                 if "<FinalDist" in line:
                     fitness = float(line[line.find("<FinalDist") + len("<FinalDist>"):line.find("</" + "FinalDist")])
+    except:
+        ls_check = sub.check_output(["ls", RUN_DIR + "/fitnessFiles/"], encoding='utf-8').split()
+        print(ls_check, f"\n{filename}\n{filename in ls_check}")
     return fitness
 
 

@@ -9,7 +9,6 @@ from gym import spaces
 from gym.utils import seeding
 import numpy as np
 import sys
-import cv2
 
 # sys.path.append(os.getcwd() + "/../..")
 
@@ -132,6 +131,7 @@ class EvosoroEnv(gym.Env):
           # print(f"took too long {self.id}")
           return self.state, 0.0, True, {}
 
+      time.sleep(2) #weird behaviors
       reward = read_voxlyze_results(RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml")
       # print(f"Individual {self.id} has fitness {reward}")
       done = True
