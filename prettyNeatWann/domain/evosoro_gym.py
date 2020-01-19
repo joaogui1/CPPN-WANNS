@@ -111,7 +111,7 @@ class EvosoroEnv(gym.Env):
       #  TODO: Test validity before evaluating
       total_voxels = np.sum([[1 if j != '0' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
       active_voxels = np.sum([[1 if j > '1' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
-      if total_voxels < 1/8 * np.prod(self.orig_size) or active_voxels < 1/24 * np.prod(self.orig_size):
+      if total_voxels < 1/8 * np.prod(self.orig_size) or active_voxels < 1/20 * np.prod(self.orig_size):
         # print(f"Individual {self.id} has no fitness")
         return self.state, 0.0, True, {}
       # print(total_voxels)
@@ -128,8 +128,7 @@ class EvosoroEnv(gym.Env):
           evaluating = False
         time.sleep(1)
         if time.time() - init_time > 20:
-          print(f"took too long {self.id}")
-
+          # print(f"took too long {self.id}")
           return self.state, 0.0, True, {}
 
       time.sleep(2) #weird behaviors
