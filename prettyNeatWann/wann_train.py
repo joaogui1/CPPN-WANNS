@@ -32,7 +32,7 @@ def master():
 
     data = gatherData(data,alg,gen,hyp)
     print(gen, '\t', data.display())
-    subprocess.Popen(f"pkill voxelyze  -f", shell=True)
+    subprocess.Popen(f"pkill -f voxelyze", shell=True)
 
   # Clean up and data gathering at run end
   data = gatherData(data,alg,gen,hyp,savePop=True)
