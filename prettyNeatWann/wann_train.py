@@ -22,6 +22,7 @@ def master():
   """Main NEAT optimization script
   """
   global fileName, hyp
+  init_time = time.time()
   data = WannDataGatherer(fileName, hyp)
   alg  = Wann(hyp)
 
@@ -31,7 +32,7 @@ def master():
     alg.tell(reward)           # Send fitness to NEAT    
 
     data = gatherData(data,alg,gen,hyp)
-    print(gen, '\t', data.display())
+    print(gen, '\t', data.display(), (time.time() - init_time)/60)
     subprocess.Popen(f"pkill -f voxelyze", shell=True)
 
   # Clean up and data gathering at run end
