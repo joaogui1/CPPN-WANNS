@@ -111,7 +111,7 @@ class EvosoroEnv(gym.Env):
       #  TODO: Test validity before evaluating
       total_voxels = np.sum([[1 if j != '0' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
       active_voxels = np.sum([[1 if j > '1' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
-      if total_voxels < 1/8 * np.prod(self.orig_size) or active_voxels < 1/20 * np.prod(self.orig_size):
+      if total_voxels < 1/8 * np.prod(self.orig_size) or active_voxels < 1/18 * np.prod(self.orig_size):
         # print(f"Individual {self.id} has no fitness")
         return self.state, 0.0, True, {}
       # print(total_voxels)
