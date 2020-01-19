@@ -110,14 +110,14 @@ class EvosoroEnv(gym.Env):
     if self.state[2] == self.orig_size[2]:
       #  TODO: Test validity before evaluating
       total_voxels = np.sum([[1 if j != '0' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
-      active_voxels = np.sum([[1 if j > '1' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
+      active_voxels = np.sum([[1 if j > '2' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
       if total_voxels < 1/8 * np.prod(self.orig_size) or active_voxels < 1/18 * np.prod(self.orig_size):
         # print(f"Individual {self.id} has no fitness")
         return self.state, 0.0, True, {}
       # print(total_voxels)
 
       write_voxelyze_file(self.my_sim, self.my_env, self, RUN_DIR, RUN_NAME)
-      sub.Popen(f"./voxelyze  -f " + RUN_DIR + f"/voxelyzeFiles/" + RUN_NAME + f"--id_{self.id}.vxa",
+      p = sub.Popen(f"exec ./voxelyze  -f " + RUN_DIR + f"/voxelyzeFiles/" + RUN_NAME + f"--id_{self.id}.vxa",
                       shell=True)
       
       evaluating = True
@@ -127,13 +127,15 @@ class EvosoroEnv(gym.Env):
         if f"softbotsOutput--id_{self.id}.xml" in ls_check:
           evaluating = False
         time.sleep(1)
-        if time.time() - init_time > 25:
+        if time.time() - init_time > 120:
+          p.kill()
           # print(f"took too long {self.id}")
           return self.state, 0.0, True, {}
 
       time.sleep(2) #weird behaviors
       reward = read_voxlyze_results(RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml")
-      # print(f"Individual {self.id} has fitness {reward}")
+      print(f"Individual {self.id} has fitness {reward}")
+      p.kill()
       done = True
       sub.Popen(f"rm  -f " + RUN_DIR + f"/voxelyzeFiles/Basic--id_{self.id}.vxa", shell=True)
       sub.Popen(f"rm  -f " + RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml", shell=True)
