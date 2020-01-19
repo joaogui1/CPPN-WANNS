@@ -134,7 +134,7 @@ class EvosoroEnv(gym.Env):
 
       time.sleep(2) #weird behaviors
       reward = read_voxlyze_results(RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml")
-      print(f"Individual {self.id} has fitness {reward}")
+      # print(f"Individual {self.id} has fitness {reward}")
       p.kill()
       done = True
       sub.Popen(f"rm  -f " + RUN_DIR + f"/voxelyzeFiles/Basic--id_{self.id}.vxa", shell=True)
