@@ -127,7 +127,7 @@ class EvosoroEnv(gym.Env):
         if f"softbotsOutput--id_{self.id}.xml" in ls_check:
           evaluating = False
         time.sleep(1)
-        if time.time() - init_time > 120:
+        if time.time() - init_time > 30:
           p.kill()
           # print(f"took too long {self.id}")
           return self.state, 0.0, True, {}
