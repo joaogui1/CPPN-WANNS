@@ -128,7 +128,8 @@ class EvosoroEnv(gym.Env):
           evaluating = False
         time.sleep(1)
         if time.time() - init_time > 20:
-          # print(f"took too long {self.id}")
+          print(f"took too long {self.id}")
+
           return self.state, 0.0, True, {}
 
       time.sleep(2) #weird behaviors
