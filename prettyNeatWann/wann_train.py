@@ -32,7 +32,14 @@ def master():
     alg.tell(reward)           # Send fitness to NEAT    
 
     data = gatherData(data,alg,gen,hyp)
-    print(gen, '\t', data.display(), (time.time() - init_time)/60)
+    t = time.time() - init_time
+    secs = t % 60
+    t //= 60
+    minutes = t % 60 
+    t //= 60
+    hours = t 
+
+    print(gen, '\t', data.display(), f"time: {hours} h {minutes} min {secs} s")
     subprocess.Popen(f"pkill -f voxelyze", shell=True)
 
   # Clean up and data gathering at run end
