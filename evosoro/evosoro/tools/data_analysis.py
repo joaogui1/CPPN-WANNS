@@ -21,7 +21,7 @@ def get_all_data(paths_to_files, delimiter="\t\t", lineterminator='\n', engine='
             start_length = len(df)
             df = df.drop_duplicates(subset=drop_duplicates_subset)
             num_duplicates = start_length - len(df)
-            print "{} duplicates".format(num_duplicates)
+            print(f"{num_duplicates} duplicates")
             run = run[num_duplicates:]
 
     df['run'] = run
@@ -40,4 +40,4 @@ def combine_experiments(exp_dfs, names):
 def plot_time_series(combined_exp_dfs, title):
     sns.tsplot(data=combined_exp_dfs, value="fitness", condition="condition", unit="run", time="gen")
     plt.title(title)
-    plt.savefig("{}.pdf".format(title))
+    plt.savefig(f"{title}.pdf")
