@@ -93,7 +93,7 @@ class EvosoroEnv(gym.Env):
     done = False
 
     # ---- Writes action to voxel in position state
-    if action[0] >= 0.5:
+    if action[0] >= 0.1:
       self.phenotype[self.state[2]].append(str(np.argmax(action[1:])))
     else:
       self.phenotype[self.state[2]].append('0')
