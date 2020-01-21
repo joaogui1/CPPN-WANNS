@@ -150,6 +150,9 @@ class ObjectiveDict(dict):
         # TODO: logging_only 'objectives' should be a separate 'SimStats' class
         self.max_rank += 1
 
+def plot_softbot(phenotype):
+    return 1
+
 def xml_format(tag):
     """Ensures that tag is encapsulated inside angle brackets."""
     if tag[0] != "<":
