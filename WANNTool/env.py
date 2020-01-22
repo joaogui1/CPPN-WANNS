@@ -31,6 +31,9 @@ def make_env(env_name, seed=-1, render_mode=False):
     else:
       trainSet, target  = mnist_256()
       env = ClassifyEnv(trainSet, target)
+  elif (env_name.startswith("Evosoro")):
+    from custom_envs.evosoro_gym import EvosoroEnv
+    env = EvosoroEnv()
   if (seed >= 0):
     env.seed(seed)
   '''
