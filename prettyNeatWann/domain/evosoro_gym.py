@@ -93,10 +93,10 @@ class EvosoroEnv(gym.Env):
     done = False
 
     # ---- Writes action to voxel in position state
-    # if action[0] >= 0.1:
-    self.phenotype[self.state[2]].append(str(np.argmax(action[1:])))
-    # else:
-      # self.phenotype[self.state[2]].append('0')
+    if action[0] >= 0.1:
+    self.phenotype[self.state[2]].append(str(1 + np.argmax(action[1:])))
+    else:
+      self.phenotype[self.state[2]].append('0')
 
     self.state[0] += 1
     self.state[1] += self.state[0] // self.orig_size[0]
@@ -104,13 +104,14 @@ class EvosoroEnv(gym.Env):
 
     self.state[0] %= self.orig_size[0]
     self.state[1] %= self.orig_size[1]
+    # print(np.argmax(action[1:]))
     # print("action:", action, "z: ", self.state[2], "append: ", str(np.argmax(action[1:])))
     # print([len(self.phenotype[i]) for i in range(self.orig_size[2])], sep="\n\n")
 
     if self.state[2] == self.orig_size[2]:
       total_voxels = np.sum([[1 if j != '0' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
-      # active_voxels = np.sum([[1 if j > '2' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
-      if total_voxels < 1/8 * np.prod(self.orig_size): #or active_voxels < 1/24 * np.prod(self.orig_size):
+      active_voxels = np.sum([[1 if j > '2' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
+      if total_voxels < 1/8 * np.prod(self.orig_size) or active_voxels < 1/24 * np.prod(self.orig_size):
         # print(f"Individual {self.id} has no fitness")
         return self.state, 0.0, True, {}
       # print(total_voxels)
@@ -149,4 +150,5 @@ class EvosoroEnv(gym.Env):
       write_voxelyze_file(self.my_sim, self.my_env, self, RUN_DIR, RUN_NAME)
       p = sub.Popen(f"exec ./VoxCad " + RUN_DIR + f"/voxelyzeFiles/" + RUN_NAME + f"--id_{self.id}.vxa",
                     shell=True)
+    # # print("\n\n\n")
     return 0
