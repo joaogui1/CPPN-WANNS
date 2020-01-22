@@ -16,8 +16,8 @@ from gym.wrappers import Monitor
 np.set_printoptions(precision=2) 
 np.set_printoptions(linewidth=160)
 
-final_mode = True
-render_mode = False
+final_mode = False
+render_mode = True
 
 #final_mode = False; render_mode = True # VIEW: toggle with comment to view trials
 
@@ -93,7 +93,7 @@ def evaluate(model):
   # run 100 times and average score, according to the reles.
   model.env.seed(0)
   total_reward = 0.0
-  N = 100
+  N = 1
   for i in range(N):
     reward, t = simulate(model, train_mode=False, render_mode=False, num_episode=1)
     total_reward += reward[0]
@@ -137,9 +137,9 @@ def simulate(model, train_mode=False, render_mode=True, num_episode=5, seed=-1, 
     num_glimpse = 0
 
     for t in range(max_episode_length):
-
+      
       if render_mode:
-        model.env.render("human")
+        model.env.render()
         if RENDER_DELAY:
           time.sleep(0.01)
 
@@ -167,6 +167,7 @@ def simulate(model, train_mode=False, render_mode=True, num_episode=5, seed=-1, 
         break
 
     if render_mode:
+      model.env.render()
       print("reward", total_reward, "timesteps", t)
 
     reward_list.append(total_reward)

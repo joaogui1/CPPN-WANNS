@@ -141,6 +141,7 @@ class EvosoroEnv(gym.Env):
 
   def render(self):
     if self.state[2] == self.orig_size[2]:
+      print(RUN_NAME + f"--id_{self.id}.vxa")
       write_voxelyze_file(self.my_sim, self.my_env, self, RUN_DIR, RUN_NAME)
       p = sub.Popen(f"exec ./VoxCad " + RUN_DIR + f"/voxelyzeFiles/" + RUN_NAME + f"--id_{self.id}.vxa",
                     shell=True)
