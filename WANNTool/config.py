@@ -68,3 +68,13 @@ mnist256train = Game(env_name='MNISTTRAIN256-v0',
   weight_bias=0.0,
 )
 games['mnist256train'] = mnist256train
+
+
+evosoro = Game(env_name='Evosoro',
+  input_size=4,
+  output_size=5,
+  wann_file='evosoro.out',
+  action_select='all', # all, soft, hard
+  weight_bias=-0.7,
+)
+games['evosoro'] = evosoro

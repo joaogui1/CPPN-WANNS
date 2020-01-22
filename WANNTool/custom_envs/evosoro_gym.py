@@ -12,8 +12,8 @@ import sys
 
 # sys.path.append(os.getcwd() + "/../..")
 
-from domain.evosoro_base import Sim, Env, ObjectiveDict
-from domain.read_write_voxelyze import *
+from custom_envs.evosoro_base import Sim, Env, ObjectiveDict
+from custom_envs.read_write_voxelyze import *
 
 
 VOXELYZE_VERSION = '_voxcad'
