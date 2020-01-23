@@ -1,12 +1,15 @@
 from matplotlib import pyplot as plt
 import networkx as nx
 import numpy as np
+import argparse
 import sys
-sys.path.append('../domain/')
-sys.path.append('vis')
+sys.path.append('../')
 from domain.config import games
+sys.path.append('vis')
 
-def viewInd(ind, taskName):
+def viewInd(args):
+  ind = args.ind
+  taskName = args.taskName
   env = games[taskName]
   if isinstance(ind, str):
     ind = np.loadtxt(ind, delimiter=',') 
@@ -41,7 +44,7 @@ def viewInd(ind, taskName):
     left=False,
     labelleft=False,
     labelbottom=False) # labels along the bottom edge are off
-    
+  plt.show()
   return fig, ax
 
 
@@ -76,7 +79,7 @@ def getNodeCoord(G,layer,taskName):
     # Calculate positions of input and output
     nIn  = env.input_size+1
     nOut = env.output_size 
-    nNode= len(G.nodes)
+    nNode= len(G.nodes())
     fixed_pos = np.empty((nNode,2))
     fixed_nodes = np.r_[np.arange(0,nIn),np.arange(nNode-nOut,nNode)]
 
@@ -118,7 +121,10 @@ def labelInOut(pos, env):
     plt.annotate(labelDict[i], xy=(pos[i][0]-0.5, pos[i][1]), xytext=(pos[i][0]-2.5, pos[i][1]-0.5),\
                arrowprops=dict(arrowstyle="->",color='k',connectionstyle="angle"))
 
-  for i in range(nNode-nOut,nNode):
+  # print(len(labelDict), len(pos))
+  # return 0
+  for i in range(nNode-nOut,len(labelDict)):
+    print(f"i = {i}")
     plt.annotate(labelDict[i], xy=(pos[i][0]+0.1, pos[i][1]), xytext=(pos[i][0]+1.5, pos[i][1]+1.0),\
                arrowprops=dict(arrowstyle="<-",color='k',connectionstyle="angle"))
 
@@ -151,8 +157,8 @@ def drawEdge(G, pos, wMat, layer):
 
     # Layer Colors
     for i in range(len(edgeLayer)):
-      C = [i/len(edgeLayer)] * len(edgeLayer[i].edges) 
-      nx.draw_networkx_edges(G,pos,edgelist=edgeLayer[i].edges,\
+      C = [i/len(edgeLayer)] * len(edgeLayer[i].edges()) 
+      nx.draw_networkx_edges(G,pos,edgelist=edgeLayer[i].edges(),\
         alpha=.75,width=1.0,edge_color=C,edge_cmap=plt.cm.viridis,\
         edge_vmin=0.0, edge_vmax=1.0,arrowsize=8)
 
@@ -184,3 +190,15 @@ def cLinspace(start,end,N):
 
 def lload(fileName):
   return np.loadtxt(fileName, delimiter=',') 
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=('Visualise ANNs'))
+    parser.add_argument('-i', '--ind', type=str,\
+      help='file name for genome input', default='log/test_best.out')
+
+    parser.add_argument('-t', '--taskName', type=str,\
+      help='name of the task', default='evosoro')
+    args = parser.parse_args()
+    viewInd(args)
+  

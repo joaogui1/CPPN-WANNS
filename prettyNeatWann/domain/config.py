@@ -191,4 +191,4 @@ soro = Game(env_name='Evosoro',
                   'material_1', 'material_2', 'material_3', 'material_4']
 )
 
-games['softbot'] = soro
+games['evosoro'] = soro
