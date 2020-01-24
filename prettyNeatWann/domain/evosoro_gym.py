@@ -104,7 +104,8 @@ class EvosoroEnv(gym.Env):
 
     self.state[0] %= self.orig_size[0]
     self.state[1] %= self.orig_size[1]
-    # print(np.argmax(action[1:]))
+    print(action[0], 1 + np.argmax(action[1:]))
+    time.sleep(2)
     # print("action:", action, "z: ", self.state[2], "append: ", str(np.argmax(action[1:])))
     # print([len(self.phenotype[i]) for i in range(self.orig_size[2])], sep="\n\n")
 
