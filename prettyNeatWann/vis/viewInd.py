@@ -15,6 +15,7 @@ def viewInd(args):
     ind = np.loadtxt(ind, delimiter=',') 
     wMat = ind[:,:-1]
     aVec = ind[:,-1]
+    print('activations:', aVec)
   else:
     wMat = ind.wMat
     aVec = np.zeros((np.shape(wMat)[0]))  
@@ -22,8 +23,8 @@ def viewInd(args):
     
   # Create Graph
   nIn = env.input_size+1 # bias
-  nOut= env.output_size
-  G, layer= ind2graph(wMat, nIn, nOut)
+  nOut = env.output_size
+  G, layer = ind2graph(wMat, nIn, nOut)
   pos = getNodeCoord(G,layer,taskName)
     
   # Draw Graph
@@ -131,7 +132,7 @@ def labelInOut(pos, env):
     
 def drawNodeLabels(G, pos, aVec):  
   actLabel = np.array((['','( + )','(0/1)','(sin)','(gau)','(tanh)',\
-                        '(sig)','( - )', '(abs)','(relu)','(cos)']))
+                        '(sig)','( - )', '(abs)','(relu)','(cos)'])) #activations
   listLabel = actLabel[aVec.astype(int)]  
   label = dict(enumerate(listLabel))
   nx.draw_networkx_labels(G,pos,labels=label)  

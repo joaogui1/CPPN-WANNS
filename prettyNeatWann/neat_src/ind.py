@@ -47,7 +47,6 @@ class Ind():
     self.aVec    = []
     self.nConn   = []
     self.fitness = [] # Mean fitness over trials
-    #self.fitMax  = [] # Best fitness over trials
     self.rank    = []
     self.birth   = []
     self.species = []
