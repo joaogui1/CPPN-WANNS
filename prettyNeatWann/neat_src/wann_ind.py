@@ -143,6 +143,8 @@ class WannInd(Ind):
         mutNode = np.random.randint(start,end)
         newActPool = listXor([int(nodeG[2,mutNode])], p['ann_actRange'])
         nodeG[2,mutNode] = int(newActPool[np.random.randint(len(newActPool))])
+        if nodeG[2,mutNode] > 10:
+          print(f"mutNode: {mutNode}, newActPool: {newActPool}, actRange: {p['ann_actRange']}")
 
     child = WannInd(connG, nodeG)
     child.birth = gen
