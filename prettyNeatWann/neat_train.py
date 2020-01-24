@@ -25,13 +25,21 @@ def master():
   data = NeatDataGatherer(fileName, hyp)
   alg  = Neat(hyp)
 
-  for gen in range(hyp['maxGen']):        
+  for gen in range(hyp['maxGen']):  
+    prev_time = time.time()      
     pop = alg.ask()            # Get newly evolved individuals from NEAT  
     reward = batchMpiEval(pop)  # Send pop to be evaluated by workers
     alg.tell(reward)           # Send fitness to NEAT    
 
     data = gatherData(data,alg,gen,hyp)
-    print(gen, '\t - \t', data.display())
+    new_time = time.time() 
+    t = new_time - prev_time
+    secs = t % 60
+    t //= 60
+    minutes = t % 60 
+    t //= 60
+    hours = t 
+    print(gen, '\t', data.display(), f"time: {hours} h {minutes} min {secs} s")
 
   # Clean up and data gathering at run end
   data = gatherData(data,alg,gen,hyp,savePop=True)
