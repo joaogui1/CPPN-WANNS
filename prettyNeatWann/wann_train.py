@@ -22,17 +22,18 @@ def master():
   """Main NEAT optimization script
   """
   global fileName, hyp
-  init_time = time.time()
   data = WannDataGatherer(fileName, hyp)
   alg  = Wann(hyp)
 
   for gen in range(hyp['maxGen']):        
+    prev_time = time.time()
     pop = alg.ask()            # Get newly evolved individuals from NEAT  
     reward = batchMpiEval(pop)  # Send pop to be evaluated by workers
     alg.tell(reward)           # Send fitness to NEAT    
 
     data = gatherData(data,alg,gen,hyp)
-    t = time.time() - init_time
+    new_time = time.time() 
+    t = new_time - prev_time
     secs = t % 60
     t //= 60
     minutes = t % 60 
