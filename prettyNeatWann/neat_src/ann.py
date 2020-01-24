@@ -299,7 +299,7 @@ def weightedRandom(weights):
 # -- File I/O ------------------------------------------------------------ -- #
 
 def exportNet(filename,wMat, aVec):
-  indMat = np.c_[wMat,aVec]
+  indMat = np.c_[wMat,aVec] #makes an augmented matrix [weights | activations]
   np.savetxt(filename, indMat, delimiter=',',fmt='%1.2e')
 
 def importNet(fileName):

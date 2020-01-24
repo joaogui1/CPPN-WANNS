@@ -179,11 +179,11 @@ soro = Game(env_name='Evosoro',
   input_size=4, #  x, y, z, d
   output_size=5, # present + type
   time_factor=0,
-  layers=[128, 9],
+  layers=[128, 9], #only relevant for fixed topology
   i_act=np.full(4, 1),
   h_act=[1,2,3,4,5,6,7,8,9,10],
   o_act=np.full(5, 1),
-  weightCap=2.0,
+  weightCap=3.0,
   noise_bias=0.0,
   output_noise=[False, False, False],
   max_episode_length=2000,

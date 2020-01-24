@@ -137,7 +137,7 @@ class WannInd(Ind):
 
     # Mutate Activation
     elif choice is 4:
-      start = 1+self.nInput + self.nOutput
+      start = 1+self.nInput + self.nOutput #bias, input nodes and output nodes are ignored
       end = nodeG.shape[1]           
       if start != end:
         mutNode = np.random.randint(start,end)
