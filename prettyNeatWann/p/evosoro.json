@@ -7,7 +7,7 @@
     "alg_act": 5,
     "alg_speciate": "none",
     "maxGen": 20,
-    "popSize": 30,
+    "popSize": 64,
     "prob_crossover": 0.0,
     "prob_mutAct":  0.50,
     "prob_addNode": 0.25,
