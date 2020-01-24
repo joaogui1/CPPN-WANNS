@@ -104,8 +104,8 @@ class EvosoroEnv(gym.Env):
 
     self.state[0] %= self.orig_size[0]
     self.state[1] %= self.orig_size[1]
-    print(action[0], 1 + np.argmax(action[1:]))
-    time.sleep(2)
+    # print(action[0], 1 + np.argmax(action[1:]), self.phenotype)
+    # time.sleep(2)
     # print("action:", action, "z: ", self.state[2], "append: ", str(np.argmax(action[1:])))
     # print([len(self.phenotype[i]) for i in range(self.orig_size[2])], sep="\n\n")
 
@@ -148,8 +148,10 @@ class EvosoroEnv(gym.Env):
 
   def render(self):
     if self.state[2] == self.orig_size[2]:
+      # print(self.phenotype)
       write_voxelyze_file(self.my_sim, self.my_env, self, RUN_DIR, RUN_NAME)
       p = sub.Popen(f"exec ./VoxCad " + RUN_DIR + f"/voxelyzeFiles/" + RUN_NAME + f"--id_{self.id}.vxa",
                     shell=True)
-    # # print("\n\n\n")
+      p.wait()
+    # print("\n\n\n")
     return 0
