@@ -1,0 +1,197 @@
+assigning the rank and nworkers 17 16
+size of model 8
+assigning the rank and nworkers 17 4
+size of model 8
+assigning the rank and nworkers 17 3
+size of model 8
+assigning the rank and nworkers 17 6
+size of model 8
+assigning the rank and nworkers 17 0
+size of model 8
+assigning the rank and nworkers 17 1
+size of model 8
+assigning the rank and nworkers 17 15
+size of model 8
+assigning the rank and nworkers 17 10
+size of model 8
+assigning the rank and nworkers 17 12
+size of model 8
+assigning the rank and nworkers 17 7
+size of model 8
+assigning the rank and nworkers 17 2
+size of model 8
+assigning the rank and nworkers 17 9
+size of model 8
+assigning the rank and nworkers 17 11
+assigning the rank and nworkers 17 8
+size of model 8
+size of model 8
+assigning the rank and nworkers 17 13
+size of model 8
+assigning the rank and nworkers 17 5
+size of model 8
+assigning the rank and nworkers 17 14
+size of model 8
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=277581, Tue Jan 28 01:20:57 2020)
+('process', 16, 'out of total ', 17, 'started')
+cartpole_swingup_started
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=293603, Tue Jan 28 01:20:57 2020)
+('process', 6, 'out of total ', 17, 'started')
+cartpole_swingup_started
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=313459, Tue Jan 28 01:20:57 2020)
+('process', 3, 'out of total ', 17, 'started')
+cartpole_swingup_started
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=241302, Tue Jan 28 01:20:57 2020)
+('process', 0, 'out of total ', 17, 'started')
+('training', 'cartpole_swingup')
+('population', 64)
+('num_worker', 16)
+('num_worker_trial', 4)
+cartpole_swingup_started
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=309677, Tue Jan 28 01:20:57 2020)
+('process', 15, 'out of total ', 17, 'started')
+cartpole_swingup_started
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=262605, Tue Jan 28 01:20:57 2020)
+('process', 7, 'out of total ', 17, 'started')
+cartpole_swingup_started
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=292365, Tue Jan 28 01:20:57 2020)
+('process', 12, 'out of total ', 17, 'started')
+cartpole_swingup_started
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=321491, Tue Jan 28 01:20:57 2020)
+('process', 10, 'out of total ', 17, 'started')
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=342465, Tue Jan 28 01:20:57 2020)
+cartpole_swingup_started
+('process', 9, 'out of total ', 17, 'started')
+cartpole_swingup_started
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=296619, Tue Jan 28 01:20:57 2020)
+('process', 4, 'out of total ', 17, 'started')
+cartpole_swingup_started
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=288128, Tue Jan 28 01:20:58 2020)
+('process', 1, 'out of total ', 17, 'started')
+cartpole_swingup_started
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=212121, Tue Jan 28 01:20:58 2020)
+('process', 14, 'out of total ', 17, 'started')
+cartpole_swingup_started
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=238249, Tue Jan 28 01:20:58 2020)
+('process', 13, 'out of total ', 17, 'started')
+cartpole_swingup_started
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=253665, Tue Jan 28 01:20:58 2020)
+('process', 2, 'out of total ', 17, 'started')
+cartpole_swingup_started
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=228571, Tue Jan 28 01:20:58 2020)
+('process', 11, 'out of total ', 17, 'started')
+cartpole_swingup_started
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=259320, Tue Jan 28 01:20:58 2020)
+('process', 8, 'out of total ', 17, 'started')
+cartpole_swingup_started
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 8 (seed=327614, Tue Jan 28 01:20:58 2020)
+('process', 5, 'out of total ', 17, 'started')
+cartpole_swingup_started
+('cartpole_swingup', (1, 3, 72.26, 42.34, 412.78, 52.73, 0.5174, 205.29, 1000))
+('cartpole_swingup', (2, 6, 69.5, 48.51, 234.42, 33.1, 0.54849, 225.53, 1000))
+('cartpole_swingup', (3, 12, 106.74, 38.03, 460.98, 100.15, 0.74388, 330.55, 1000))
+('cartpole_swingup', (4, 20, 132.14, 1.72, 460.74, 114.49, 0.8012, 519.9, 1000))
+('cartpole_swingup', (5, 29, 166.6, 3.84, 479.35, 137.66, 0.96445, 722.78, 1000))
+('cartpole_swingup', (6, 42, 165.54, 14.55, 508.63, 124.33, 1.03226, 765.65, 1000))
+('cartpole_swingup', (7, 50, 178.44, 11.43, 506.65, 132.81, 1.04832, 706.62, 1000))
+('cartpole_swingup', (8, 61, 226.93, 13.01, 528.85, 152.53, 1.27621, 801.85, 1000))
+('cartpole_swingup', (9, 72, 259.38, 4.69, 530.68, 156.32, 1.35619, 817.6, 1000))
+('cartpole_swingup', (10, 84, 279.53, 25.08, 535.5, 154.55, 1.61135, 831.09, 1000))
+('cartpole_swingup', (11, 94, 238.22, 0.26, 534.48, 178.55, 1.80728, 749.24, 1000))
+('cartpole_swingup', (12, 106, 255.43, 0.88, 582.06, 191.38, 1.91175, 736.5, 1000))
+('cartpole_swingup', (13, 114, 309.35, 5.76, 550.24, 183.89, 2.2352, 815.19, 1000))
+('cartpole_swingup', (14, 122, 289.13, 0.52, 574.99, 186.96, 2.46186, 793.92, 1000))
+('cartpole_swingup', (15, 134, 337.63, 0.54, 545.12, 189.44, 2.97225, 873.53, 1000))
+('cartpole_swingup', (16, 146, 406.17, 3.51, 563.22, 166.11, 3.4813, 918.0, 1000))
+('cartpole_swingup', (17, 157, 378.83, 0.81, 569.74, 173.05, 4.13644, 911.43, 1000))
+('cartpole_swingup', (18, 165, 433.02, 36.24, 577.05, 139.73, 5.28213, 954.39, 1000))
+('cartpole_swingup', (19, 174, 362.35, 2.62, 575.41, 203.98, 6.91704, 817.48, 1000))
+('cartpole_swingup', (20, 183, 377.71, 6.77, 593.86, 201.92, 7.70107, 831.76, 1000))
+('cartpole_swingup', (21, 194, 401.84, 11.79, 585.12, 177.97, 9.31901, 906.91, 1000))
+('cartpole_swingup', (22, 202, 414.71, 13.16, 609.55, 197.5, 11.80479, 844.38, 1000))
+('cartpole_swingup', (23, 211, 464.75, 11.14, 590.83, 159.91, 15.25155, 924.62, 1000))
+('cartpole_swingup', (24, 221, 497.3, 8.59, 608.21, 136.64, 19.98391, 958.69, 1000))
+('cartpole_swingup', (25, 232, 484.05, 10.77, 592.5, 158.8, 31.51152, 917.88, 1000))
+('improvement', 25, 517.5754734375, 'curr', 589.8354734375, 'prev', 72.26, 'best', 589.8354734375, 'stdev', 8.707793813881654)
+('cartpole_swingup', (26, 253, 484.86, 0.59, 596.5, 159.53, 58.25299, 948.31, 1000))
+('cartpole_swingup', (27, 265, 460.23, 2.44, 586.86, 178.6, 114.06165, 914.91, 1000))
+('cartpole_swingup', (28, 275, 453.0, 3.53, 604.47, 186.31, 185.65665, 906.07, 1000))
+('cartpole_swingup', (29, 285, 448.11, 11.87, 597.93, 196.07, 311.66562, 870.22, 1000))
+('cartpole_swingup', (30, 297, 417.1, 2.9, 605.72, 206.63, 432.83982, 865.24, 1000))
+('cartpole_swingup', (31, 308, 508.25, 10.16, 611.89, 131.6, 914.72767, 979.9, 1000))
+('cartpole_swingup', (32, 319, 489.27, 12.65, 595.86, 160.82, 1819.28786, 928.07, 1000))
+('cartpole_swingup', (33, 331, 438.66, 7.31, 602.79, 211.9, 3404.68008, 839.19, 1000))
+('cartpole_swingup', (34, 343, 490.0, 10.62, 598.8, 169.44, 7284.19299, 900.26, 1000))
+('cartpole_swingup', (35, 355, 472.1, 7.74, 599.02, 183.94, 15236.08648, 879.03, 1000))
+('cartpole_swingup', (36, 364, 465.52, 8.88, 611.87, 196.03, 25457.75991, 880.5, 1000))
+('cartpole_swingup', (37, 374, 478.91, 11.78, 590.96, 182.35, 49616.26575, 889.06, 1000))
+('cartpole_swingup', (38, 384, 394.83, 9.94, 592.32, 239.16, 82767.55109, 881.81, 1000))
+('cartpole_swingup', (39, 395, 205.94, 0.4, 585.46, 220.62, 197048.86063, 897.82, 1000))
+('cartpole_swingup', (40, 404, 148.86, 2.72, 585.83, 163.01, 422708.84116, 684.37, 1000))
+('cartpole_swingup', (41, 412, 79.58, 3.33, 524.83, 95.96, 724859.06074, 405.1, 1000))
+('cartpole_swingup', (42, 419, 76.08, 1.9, 494.68, 82.94, 1226631.3865, 347.0, 1000))
+('cartpole_swingup', (43, 422, 59.7, 3.26, 175.5, 23.26, 2143526.0131, 223.89, 1000))
+('cartpole_swingup', (44, 426, 61.01, 11.68, 88.6, 8.95, 5390617.68026, 215.78, 1000))
+('cartpole_swingup', (45, 430, 60.22, 10.9, 159.06, 16.76, 10877500.92312, 238.87, 1000))
+('cartpole_swingup', (46, 433, 61.29, 5.15, 163.56, 15.81, 26633360.46649, 181.87, 1000))
+('cartpole_swingup', (47, 435, 59.07, 49.31, 78.32, 4.99, 63693353.8293, 167.85, 211))
+('cartpole_swingup', (48, 438, 60.17, 52.97, 88.94, 5.74, 92455235.99041, 167.76, 197))
+('cartpole_swingup', (49, 440, 60.62, 52.95, 76.21, 4.72, 159782304.57676, 168.15, 199))
+('cartpole_swingup', (50, 442, 60.68, 53.56, 67.08, 3.33, 317946842.29378, 165.97, 174))
+('improvement', 50, -529.748765625, 'curr', 60.086707812499995, 'prev', 589.8354734375, 'best', 589.8354734375, 'stdev', 2.9691836397139895)
+('cartpole_swingup', (51, 446, 59.87, 54.08, 68.76, 3.0, 633017432.455, 166.3, 174))
+('cartpole_swingup', (52, 449, 60.96, 54.19, 79.7, 4.38, 1082827626.17329, 166.79, 183))
+('cartpole_swingup', (53, 451, 60.52, 46.61, 69.84, 4.54, 2205249132.21955, 167.67, 193))
+('cartpole_swingup', (54, 453, 60.65, 53.54, 79.99, 4.85, 3988044494.2767, 167.78, 195))
+('cartpole_swingup', (55, 456, 60.8, 54.99, 70.08, 3.49, 7976170142.82348, 169.42, 217))
+('cartpole_swingup', (56, 458, 59.95, 53.58, 75.07, 4.1, 16042381691.35012, 168.07, 188))
+('cartpole_swingup', (57, 460, 60.03, 52.79, 65.94, 3.55, 27031098521.8262, 167.07, 175))
+('cartpole_swingup', (58, 463, 60.09, 49.43, 67.97, 3.94, 44257354672.00071, 166.0, 175))
+('cartpole_swingup', (59, 465, 59.13, 54.1, 64.84, 2.78, 75220017279.88347, 167.3, 174))
+('cartpole_swingup', (60, 467, 60.51, 49.42, 69.1, 4.06, 144256699371.63702, 166.87, 203))
+('cartpole_swingup', (61, 469, 60.25, 53.9, 71.77, 4.12, 277500906069.5156, 169.4, 215))
+('cartpole_swingup', (62, 472, 59.02, 53.08, 64.75, 3.24, 466457228222.2451, 166.11, 176))
+('cartpole_swingup', (63, 474, 60.5, 51.97, 78.21, 4.59, 902504091077.3223, 166.44, 194))
+('cartpole_swingup', (64, 476, 59.99, 54.76, 69.48, 3.03, 1566055054062.4246, 166.48, 172))
+('cartpole_swingup', (65, 479, 59.29, 49.17, 66.97, 3.65, 3432950017241.5576, 167.96, 211))
+('cartpole_swingup', (66, 481, 59.76, 54.42, 64.54, 2.75, 7810654366837.525, 167.49, 188))
+('cartpole_swingup', (67, 482, 60.82, 54.09, 74.9, 3.98, 15283783549241.045, 167.03, 197))
+('cartpole_swingup', (68, 484, 60.26, 54.74, 65.69, 2.97, 26951469212840.035, 165.84, 172))
+('cartpole_swingup', (69, 486, 60.48, 55.44, 66.92, 2.62, 45416216962832.39, 166.64, 173))
+('cartpole_swingup', (70, 488, 60.47, 53.89, 67.64, 3.22, 79653763492869.89, 166.46, 174))
+('cartpole_swingup', (71, 490, 60.08, 55.08, 66.22, 3.32, 144339888942042.94, 167.11, 177))
+('cartpole_swingup', (72, 492, 59.27, 44.38, 67.97, 3.81, 299393942956740.94, 166.01, 175))
+('cartpole_swingup', (73, 494, 61.36, 54.98, 75.09, 4.58, 614388373761116.0, 167.57, 197))
+('cartpole_swingup', (74, 496, 58.97, 45.22, 70.34, 4.26, 1465621494858454.8, 167.89, 195))
+('cartpole_swingup', (75, 498, 59.26, 53.19, 65.75, 3.02, 2468976601265689.5, 166.1, 172))
+('improvement', 75, -529.748765625, 'curr', 60.086707812499995, 'prev', 589.8354734375, 'best', 589.8354734375, 'stdev', 2.9691836397139895)
+('cartpole_swingup', (76, 502, 59.99, 52.4, 67.89, 3.19, 4945583442561176.0, 165.84, 172))
+('cartpole_swingup', (77, 505, 60.11, 54.13, 69.89, 3.93, 6583683518038800.0, 168.18, 205))
+('cartpole_swingup', (78, 507, 59.25, 52.18, 66.97, 3.25, 1.0504849253388576e+16, 166.72, 174))
+('cartpole_swingup', (79, 510, 59.29, 51.03, 66.7, 3.94, 1.988037587069898e+16, 165.83, 176))
+('cartpole_swingup', (80, 512, 60.2, 52.28, 68.06, 3.42, 3.851843513491787e+16, 167.26, 182))
+('cartpole_swingup', (81, 514, 60.74, 54.77, 73.51, 3.85, 7.524163554157456e+16, 167.17, 178))
+('cartpole_swingup', (82, 516, 60.49, 55.73, 76.09, 3.42, 1.842017082848089e+17, 165.98, 190))
+('cartpole_swingup', (83, 518, 61.06, 55.41, 76.79, 4.35, 3.529262080771279e+17, 168.03, 206))
+('cartpole_swingup', (84, 520, 60.6, 54.02, 65.0, 3.0, 7.673352589137586e+17, 166.21, 175))
+('cartpole_swingup', (85, 522, 60.39, 56.43, 66.56, 2.62, 1.5639006134310065e+18, 167.17, 176))
+('cartpole_swingup', (86, 524, 60.26, 54.7, 67.73, 2.94, 4.0184952655094016e+18, 166.21, 174))
+('cartpole_swingup', (87, 527, 59.25, 46.3, 66.37, 3.61, 7.063513153429394e+18, 165.82, 174))
+('cartpole_swingup', (88, 529, 59.54, 54.04, 64.2, 2.59, 1.1777765114001848e+19, 165.35, 173))
+('cartpole_swingup', (89, 531, 60.8, 53.55, 75.53, 4.51, 1.9820164706740482e+19, 168.33, 200))
+('cartpole_swingup', (90, 533, 59.33, 55.4, 70.52, 3.23, 4.186584790296928e+19, 168.08, 188))
+('cartpole_swingup', (91, 535, 59.32, 47.65, 66.25, 3.76, 9.171130479494039e+19, 166.22, 177))
+('cartpole_swingup', (92, 537, 59.53, 52.45, 63.39, 2.6, 1.6565949930116166e+20, 167.07, 174))
+('cartpole_swingup', (93, 539, 59.96, 53.87, 68.06, 2.67, 3.484026019100563e+20, 167.26, 173))
+('cartpole_swingup', (94, 541, 60.56, 49.6, 64.99, 3.14, 6.316013495754568e+20, 166.02, 172))
+('cartpole_swingup', (95, 544, 60.29, 47.33, 70.37, 4.46, 1.200244082487068e+21, 168.73, 200))
+('cartpole_swingup', (96, 545, 60.88, 55.77, 75.57, 4.1, 2.3219502338933816e+21, 168.35, 203))
+('cartpole_swingup', (97, 547, 61.26, 53.76, 85.38, 6.09, 5.802682521739085e+21, 169.33, 199))
+('cartpole_swingup', (98, 549, 60.75, 51.07, 75.48, 4.36, 9.48462939581579e+21, 168.22, 193))
+('cartpole_swingup', (99, 551, 60.19, 46.99, 68.78, 3.55, 1.5556574208403347e+22, 167.04, 204))
+('cartpole_swingup', (100, 553, 61.05, 54.48, 71.05, 3.47, 2.723970975538628e+22, 167.22, 186))
+('improvement', 100, -529.748765625, 'curr', 60.086707812499995, 'prev', 589.8354734375, 'best', 589.8354734375, 'stdev', 2.9691836397139895)
+('cartpole_swingup', (101, 557, 62.16, 53.66, 75.42, 4.41, 5.58216810349217e+22, 167.54, 198))
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node 97af702b9f98 exited on signal 15 (Terminated).
+--------------------------------------------------------------------------
