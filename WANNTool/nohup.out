@@ -195,3 +195,122 @@ cartpole_swingup_started
 --------------------------------------------------------------------------
 mpirun noticed that process rank 3 with PID 0 on node 97af702b9f98 exited on signal 15 (Terminated).
 --------------------------------------------------------------------------
+assigning the rank and nworkers 17 13
+size of model 11
+assigning the rank and nworkers 17 0
+size of model 11
+assigning the rank and nworkers 17 15
+size of model 11
+assigning the rank and nworkers 17 5
+size of model 11
+assigning the rank and nworkers 17 14
+size of model 11
+assigning the rank and nworkers 17 1
+size of model 11
+assigning the rank and nworkers 17 2
+assigning the rank and nworkers 17 10
+size of model 11
+size of model 11
+assigning the rank and nworkers 17 6
+size of model 11
+assigning the rank and nworkers 17 9
+size of model 11
+assigning the rank and nworkers 17 11
+size of model 11
+assigning the rank and nworkers 17 16
+size of model 11
+assigning the rank and nworkers 17 4
+size of model 11
+assigning the rank and nworkers 17 7
+size of model 11
+assigning the rank and nworkers 17 3
+size of model 11
+assigning the rank and nworkers 17 8
+assigning the rank and nworkers 17 12
+size of model 11
+size of model 11
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=269752, Tue Jan 28 01:32:27 2020)
+('process', 13, 'out of total ', 17, 'started')
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=212948, Tue Jan 28 01:32:27 2020)
+('process', 15, 'out of total ', 17, 'started')
+My id is  bsemwz4q
+My id is  oq_whgp0
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=226081, Tue Jan 28 01:32:27 2020)
+('process', 0, 'out of total ', 17, 'started')
+('training', 'evosoro')
+('population', 64)
+('num_worker', 16)
+('num_worker_trial', 4)
+My id is  16q1rxx5
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=288749, Tue Jan 28 01:32:27 2020)
+('process', 5, 'out of total ', 17, 'started')
+My id is  cyhj_tuk
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=236600, Tue Jan 28 01:32:27 2020)
+('process', 10, 'out of total ', 17, 'started')
+My id is  _t22wae9
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=242856, Tue Jan 28 01:32:27 2020)
+('process', 11, 'out of total ', 17, 'started')
+My id is  lh64563q
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=263678, Tue Jan 28 01:32:27 2020)
+('process', 14, 'out of total ', 17, 'started')
+My id is  0dlb8l_n
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=299163, Tue Jan 28 01:32:27 2020)
+('process', 9, 'out of total ', 17, 'started')
+My id is  eyg2t0tm
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=293845, Tue Jan 28 01:32:27 2020)
+('process', 16, 'out of total ', 17, 'started')
+My id is  9qdw3mkz
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=361805, Tue Jan 28 01:32:27 2020)
+('process', 3, 'out of total ', 17, 'started')
+My id is  l1htobg6
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=219698, Tue Jan 28 01:32:28 2020)
+('process', 8, 'out of total ', 17, 'started')
+My id is  gj_778jb
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=258446, Tue Jan 28 01:32:28 2020)
+('process', 6, 'out of total ', 17, 'started')
+My id is  4wuqfqhk
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=238495, Tue Jan 28 01:32:28 2020)
+('process', 2, 'out of total ', 17, 'started')
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=210699, Tue Jan 28 01:32:28 2020)
+('process', 1, 'out of total ', 17, 'started')
+My id is  laybtoff
+My id is  9h5p97w5
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=244197, Tue Jan 28 01:32:28 2020)
+('process', 12, 'out of total ', 17, 'started')
+My id is  hbyrbwrw
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=306317, Tue Jan 28 01:32:28 2020)
+('process', 4, 'out of total ', 17, 'started')
+My id is  8kt9n4rw
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 11 (seed=281924, Tue Jan 28 01:32:28 2020)
+('process', 7, 'out of total ', 17, 'started')
+My id is  v59k3uga
+('evosoro', (1, 491, 0.16, 0.0, 2.13, 0.51, 0.56927, 216.0, 216))
+('evosoro', (2, 955, 0.28, 0.0, 2.47, 0.68, 0.6838, 216.0, 216))
+('evosoro', (3, 1302, 0.23, 0.0, 2.13, 0.57, 0.76585, 216.0, 216))
+('evosoro', (4, 1684, 0.29, 0.0, 2.13, 0.62, 0.88934, 216.0, 216))
+('evosoro', (5, 2100, 0.48, 0.0, 2.13, 0.8, 0.99075, 216.0, 216))
+('evosoro', (6, 2401, 0.56, 0.0, 3.3, 0.92, 1.19967, 216.0, 216))
+('evosoro', (7, 2836, 0.6, 0.0, 2.78, 0.91, 1.38868, 216.0, 216))
+('evosoro', (8, 3204, 0.6, 0.0, 3.3, 0.94, 1.82428, 216.0, 216))
+('evosoro', (9, 3634, 0.77, 0.0, 2.13, 0.95, 2.60218, 216.0, 216))
+('evosoro', (10, 3969, 0.79, 0.0, 2.13, 1.0, 3.84194, 216.0, 216))
+('evosoro', (11, 4329, 0.61, 0.0, 2.13, 0.92, 5.52108, 216.0, 216))
+('evosoro', (12, 4751, 0.93, 0.0, 2.13, 1.04, 7.89523, 216.0, 216))
+('evosoro', (13, 5176, 0.98, 0.0, 2.13, 1.05, 11.01619, 216.0, 216))
+('evosoro', (14, 5525, 0.99, 0.0, 2.78, 1.05, 18.73318, 216.0, 216))
+('evosoro', (15, 5829, 0.73, 0.0, 2.78, 1.02, 35.11426, 216.0, 216))
+('evosoro', (16, 6117, 0.8, 0.0, 2.78, 1.02, 60.24164, 216.0, 216))
+('evosoro', (17, 6418, 0.83, 0.0, 2.13, 1.01, 110.5595, 216.0, 216))
+('evosoro', (18, 6756, 0.76, 0.0, 2.13, 0.99, 180.10969, 216.0, 216))
+('evosoro', (19, 7051, 0.97, 0.0, 2.13, 1.05, 340.402, 216.0, 216))
+('evosoro', (20, 7460, 0.97, 0.0, 2.78, 1.04, 586.83796, 216.0, 216))
+('evosoro', (21, 7688, 0.99, 0.0, 2.13, 1.04, 1014.52997, 216.0, 216))
+('evosoro', (22, 8048, 1.06, 0.0, 2.13, 1.03, 1729.69718, 216.0, 216))
+('evosoro', (23, 8426, 0.98, 0.0, 2.13, 1.04, 3407.07684, 216.0, 216))
+('evosoro', (24, 8736, 1.09, 0.0, 2.13, 1.04, 5825.00038, 216.0, 216))
+('evosoro', (25, 8982, 1.18, 0.0, 2.13, 1.04, 10561.72553, 216.0, 216))
+('improvement', 25, 1.9745999999999995, 'curr', 2.1345999999999994, 'prev', 0.16, 'best', 2.1345999999999994, 'stdev', 4.440892098500626e-16)
+('evosoro', (26, 9539, 1.3, 0.0, 2.13, 1.03, 19373.46236, 216.0, 216))
+('evosoro', (27, 9826, 1.32, 0.0, 2.47, 1.02, 34162.20416, 216.0, 216))
+('evosoro', (28, 10129, 1.45, 0.0, 2.13, 0.97, 77495.76528, 216.0, 216))
+('evosoro', (29, 10503, 1.48, 0.0, 2.13, 0.96, 157013.19574, 216.0, 216))
