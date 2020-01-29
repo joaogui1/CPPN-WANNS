@@ -1,0 +1,35 @@
+[I 22:38:24.632 LabApp] JupyterLab extension loaded from /home/john/.local/lib/python3.6/site-packages/jupyterlab
+[I 22:38:24.632 LabApp] JupyterLab application directory is /home/john/.local/share/jupyter/lab
+[I 22:38:24.634 LabApp] Serving notebooks from local directory: /home/john/Documents/BEPE/CPPN-WANNS/prettyNeatWann/log
+[I 22:38:24.634 LabApp] The Jupyter Notebook is running at:
+[I 22:38:24.634 LabApp] http://localhost:8888/?token=450e4fa347f30d18178cf662b6a75599054efe12f8be0be1
+[I 22:38:24.634 LabApp]  or http://127.0.0.1:8888/?token=450e4fa347f30d18178cf662b6a75599054efe12f8be0be1
+[I 22:38:24.634 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 22:38:24.639 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/john/.local/share/jupyter/runtime/nbserver-14981-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=450e4fa347f30d18178cf662b6a75599054efe12f8be0be1
+     or http://127.0.0.1:8888/?token=450e4fa347f30d18178cf662b6a75599054efe12f8be0be1
+
+(google-chrome-stable:15093): Gtk-WARNING **: 22:38:24.805: Theme parsing error: gtk.css:1235:84: not a number
+Opening in existing browser session.
+[I 22:38:27.193 LabApp] Build is up to date
+[W 22:38:27.670 LabApp] Notebook viewRunStats.ipynb is not trusted
+[I 22:38:28.131 LabApp] Kernel started: c87a9b9b-5b2e-4d3d-9ed0-8e76a0be2194
+[I 22:40:27.977 LabApp] Saving file at /viewRunStats.ipynb
+[I 22:42:28.026 LabApp] Saving file at /viewRunStats.ipynb
+[I 22:44:28.068 LabApp] Saving file at /viewRunStats.ipynb
+[I 22:46:28.111 LabApp] Saving file at /viewRunStats.ipynb
+[I 22:48:28.398 LabApp] Saving file at /viewRunStats.ipynb
+[I 22:50:29.406 LabApp] Saving file at /viewRunStats.ipynb
+[I 22:52:29.464 LabApp] Saving file at /viewRunStats.ipynb
+[I 22:54:29.519 LabApp] Saving file at /viewRunStats.ipynb
+[I 22:56:29.576 LabApp] Saving file at /viewRunStats.ipynb
+[I 22:58:29.636 LabApp] Saving file at /viewRunStats.ipynb
+[I 23:00:22.579 LabApp] Saving file at /viewRunStats.ipynb
+[I 23:00:26.565 LabApp] Starting buffering for c87a9b9b-5b2e-4d3d-9ed0-8e76a0be2194:1da76086-c9f0-46da-9846-8c6f77503038
+[I 23:00:36.357 LabApp] Interrupted...
+[I 23:00:36.358 LabApp] Shutting down 1 kernel
+[I 23:00:37.062 LabApp] Kernel shutdown: c87a9b9b-5b2e-4d3d-9ed0-8e76a0be2194
