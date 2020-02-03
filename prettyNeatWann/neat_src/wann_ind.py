@@ -141,7 +141,7 @@ class WannInd(Ind):
       end = nodeG.shape[1]           
       if start != end:
         mutNode = np.random.randint(start,end)
-        newActPool = listXor(list(int(nodeG[2,mutNode])), list(p['ann_actRange']))
+        newActPool = listXor([int(nodeG[2,mutNode])], list(p['ann_actRange']))
         nodeG[2,mutNode] = int(newActPool[np.random.randint(len(newActPool))])
         if nodeG[2,mutNode] > 10:
           print(f"mutNode: {mutNode}, newActPool: {newActPool}, actRange: {p['ann_actRange']}")
