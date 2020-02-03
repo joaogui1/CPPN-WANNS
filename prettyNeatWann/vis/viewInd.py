@@ -133,7 +133,8 @@ def labelInOut(pos, env):
 def drawNodeLabels(G, pos, aVec):  
   actLabel = np.array((['','( + )','(0/1)','(sin)','(gau)','(tanh)',\
                         '(sig)','( - )', '(abs)','(relu)','(cos)'])) #activations
-  listLabel = actLabel[aVec.astype(int)]  
+  normA = np.asarray([x if x < 11 else 0 for x in aVec])
+  listLabel = actLabel[normA.astype(int)]  
   label = dict(enumerate(listLabel))
   nx.draw_networkx_labels(G,pos,labels=label)  
   
