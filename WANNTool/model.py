@@ -30,14 +30,14 @@ record_rgb = False
 if record_rgb:
   import imageio
 
-def make_model(game):
+def make_model(game, weight=0.0):
   # can be extended in the future.
-  model = Model(game)
+  model = Model(game, weight)
   return model
 
 class Model:
   ''' simple feedforward model '''
-  def __init__(self, game):
+  def __init__(self, game, weight=0.0):
 
     self.env_name = game.env_name
     self.wann_file = game.wann_file
@@ -50,7 +50,7 @@ class Model:
 
     self.param_count = len(self.wKey)
 
-    self.weights = np.zeros(self.param_count)
+    self.weights = np.full(self.param_count, weight)
 
     self.render_mode = False
 

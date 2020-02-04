@@ -62,12 +62,12 @@ SOLUTION_PACKET_SIZE = (5+num_params)*num_worker_trial
 RESULT_PACKET_SIZE = 4*num_worker_trial
 ###
 
-def initialize_settings(sigma_init=0.1, sigma_decay=0.9999):
+def initialize_settings(sigma_init=0.1, sigma_decay=0.9999, initial_weight=0.0):
   global population, filebase, game, model, num_params, es, PRECISION, SOLUTION_PACKET_SIZE, RESULT_PACKET_SIZE
   population = num_worker * num_worker_trial
   filebase = 'log/'+gamename+'.'+optimizer+'.'+str(num_episode)+'.'+str(population)
   game = config.games[gamename]
-  model = make_model(game)
+  model = make_model(game, initial_weight)
   num_params = model.param_count
   print("size of model", num_params)
 
@@ -389,7 +389,7 @@ def main(args):
   cap_time_mode= (args.cap_time == 1)
   seed_start = args.seed_start
 
-  initialize_settings(args.sigma_init, args.sigma_decay)
+  initialize_settings(args.sigma_init, args.sigma_decay, args.initial_weight)
 
   sprint("process", rank, "out of total ", comm.Get_size(), "started")
   if (rank == 0):
@@ -436,6 +436,8 @@ if __name__ == "__main__":
   parser.add_argument('-s', '--seed_start', type=int, default=111, help='initial seed')
   parser.add_argument('--sigma_init', type=float, default=0.10, help='sigma_init')
   parser.add_argument('--sigma_decay', type=float, default=0.999, help='sigma_decay')
+  parser.add_argument('--initial_weight', type=float, default=0.0, help='sigma_decay')
+
 
   args = parser.parse_args()
   if "parent" == mpi_fork(args.num_worker+1): os.exit()
