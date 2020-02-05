@@ -1,0 +1,70 @@
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  478n5g5s
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  uo08noam
+	*** Running with hyperparameters:  p/evosoro.json 	***
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  tzstd15i
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  7wnlwb55
+	*** Running with hyperparameters:  p/evosoro.json 	***
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  xlejiwxu
+My id is  far15yxr
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  w5k4zuc1
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  _g8x7_hv
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  m_tj348s
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  xvtycm30
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  79tv8pzd
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  ewm613xi
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  ok3a31k8
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  kddcjdet
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  5l1dh04o
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  5ez6071u
+0 	 |---| Elite Fit: 0.00 	|---| Best Fit:  0.00 	|---| Peak Fit:  0.00 time: 0.0 h 49.0 min 47.19378471374512 s
+1 	 |---| Elite Fit: 0.00 	|---| Best Fit:  0.00 	|---| Peak Fit:  0.00 time: 0.0 h 51.0 min 49.47158336639404 s
+2 	 |---| Elite Fit: 0.00 	|---| Best Fit:  0.00 	|---| Peak Fit:  0.00 time: 0.0 h 51.0 min 48.35389494895935 s
+3 	 |---| Elite Fit: 0.00 	|---| Best Fit:  0.00 	|---| Peak Fit:  0.02 time: 1.0 h 8.0 min 12.469907760620117 s
+4 	 |---| Elite Fit: 0.00 	|---| Best Fit:  0.00 	|---| Peak Fit:  0.02 time: 1.0 h 20.0 min 13.696883916854858 s
+5 	 |---| Elite Fit: 0.00 	|---| Best Fit:  0.00 	|---| Peak Fit:  0.02 time: 1.0 h 26.0 min 18.18555784225464 s
+6 	 |---| Elite Fit: 1.77 	|---| Best Fit:  1.55 	|---| Peak Fit:  10.39 time: 1.0 h 35.0 min 59.491830348968506 s
+7 	 |---| Elite Fit: 2.56 	|---| Best Fit:  2.52 	|---| Peak Fit:  10.39 time: 1.0 h 27.0 min 30.370535135269165 s
+8 	 |---| Elite Fit: 2.52 	|---| Best Fit:  2.93 	|---| Peak Fit:  12.65 time: 1.0 h 40.0 min 47.97760224342346 s
+9 	 |---| Elite Fit: 2.79 	|---| Best Fit:  2.93 	|---| Peak Fit:  12.65 time: 1.0 h 32.0 min 10.83352017402649 s
+10 	 |---| Elite Fit: 3.43 	|---| Best Fit:  3.08 	|---| Peak Fit:  12.47 time: 1.0 h 24.0 min 54.71737623214722 s
+11 	 |---| Elite Fit: 3.49 	|---| Best Fit:  3.26 	|---| Peak Fit:  10.33 time: 1.0 h 31.0 min 39.12721085548401 s
+12 	 |---| Elite Fit: 3.58 	|---| Best Fit:  3.58 	|---| Peak Fit:  13.31 time: 1.0 h 14.0 min 15.636310815811157 s
+13 	 |---| Elite Fit: 4.02 	|---| Best Fit:  4.02 	|---| Peak Fit:  10.33 time: 1.0 h 29.0 min 15.349974393844604 s
+14 	 |---| Elite Fit: 4.74 	|---| Best Fit:  4.88 	|---| Peak Fit:  13.31 time: 1.0 h 15.0 min 55.825151205062866 s
+15 	 |---| Elite Fit: 5.05 	|---| Best Fit:  5.05 	|---| Peak Fit:  13.31 time: 1.0 h 20.0 min 39.01069116592407 s
+16 	 |---| Elite Fit: 5.38 	|---| Best Fit:  5.38 	|---| Peak Fit:  15.48 time: 1.0 h 17.0 min 30.83095645904541 s
+17 	 |---| Elite Fit: 5.71 	|---| Best Fit:  5.71 	|---| Peak Fit:  15.58 time: 1.0 h 15.0 min 3.956181287765503 s
+18 	 |---| Elite Fit: 5.71 	|---| Best Fit:  5.71 	|---| Peak Fit:  15.58 time: 1.0 h 11.0 min 5.2802722454071045 s
+19 	 |---| Elite Fit: 6.03 	|---| Best Fit:  6.03 	|---| Peak Fit:  16.95 time: 1.0 h 20.0 min 5.757613658905029 s
+stopping workers
+Worker #  1  shutting down.
+Worker #  2  shutting down.
+Worker #  5  shutting down.
+Worker #  11  shutting down.
+Worker #  7  shutting down.
+Worker #  10  shutting down.
+Worker #  9  shutting down.
+Worker #  6  shutting down.
+Worker #  12  shutting down.
+Worker #  3  shutting down.
+Worker #  4  shutting down.
+Worker #  15  shutting down.
+Worker #  14  shutting down.
+Worker #  13  shutting down.
+Worker #  16  shutting down.
+Worker #  8  shutting down.

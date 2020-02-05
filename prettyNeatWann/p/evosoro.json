@@ -6,7 +6,7 @@
     "alg_probMoo": 0.80,
     "alg_speciate": "none",
     "maxGen": 20,
-    "popSize": 192,
+    "popSize": 128,
     "prob_crossover": 0.0,
     "prob_mutAct": 0.35,
     "prob_addNode": 0.35,
