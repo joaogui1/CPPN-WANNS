@@ -67,7 +67,7 @@ def initialize_settings(sigma_init=0.1, sigma_decay=0.9999, initial_weight=0.0):
   population = num_worker * num_worker_trial
   filebase = 'log/'+gamename+'.'+optimizer+'.'+str(num_episode)+'.'+str(population)
   game = config.games[gamename]
-  model = make_model(game, initial_weight)
+  model = make_model(game)
   num_params = model.param_count
   print("size of model", num_params)
 
@@ -93,7 +93,8 @@ def initialize_settings(sigma_init=0.1, sigma_decay=0.9999, initial_weight=0.0):
   elif optimizer == 'cma':
     cma = CMAES(num_params,
       sigma_init=sigma_init,
-      popsize=population)
+      popsize=population,
+      initial_weight=initial_weight)
     es = cma
   elif optimizer == 'pepg':
     pepg = PEPG(num_params,
@@ -329,6 +330,7 @@ def master():
     model_params = es_solution[0] # best historical solution
     reward = es_solution[1] # best reward
     curr_reward = es_solution[2] # best of the current batch
+    print(model_params)
     model.set_model_params(np.array(model_params).round(4))
 
     r_max = int(np.max(reward_list)*100)/100.
@@ -336,6 +338,7 @@ def master():
 
     curr_time = int(time.time()) - start_time
 
+    desc = ('game', 't', 'curr_time', 'avg_reward', 'r_min', 'r_max', 'std_reward')
     h = (t, curr_time, avg_reward, r_min, r_max, std_reward, int(es.rms_stdev()*100000)/100000., mean_time_step+1., int(max_time_step)+1)
 
     if cap_time_mode:
