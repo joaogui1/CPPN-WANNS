@@ -1,0 +1,97 @@
+assigning the rank and nworkers 17 5
+assigning the rank and nworkers 17 9
+size of model 14
+size of model 14
+assigning the rank and nworkers 17 8
+size of model 14
+assigning the rank and nworkers 17 13
+size of model 14
+assigning the rank and nworkers 17 4
+size of model 14
+assigning the rank and nworkers 17 15
+size of model 14
+assigning the rank and nworkers 17 2
+size of model 14
+assigning the rank and nworkers 17 12
+size of model 14
+assigning the rank and nworkers 17 16
+size of model 14
+assigning the rank and nworkers 17 10
+assigning the rank and nworkers 17 14
+assigning the rank and nworkers 17 1
+size of model 14
+size of model 14
+size of model 14
+assigning the rank and nworkers 17 0
+assigning the rank and nworkers 17 7
+size of model 14
+assigning the rank and nworkers 17 11
+assigning the rank and nworkers 17 6
+size of model 14
+size of model 14
+assigning the rank and nworkers 17 3
+size of model 14
+size of model 14
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=933892, Wed Feb  5 01:02:54 2020)
+('process', 5, 'out of total ', 17, 'started')
+My id is  s8rxx1dj
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=997305, Wed Feb  5 01:02:54 2020)
+('process', 8, 'out of total ', 17, 'started')
+My id is  tw6u6_7y
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=1035409, Wed Feb  5 01:02:54 2020)
+('process', 4, 'out of total ', 17, 'started')
+My id is  tvvecq9_
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=987789, Wed Feb  5 01:02:54 2020)
+('process', 13, 'out of total ', 17, 'started')
+My id is  r97ymn45
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=1029150, Wed Feb  5 01:02:54 2020)
+('process', 9, 'out of total ', 17, 'started')
+My id is  tbq_nyl0
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=1038342, Wed Feb  5 01:02:54 2020)
+('process', 2, 'out of total ', 17, 'started')
+My id is  9zxrij3q
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=1013395, Wed Feb  5 01:02:54 2020)
+('process', 16, 'out of total ', 17, 'started')
+My id is  0hnom6kq
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=906157, Wed Feb  5 01:02:55 2020)
+('process', 14, 'out of total ', 17, 'started')
+My id is  x0j53bhv
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=955936, Wed Feb  5 01:02:55 2020)
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=953486, Wed Feb  5 01:02:55 2020)
+('process', 10, 'out of total ', 17, 'started')
+My id is  th85g4dl
+('process', 12, 'out of total ', 17, 'started')
+My id is  1z1xb7o1
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=931816, Wed Feb  5 01:02:55 2020)
+('process', 15, 'out of total ', 17, 'started')
+My id is  3lp16t68
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=934076, Wed Feb  5 01:02:55 2020)
+('process', 11, 'out of total ', 17, 'started')
+My id is  zz8u4gm8
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=898460, Wed Feb  5 01:02:55 2020)
+('process', 6, 'out of total ', 17, 'started')
+My id is  qhp73bva
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=968223, Wed Feb  5 01:02:55 2020)
+('process', 3, 'out of total ', 17, 'started')
+My id is  p9qi1_mk
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=974549, Wed Feb  5 01:02:55 2020)
+('process', 0, 'out of total ', 17, 'started')
+('training', 'evosoro')
+('population', 64)
+('num_worker', 16)
+('num_worker_trial', 4)
+My id is  xecty0r9
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=1009062, Wed Feb  5 01:02:55 2020)
+('process', 7, 'out of total ', 17, 'started')
+My id is  7t6c0xr6
+(32_w,64)-aCMA-ES (mu_w=17.6,w_1=11%) in dimension 14 (seed=991028, Wed Feb  5 01:02:55 2020)
+('process', 1, 'out of total ', 17, 'started')
+My id is  rn7j3_kx
+('evosoro', (1, 3, 0.0, 0.0, 0.0, 0.0, 0.50439, 216.0, 216))
+('evosoro', (2, 5, 0.0, 0.0, 0.0, 0.0, 0.61945, 216.0, 216))
+('evosoro', (3, 7, 0.0, 0.0, 0.0, 0.0, 0.74801, 216.0, 216))
+('evosoro', (4, 132, 0.0, 0.0, 0.01, 0.0, 1.08539, 216.0, 216))
+('evosoro', (5, 258, 0.02, 0.0, 1.14, 0.16, 1.32344, 216.0, 216))
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node 97af702b9f98 exited on signal 15 (Terminated).
+--------------------------------------------------------------------------
