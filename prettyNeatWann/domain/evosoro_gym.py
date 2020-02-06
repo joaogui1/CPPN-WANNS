@@ -141,7 +141,7 @@ class EvosoroEnv(gym.Env):
       sub.Popen(f"rm  -f " + RUN_DIR + f"/voxelyzeFiles/Basic--id_{self.id}.vxa", shell=True)
       sub.Popen(f"rm  -f " + RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml", shell=True)
 
-    self.state[3] = np.sum(np.square(np.asarray(self.state[:-1]) - 2.5))
+    self.state[3] = np.sum(np.square(self.state[:-1])))
     obs = self.state
 
     return obs, reward, done, {}
