@@ -124,7 +124,7 @@ def labelInOut(pos, env):
 
   # print(len(labelDict), len(pos))
   # return 0
-  for i in range(nNode-nOut,len(labelDict)):
+  for i in range(nNode-nOut,nNode):
     print(f"i = {i}")
     plt.annotate(labelDict[i], xy=(pos[i][0]+0.1, pos[i][1]), xytext=(pos[i][0]+1.5, pos[i][1]+1.0),\
                arrowprops=dict(arrowstyle="<-",color='k',connectionstyle="angle"))
