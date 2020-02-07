@@ -80,7 +80,7 @@ class EvosoroEnv(gym.Env):
                       fitness_eval_init_time=INIT_TIME)
     self.my_env = Env(sticky_floor=0, time_between_traces=0)
 
-    self.state = [0, 0, 0, 0]
+    self.state = [0, 0, 0, 0, 0, 0, 0]
     self.phenotype = [[] for i in range(self.orig_size[2])]
     return self.state
 
@@ -97,13 +97,19 @@ class EvosoroEnv(gym.Env):
       self.phenotype[self.state[2]].append(str(1 + np.argmax(action[1:])))
     else:
       self.phenotype[self.state[2]].append('0')
-
+    
     self.state[0] += 1
     self.state[1] += self.state[0] // self.orig_size[0]
     self.state[2] += self.state[1] // self.orig_size[1]
 
     self.state[0] %= self.orig_size[0]
     self.state[1] %= self.orig_size[1]
+
+    pos = len(self.phenotype[self.state[2]])
+    self.state[4] = 0 if self.state[0] == 0 else self.phenotype[self.state[2]][pos - 1] # left neighbor
+    self.state[5] = 0 if self.state[1] == 0 else self.phenotype[self.state[2]][pos - 6] # up neighbor
+    self.state[6] = 0 if self.state[2] == 0 else self.phenotype[self.state[2] - 1][pos] # back neighbor
+    
     # print(action[0], 1 + np.argmax(action[1:]), self.phenotype)
     # time.sleep(2)
     # print("action:", action, "z: ", self.state[2], "append: ", str(np.argmax(action[1:])))
