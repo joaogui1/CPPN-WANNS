@@ -59,3 +59,22 @@ My id is  bq7bpr0t
 25 	 |---| Elite Fit: 8.06 	|---| Best Fit:  7.97 	|---| Peak Fit:  20.92 time: 0.0 h 51.0 min 59.31668138504028 s
 26 	 |---| Elite Fit: 8.06 	|---| Best Fit:  8.00 	|---| Peak Fit:  20.92 time: 0.0 h 55.0 min 56.460289478302 s
 27 	 |---| Elite Fit: 9.76 	|---| Best Fit:  9.73 	|---| Peak Fit:  20.92 time: 0.0 h 51.0 min 43.330013036727905 s
+28 	 |---| Elite Fit: 9.76 	|---| Best Fit:  9.75 	|---| Peak Fit:  20.92 time: 0.0 h 50.0 min 46.53298377990723 s
+29 	 |---| Elite Fit: 9.76 	|---| Best Fit:  9.76 	|---| Peak Fit:  20.92 time: 0.0 h 51.0 min 6.190861701965332 s
+30 	 |---| Elite Fit: 11.64 	|---| Best Fit:  11.64 	|---| Peak Fit:  20.92 time: 0.0 h 45.0 min 18.600671529769897 s
+31 	 |---| Elite Fit: 11.64 	|---| Best Fit:  11.64 	|---| Peak Fit:  20.92 time: 0.0 h 46.0 min 23.08246874809265 s
+32 	 |---| Elite Fit: 11.64 	|---| Best Fit:  11.64 	|---| Peak Fit:  20.92 time: 0.0 h 37.0 min 17.933655500411987 s
+33 	 |---| Elite Fit: 12.34 	|---| Best Fit:  12.34 	|---| Peak Fit:  17.78 time: 0.0 h 37.0 min 43.903069734573364 s
+34 	 |---| Elite Fit: 12.59 	|---| Best Fit:  12.59 	|---| Peak Fit:  15.85 time: 0.0 h 40.0 min 23.418856859207153 s
+35 	 |---| Elite Fit: 12.59 	|---| Best Fit:  12.59 	|---| Peak Fit:  15.85 time: 0.0 h 42.0 min 28.951966285705566 s
+36 	 |---| Elite Fit: 12.59 	|---| Best Fit:  12.59 	|---| Peak Fit:  15.85 time: 0.0 h 31.0 min 25.047051429748535 s
+37 	 |---| Elite Fit: 12.59 	|---| Best Fit:  12.59 	|---| Peak Fit:  15.85 time: 0.0 h 27.0 min 49.27045941352844 s
+38 	 |---| Elite Fit: 12.59 	|---| Best Fit:  12.59 	|---| Peak Fit:  15.85 time: 0.0 h 36.0 min 1.777635097503662 s
+39 	 |---| Elite Fit: 12.59 	|---| Best Fit:  12.59 	|---| Peak Fit:  15.85 time: 0.0 h 19.0 min 48.27268743515015 s
+[97af702b9f98:30513] Read -1, expected 4232, errno = 1
+[97af702b9f98:30514] Read -1, expected 4232, errno = 1
+40 	 |---| Elite Fit: 12.59 	|---| Best Fit:  12.59 	|---| Peak Fit:  15.85 time: 0.0 h 33.0 min 23.05190873146057 s
+41 	 |---| Elite Fit: 12.59 	|---| Best Fit:  12.59 	|---| Peak Fit:  15.85 time: 0.0 h 47.0 min 20.83414077758789 s
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node 97af702b9f98 exited on signal 15 (Terminated).
+--------------------------------------------------------------------------
