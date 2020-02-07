@@ -2,11 +2,11 @@
     "task":"evosoro",
     "alg_wDist": "standard",
     "alg_nVals": 6,
-    "alg_nReps": 4,
+    "alg_nReps": 3,
     "alg_probMoo": 0.80,
     "alg_speciate": "none",
-    "maxGen": 50,
-    "popSize": 64,
+    "maxGen": 30,
+    "popSize": 96,
     "prob_crossover": 0.0,
     "prob_mutAct": 0.35,
     "prob_addNode": 0.35,
@@ -17,5 +17,5 @@
     "select_eliteRatio": 0.2,
     "select_tournSize": 4,
     "save_mod": 1,
-    "bestReps": 20
+    "bestReps": 15
 }
