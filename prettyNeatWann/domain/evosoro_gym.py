@@ -105,7 +105,7 @@ class EvosoroEnv(gym.Env):
     self.state[0] %= self.orig_size[0]
     self.state[1] %= self.orig_size[1]
 
-    pos = len(self.phenotype[self.state[2]])
+    pos = 0 if self.state[2] == self.orig_size[2] else len(self.phenotype[self.state[2]])
     self.state[4] = 0 if self.state[0] == 0 else self.phenotype[self.state[2]][pos - 1] # left neighbor
     self.state[5] = 0 if self.state[1] == 0 else self.phenotype[self.state[2]][pos - 6] # up neighbor
     self.state[6] = 0 if self.state[2] == 0 else self.phenotype[self.state[2] - 1][pos] # back neighbor
@@ -147,7 +147,7 @@ class EvosoroEnv(gym.Env):
       sub.Popen(f"rm  -f " + RUN_DIR + f"/voxelyzeFiles/Basic--id_{self.id}.vxa", shell=True)
       sub.Popen(f"rm  -f " + RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml", shell=True)
 
-    self.state[3] = np.sum(np.square(np.asarray(self.state[:-1]) - 2.5))
+    self.state[3] = np.sum(np.square(np.asarray(self.state[:3]) - 2.5))
     obs = self.state
 
     return obs, reward, done, {}
