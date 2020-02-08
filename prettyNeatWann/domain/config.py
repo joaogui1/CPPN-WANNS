@@ -192,3 +192,22 @@ soro = Game(env_name='Evosoro',
 )
 
 games['evosoro'] = soro
+
+rec_soro = Game(env_name='Recurrent_Evosoro',
+  actionSelect='all',  # all, soft, hard
+  input_size=7, #  x, y, z, d
+  output_size=5, # present + type
+  time_factor=0,
+  layers=[128, 9], #only relevant for fixed topology
+  i_act=np.full(7, 1),
+  h_act=[1,2,3,4,5,6,7,8,9,10],
+  o_act=np.full(5, 1),
+  weightCap=3.0,
+  noise_bias=0.0,
+  output_noise=[False, False, False],
+  max_episode_length=2000,
+  in_out_labels=['x', 'y', 'z', 'd', 'left_neighbor', 'up_neighbor', 'back_neighbor',
+                  'present', 'material_1', 'material_2', 'material_3', 'material_4']
+)
+
+games['rec_evosoro'] = rec_soro
