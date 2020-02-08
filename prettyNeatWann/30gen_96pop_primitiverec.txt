@@ -53,3 +53,28 @@ My id is  qibztl85
 19 	 |---| Elite Fit: 3.07 	|---| Best Fit:  3.07 	|---| Peak Fit:  9.22 time: 0.0 h 28.0 min 14.390018224716187 s
 20 	 |---| Elite Fit: 2.31 	|---| Best Fit:  3.07 	|---| Peak Fit:  9.22 time: 0.0 h 28.0 min 12.493466854095459 s
 21 	 |---| Elite Fit: 3.07 	|---| Best Fit:  3.07 	|---| Peak Fit:  9.22 time: 0.0 h 28.0 min 23.019870042800903 s
+22 	 |---| Elite Fit: 2.31 	|---| Best Fit:  3.07 	|---| Peak Fit:  9.22 time: 0.0 h 28.0 min 14.797354459762573 s
+23 	 |---| Elite Fit: 2.31 	|---| Best Fit:  3.07 	|---| Peak Fit:  9.22 time: 0.0 h 28.0 min 15.610766172409058 s
+24 	 |---| Elite Fit: 3.07 	|---| Best Fit:  3.07 	|---| Peak Fit:  9.22 time: 0.0 h 28.0 min 15.876831293106079 s
+25 	 |---| Elite Fit: 3.07 	|---| Best Fit:  3.07 	|---| Peak Fit:  9.22 time: 0.0 h 28.0 min 3.0635199546813965 s
+26 	 |---| Elite Fit: 3.07 	|---| Best Fit:  3.07 	|---| Peak Fit:  9.22 time: 0.0 h 28.0 min 21.559486627578735 s
+27 	 |---| Elite Fit: 2.31 	|---| Best Fit:  3.07 	|---| Peak Fit:  9.22 time: 0.0 h 28.0 min 15.295559883117676 s
+28 	 |---| Elite Fit: 2.31 	|---| Best Fit:  3.07 	|---| Peak Fit:  9.22 time: 0.0 h 28.0 min 6.6309802532196045 s
+29 	 |---| Elite Fit: 2.31 	|---| Best Fit:  3.07 	|---| Peak Fit:  9.22 time: 0.0 h 28.0 min 15.514962911605835 s
+stopping workers
+Worker #  3  shutting down.
+Worker #  5  shutting down.
+Worker #  9  shutting down.
+Worker #  13  shutting down.
+Worker #  14  shutting down.
+Worker #  1  shutting down.
+Worker #  2  shutting down.
+Worker #  6  shutting down.
+Worker #  11  shutting down.
+Worker #  4  shutting down.
+Worker #  12  shutting down.
+Worker #  7  shutting down.
+Worker #  10  shutting down.
+Worker #  16  shutting down.
+Worker #  8  shutting down.
+Worker #  15  shutting down.
