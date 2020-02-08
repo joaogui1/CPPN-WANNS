@@ -67,7 +67,7 @@ class EvosoroEnv(gym.Env):
     self.observation_space = spaces.Box(low=np.array([0.0, 0.0, 0.0, 0.0]), 
                                         high=np.array([orig_size[0], orig_size[1], orig_size[2], np.sum(np.square(orig_size))]))
 
-    self.state = [0, 0, 0]
+    self.state = [0, 0, 0, 0]
   def seed(self, seed=None):
     ''' Randomly select from training set'''
     self.np_random, seed = seeding.np_random(seed)
@@ -80,7 +80,7 @@ class EvosoroEnv(gym.Env):
                       fitness_eval_init_time=INIT_TIME)
     self.my_env = Env(sticky_floor=0, time_between_traces=0)
 
-    self.state = [0, 0, 0, 0, 0, 0, 0]
+    self.state = [0, 0, 0, 0]
     self.phenotype = [[] for i in range(self.orig_size[2])]
     return self.state
 
@@ -104,16 +104,6 @@ class EvosoroEnv(gym.Env):
 
     self.state[0] %= self.orig_size[0]
     self.state[1] %= self.orig_size[1]
-
-    pos = 0 if self.state[2] == self.orig_size[2] else len(self.phenotype[self.state[2]])
-    self.state[4] = 0 if self.state[0] == 0 else self.phenotype[self.state[2]][pos - 1] # left neighbor
-    self.state[5] = 0 if self.state[1] == 0 else self.phenotype[self.state[2]][pos - 6] # up neighbor
-    self.state[6] = 0 if self.state[2] == 0 else self.phenotype[self.state[2] - 1][pos] # back neighbor
-    
-    # print(action[0], 1 + np.argmax(action[1:]), self.phenotype)
-    # time.sleep(2)
-    # print("action:", action, "z: ", self.state[2], "append: ", str(np.argmax(action[1:])))
-    # print([len(self.phenotype[i]) for i in range(self.orig_size[2])], sep="\n\n")
 
     if self.state[2] == self.orig_size[2]:
       total_voxels = np.sum([[1 if j != '0' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])

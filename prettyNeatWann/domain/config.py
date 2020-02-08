@@ -176,7 +176,7 @@ games['bullet_ant'] = bullet_ant
 # > Softbot desing
 soro = Game(env_name='Evosoro',
   actionSelect='all',  # all, soft, hard
-  input_size=7, #  x, y, z, d
+  input_size=4, #  x, y, z, d
   output_size=5, # present + type
   time_factor=0,
   layers=[128, 9], #only relevant for fixed topology
@@ -187,7 +187,7 @@ soro = Game(env_name='Evosoro',
   noise_bias=0.0,
   output_noise=[False, False, False],
   max_episode_length=2000,
-  in_out_labels=['x', 'y', 'z', 'd', 'left_neighbor', 'up_neighbor', 'back_neighbor',
+  in_out_labels=['x', 'y', 'z', 'd',
                   'present', 'material_1', 'material_2', 'material_3', 'material_4']
 )
 
