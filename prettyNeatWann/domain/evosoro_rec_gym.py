@@ -42,7 +42,7 @@ RUN_NAME = "Basic"
 
 
 
-class EvosoroEnv(gym.Env):
+class RecEvosoroEnv(gym.Env):
   """Classification as an unsupervised OpenAI Gym RL problem.
   Includes scikit-learn digits dataset, MNIST dataset
   """
@@ -64,10 +64,10 @@ class EvosoroEnv(gym.Env):
     self.phenotype = [[] for i in range(orig_size[2])]
 
     self.action_space = spaces.Box(low=0.0, high=1.0, shape=(5,))
-    self.observation_space = spaces.Box(low=np.array([0.0, 0.0, 0.0, 0.0]), 
-                                        high=np.array([orig_size[0], orig_size[1], orig_size[2], np.sum(np.square(orig_size))]))
+    self.observation_space = spaces.Box(low=np.array([0.0, 0.0, 0.0, 0.0, 0, 0, 0]), 
+                                        high=np.array([orig_size[0], orig_size[1], orig_size[2], np.sum(np.square(orig_size)), 4, 4, 4]))
 
-    self.state = [0, 0, 0]
+    self.state = [0, 0, 0, 0, 0, 0, 0]
   def seed(self, seed=None):
     ''' Randomly select from training set'''
     self.np_random, seed = seeding.np_random(seed)
@@ -105,7 +105,7 @@ class EvosoroEnv(gym.Env):
     self.state[0] %= self.orig_size[0]
     self.state[1] %= self.orig_size[1]
 
-    pos = len(self.phenotype[self.state[2]])
+    pos = 0 if self.state[2] >= self.orig_size[2] else len(self.phenotype[self.state[2]])
     self.state[4] = 0 if self.state[0] == 0 else self.phenotype[self.state[2]][pos - 1] # left neighbor
     self.state[5] = 0 if self.state[1] == 0 else self.phenotype[self.state[2]][pos - 6] # up neighbor
     self.state[6] = 0 if self.state[2] == 0 else self.phenotype[self.state[2] - 1][pos] # back neighbor
@@ -134,7 +134,7 @@ class EvosoroEnv(gym.Env):
         if f"softbotsOutput--id_{self.id}.xml" in ls_check:
           evaluating = False
         time.sleep(1)
-        if time.time() - init_time > 30:
+        if time.time() - init_time > 45:
           p.kill()
           # print(f"took too long {self.id}")
           return self.state, 0.0, True, {}
@@ -147,9 +147,8 @@ class EvosoroEnv(gym.Env):
       sub.Popen(f"rm  -f " + RUN_DIR + f"/voxelyzeFiles/Basic--id_{self.id}.vxa", shell=True)
       sub.Popen(f"rm  -f " + RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml", shell=True)
 
-    self.state[3] = np.sum(np.square(np.asarray(self.state[:-1]) - 2.5))
+    self.state[3] = np.sum(np.square(np.asarray(self.state[:3]) - 2.5))
     obs = self.state
-
     return obs, reward, done, {}
 
   def render(self):

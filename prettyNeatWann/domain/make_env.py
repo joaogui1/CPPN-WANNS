@@ -53,10 +53,13 @@ def make_env(env_name, seed=-1, render_mode=False):
 
 
 
-  elif (env_name.startswith("Evosoro")):
+  elif (env_name == "Evosoro"):
     from domain.evosoro_gym import EvosoroEnv
     env = EvosoroEnv()
 
+  elif (env_name == "Evosoro-v3"):
+    from domain.evosoro_rec_gym import RecEvosoroEnv
+    env = RecEvosoroEnv()
 
   # -- Other  -------------------------------------------------------- -- #
   else:

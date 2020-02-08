@@ -180,7 +180,7 @@ soro = Game(env_name='Evosoro',
   output_size=5, # present + type
   time_factor=0,
   layers=[128, 9], #only relevant for fixed topology
-  i_act=np.full(7, 1),
+  i_act=np.full(4, 1),
   h_act=[1,2,3,4,5,6,7,8,9,10],
   o_act=np.full(5, 1),
   weightCap=3.0,
@@ -193,9 +193,9 @@ soro = Game(env_name='Evosoro',
 
 games['evosoro'] = soro
 
-rec_soro = Game(env_name='Recurrent_Evosoro',
+rec_soro = Game(env_name='Evosoro-v3',
   actionSelect='all',  # all, soft, hard
-  input_size=7, #  x, y, z, d
+  input_size=7, #  x, y, z, d, neighbor
   output_size=5, # present + type
   time_factor=0,
   layers=[128, 9], #only relevant for fixed topology
@@ -210,4 +210,4 @@ rec_soro = Game(env_name='Recurrent_Evosoro',
                   'present', 'material_1', 'material_2', 'material_3', 'material_4']
 )
 
-games['rec_evosoro'] = rec_soro
+games['recevosoro'] = rec_soro
