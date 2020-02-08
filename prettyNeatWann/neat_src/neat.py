@@ -186,6 +186,27 @@ def updateHyp(hyp,pFileName=None):
     else:
       hyp['ann_actRange'] = np.full_like(task.actRange,hyp['alg_act'])
 
+  def load_pop(self, path, gen):
+    """Load population from path
+    """
+    ##  Create base individual
+    p = self.p  # readability
+
+    pop = []
+    for i in range(p['popSize']):
+      wVec, aVec, _ = importNet(path + f'ind_{i}.out')
+      newInd = self.indType(wVec, aVec)
+      newInd.express()
+      newInd.birth = gen
+      pop.append(copy.deepcopy(newInd))
+
+    innov = np.zeros([5,nConn])
+    innov[0:3,:] = pop[0].conn[0:3,:]
+    innov[3,:] = -1
+    
+    self.pop = pop
+    self.innov = innov
+
 
 
 
