@@ -64,10 +64,10 @@ class EvosoroEnv(gym.Env):
     self.phenotype = [[] for i in range(orig_size[2])]
 
     self.action_space = spaces.Box(low=0.0, high=1.0, shape=(5,))
-    self.observation_space = spaces.Box(low=np.array([0.0, 0.0, 0.0, 0.0]), 
-                                        high=np.array([orig_size[0], orig_size[1], orig_size[2], np.sum(np.square(orig_size))]))
+    self.observation_space = spaces.Box(low=np.array([0.0, 0.0, 0.0]), 
+                                        high=np.array([orig_size[0], orig_size[1], orig_size[2]]))
 
-    self.state = [0, 0, 0, 0]
+    self.state = [0, 0, 0]
   def seed(self, seed=None):
     ''' Randomly select from training set'''
     self.np_random, seed = seeding.np_random(seed)
@@ -80,7 +80,7 @@ class EvosoroEnv(gym.Env):
                       fitness_eval_init_time=INIT_TIME)
     self.my_env = Env(sticky_floor=0, time_between_traces=0)
 
-    self.state = [0, 0, 0, 0]
+    self.state = [0, 0, 0]
     self.phenotype = [[] for i in range(self.orig_size[2])]
     return self.state
 
@@ -137,7 +137,7 @@ class EvosoroEnv(gym.Env):
       sub.Popen(f"rm  -f " + RUN_DIR + f"/voxelyzeFiles/Basic--id_{self.id}.vxa", shell=True)
       sub.Popen(f"rm  -f " + RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml", shell=True)
 
-    self.state[3] = np.sum(np.square(np.asarray(self.state[:3]) - 2.5))
+    #self.state[3] = np.sum(np.square(np.asarray(self.state[:3]) - 2.5))
     obs = self.state
 
     return obs, reward, done, {}
