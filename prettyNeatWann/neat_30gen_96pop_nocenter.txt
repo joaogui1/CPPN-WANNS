@@ -1,0 +1,80 @@
+	*** Running with hyperparameters:  p/evosoro.json 	***
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  1upvwvjt
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  2v6blh3w
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  j0gttxwe
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  mr8uc3ec
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  4nrmq2lw
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  oxh69xho
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  m3t4a675
+	*** Running with hyperparameters:  p/evosoro.json 	***
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  s27h0792
+My id is  9kyzsslu
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  0pb1ti5p
+	*** Running with hyperparameters:  p/evosoro.json 	***
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  7pb23y_k
+My id is  6iaz9ac8
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  eam3j_n3
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  p3jx9awa
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  50hzzjtn
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  0wo22svy
+0 	 |---| Elite Fit: 7.40 	|---| Best Fit:  7.40 time: 0.0 h 13.0 min 44.62008857727051 s
+1 	 |---| Elite Fit: 10.03 	|---| Best Fit:  9.92 time: 0.0 h 15.0 min 55.21963357925415 s
+2 	 |---| Elite Fit: 11.08 	|---| Best Fit:  10.94 time: 0.0 h 15.0 min 45.85101914405823 s
+3 	 |---| Elite Fit: 11.82 	|---| Best Fit:  11.82 time: 0.0 h 16.0 min 4.810370445251465 s
+4 	 |---| Elite Fit: 12.47 	|---| Best Fit:  12.47 time: 0.0 h 15.0 min 50.48759579658508 s
+5 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 15.0 min 48.18248462677002 s
+6 	 |---| Elite Fit: 15.03 	|---| Best Fit:  14.71 time: 0.0 h 15.0 min 46.83708477020264 s
+7 	 |---| Elite Fit: 15.03 	|---| Best Fit:  15.03 time: 0.0 h 15.0 min 55.97318458557129 s
+8 	 |---| Elite Fit: 15.03 	|---| Best Fit:  15.03 time: 0.0 h 16.0 min 2.495802402496338 s
+9 	 |---| Elite Fit: 15.43 	|---| Best Fit:  15.43 time: 0.0 h 15.0 min 59.290467262268066 s
+10 	 |---| Elite Fit: 15.29 	|---| Best Fit:  15.43 time: 0.0 h 13.0 min 31.157179594039917 s
+11 	 |---| Elite Fit: 15.42 	|---| Best Fit:  15.43 time: 0.0 h 13.0 min 36.687461614608765 s
+12 	 |---| Elite Fit: 15.42 	|---| Best Fit:  15.43 time: 0.0 h 13.0 min 49.68143630027771 s
+13 	 |---| Elite Fit: 15.53 	|---| Best Fit:  15.53 time: 0.0 h 15.0 min 44.91673469543457 s
+14 	 |---| Elite Fit: 15.53 	|---| Best Fit:  15.53 time: 0.0 h 13.0 min 37.48243165016174 s
+15 	 |---| Elite Fit: 15.53 	|---| Best Fit:  15.53 time: 0.0 h 13.0 min 36.63199210166931 s
+16 	 |---| Elite Fit: 15.42 	|---| Best Fit:  15.53 time: 0.0 h 13.0 min 34.725351333618164 s
+17 	 |---| Elite Fit: 15.62 	|---| Best Fit:  15.62 time: 0.0 h 15.0 min 48.45049333572388 s
+18 	 |---| Elite Fit: 15.62 	|---| Best Fit:  15.62 time: 0.0 h 13.0 min 30.014452934265137 s
+19 	 |---| Elite Fit: 15.64 	|---| Best Fit:  15.64 time: 0.0 h 15.0 min 43.32597780227661 s
+20 	 |---| Elite Fit: 15.90 	|---| Best Fit:  15.90 time: 0.0 h 15.0 min 47.833343505859375 s
+21 	 |---| Elite Fit: 15.90 	|---| Best Fit:  15.90 time: 0.0 h 13.0 min 32.5086510181427 s
+22 	 |---| Elite Fit: 15.90 	|---| Best Fit:  15.90 time: 0.0 h 13.0 min 36.45035099983215 s
+23 	 |---| Elite Fit: 15.90 	|---| Best Fit:  15.90 time: 0.0 h 13.0 min 36.11603093147278 s
+24 	 |---| Elite Fit: 15.90 	|---| Best Fit:  15.90 time: 0.0 h 13.0 min 24.70713496208191 s
+25 	 |---| Elite Fit: 15.94 	|---| Best Fit:  15.94 time: 0.0 h 15.0 min 44.306355714797974 s
+26 	 |---| Elite Fit: 15.94 	|---| Best Fit:  15.94 time: 0.0 h 13.0 min 45.8420991897583 s
+27 	 |---| Elite Fit: 15.94 	|---| Best Fit:  15.94 time: 0.0 h 13.0 min 36.124303579330444 s
+28 	 |---| Elite Fit: 15.94 	|---| Best Fit:  15.94 time: 0.0 h 13.0 min 24.219191312789917 s
+29 	 |---| Elite Fit: 15.94 	|---| Best Fit:  15.94 time: 0.0 h 13.0 min 39.94724941253662 s
+stopping workers
+Worker #  3  shutting down.
+Worker #  10  shutting down.
+Worker #  2  shutting down.
+Worker #  11  shutting down.
+Worker #  8  shutting down.
+Worker #  5  shutting down.
+Worker #  12  shutting down.
+Worker #  7  shutting down.
+Worker #  13  shutting down.
+Worker #  16  shutting down.
+Worker #  1  shutting down.
+Worker #  14  shutting down.
+Worker #  6  shutting down.
+Worker #  9  shutting down.
+Worker #  15  shutting down.
+Worker #  4  shutting down.
