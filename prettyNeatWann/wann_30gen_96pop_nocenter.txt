@@ -31,3 +31,22 @@ My id is  szdm_xi_
 	*** Running with hyperparameters:  p/evosoro.json 	***
 	*** Running with hyperparameters:  p/evosoro.json 	***
 My id is  2xk72gd9
+0 	 |---| Elite Fit: 4.16 	|---| Best Fit:  4.16 	|---| Peak Fit:  8.32 time: 0.0 h 41.0 min 1.939753532409668 s
+1 	 |---| Elite Fit: 4.16 	|---| Best Fit:  4.16 	|---| Peak Fit:  8.32 time: 0.0 h 41.0 min 33.05845642089844 s
+2 	 |---| Elite Fit: 4.16 	|---| Best Fit:  4.16 	|---| Peak Fit:  8.32 time: 0.0 h 38.0 min 52.00852370262146 s
+3 	 |---| Elite Fit: 6.66 	|---| Best Fit:  6.48 	|---| Peak Fit:  13.33 time: 0.0 h 45.0 min 42.56822657585144 s
+4 	 |---| Elite Fit: 6.70 	|---| Best Fit:  6.70 	|---| Peak Fit:  13.40 time: 0.0 h 46.0 min 59.665698289871216 s
+5 	 |---| Elite Fit: 6.70 	|---| Best Fit:  6.70 	|---| Peak Fit:  13.40 time: 0.0 h 44.0 min 52.114948749542236 s
+6 	 |---| Elite Fit: 7.44 	|---| Best Fit:  6.71 	|---| Peak Fit:  14.88 time: 0.0 h 46.0 min 22.893396139144897 s
+7 	 |---| Elite Fit: 7.44 	|---| Best Fit:  7.13 	|---| Peak Fit:  14.88 time: 0.0 h 46.0 min 49.409650802612305 s
+8 	 |---| Elite Fit: 7.44 	|---| Best Fit:  7.44 	|---| Peak Fit:  14.88 time: 0.0 h 46.0 min 10.25725507736206 s
+9 	 |---| Elite Fit: 7.44 	|---| Best Fit:  7.44 	|---| Peak Fit:  14.88 time: 0.0 h 40.0 min 40.711920499801636 s
+10 	 |---| Elite Fit: 7.44 	|---| Best Fit:  7.44 	|---| Peak Fit:  14.88 time: 0.0 h 40.0 min 14.280199527740479 s
+11 	 |---| Elite Fit: 7.44 	|---| Best Fit:  7.44 	|---| Peak Fit:  14.88 time: 0.0 h 40.0 min 18.48985457420349 s
+12 	 |---| Elite Fit: 7.44 	|---| Best Fit:  7.44 	|---| Peak Fit:  14.88 time: 0.0 h 39.0 min 37.75212025642395 s
+13 	 |---| Elite Fit: 7.89 	|---| Best Fit:  7.89 	|---| Peak Fit:  18.78 time: 0.0 h 43.0 min 28.938390254974365 s
+14 	 |---| Elite Fit: 7.89 	|---| Best Fit:  7.89 	|---| Peak Fit:  18.78 time: 0.0 h 38.0 min 52.90629982948303 s
+15 	 |---| Elite Fit: 8.45 	|---| Best Fit:  8.45 	|---| Peak Fit:  18.37 time: 0.0 h 44.0 min 21.456702709197998 s
+16 	 |---| Elite Fit: 7.69 	|---| Best Fit:  8.45 	|---| Peak Fit:  18.37 time: 0.0 h 42.0 min 1.402935266494751 s
+17 	 |---| Elite Fit: 8.48 	|---| Best Fit:  8.48 	|---| Peak Fit:  18.37 time: 0.0 h 50.0 min 53.72275924682617 s
+18 	 |---| Elite Fit: 9.92 	|---| Best Fit:  9.92 	|---| Peak Fit:  18.37 time: 0.0 h 51.0 min 28.566304206848145 s
