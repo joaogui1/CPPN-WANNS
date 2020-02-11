@@ -5,7 +5,7 @@
     "alg_nReps": 3,
     "alg_probMoo": 0.80,
     "alg_speciate": "none",
-    "maxGen": 30,
+    "maxGen": 120,
     "popSize": 96,
     "prob_crossover": 0.0,
     "prob_mutAct": 0.35,
