@@ -51,9 +51,11 @@ def make_env(env_name, seed=-1, render_mode=False):
       env.dt = 0.01
       env.t_limit = 200
 
+  elif (env_name == "Evosoro-v1"):
+    from domain.evosoro_nocenter_gym import EvosoroEnv
+    env = EvosoroEnv()
 
-
-  elif (env_name == "Evosoro"):
+  elif (env_name == "Evosoro-v2"):
     from domain.evosoro_gym import EvosoroEnv
     env = EvosoroEnv()
 
