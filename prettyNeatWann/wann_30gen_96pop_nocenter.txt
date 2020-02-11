@@ -50,3 +50,31 @@ My id is  2xk72gd9
 16 	 |---| Elite Fit: 7.69 	|---| Best Fit:  8.45 	|---| Peak Fit:  18.37 time: 0.0 h 42.0 min 1.402935266494751 s
 17 	 |---| Elite Fit: 8.48 	|---| Best Fit:  8.48 	|---| Peak Fit:  18.37 time: 0.0 h 50.0 min 53.72275924682617 s
 18 	 |---| Elite Fit: 9.92 	|---| Best Fit:  9.92 	|---| Peak Fit:  18.37 time: 0.0 h 51.0 min 28.566304206848145 s
+19 	 |---| Elite Fit: 9.92 	|---| Best Fit:  9.92 	|---| Peak Fit:  18.37 time: 0.0 h 48.0 min 33.94560718536377 s
+20 	 |---| Elite Fit: 8.52 	|---| Best Fit:  9.92 	|---| Peak Fit:  18.37 time: 0.0 h 55.0 min 31.31735396385193 s
+21 	 |---| Elite Fit: 8.37 	|---| Best Fit:  9.92 	|---| Peak Fit:  18.37 time: 0.0 h 47.0 min 44.97191023826599 s
+22 	 |---| Elite Fit: 8.65 	|---| Best Fit:  9.92 	|---| Peak Fit:  18.37 time: 0.0 h 50.0 min 52.60719299316406 s
+23 	 |---| Elite Fit: 10.50 	|---| Best Fit:  10.62 	|---| Peak Fit:  18.86 time: 1.0 h 5.0 min 31.41873526573181 s
+24 	 |---| Elite Fit: 10.60 	|---| Best Fit:  10.62 	|---| Peak Fit:  18.86 time: 0.0 h 53.0 min 27.933330059051514 s
+25 	 |---| Elite Fit: 11.46 	|---| Best Fit:  10.97 	|---| Peak Fit:  17.51 time: 1.0 h 0.0 min 5.791058301925659 s
+26 	 |---| Elite Fit: 11.96 	|---| Best Fit:  12.25 	|---| Peak Fit:  18.86 time: 0.0 h 58.0 min 32.789565086364746 s
+27 	 |---| Elite Fit: 12.94 	|---| Best Fit:  12.33 	|---| Peak Fit:  18.86 time: 0.0 h 52.0 min 32.06325030326843 s
+28 	 |---| Elite Fit: 14.51 	|---| Best Fit:  12.48 	|---| Peak Fit:  18.86 time: 0.0 h 50.0 min 54.81955814361572 s
+29 	 |---| Elite Fit: 13.46 	|---| Best Fit:  13.46 	|---| Peak Fit:  18.86 time: 0.0 h 59.0 min 30.16106367111206 s
+stopping workers
+Worker #  5  shutting down.
+Worker #  6  shutting down.
+Worker #  12  shutting down.
+Worker #  7  shutting down.
+Worker #  3  shutting down.
+Worker #  14  shutting down.
+Worker #  8  shutting down.
+Worker #  1  shutting down.
+Worker #  9  shutting down.
+Worker #  16  shutting down.
+Worker #  10  shutting down.
+Worker #  4  shutting down.
+Worker #  13  shutting down.
+Worker #  15  shutting down.
+Worker #  11  shutting down.
+Worker #  2  shutting down.
