@@ -1,5 +1,5 @@
 {
-    "task":"evosoro",
+    "task":"nocenterevosoro",
     "alg_wDist": "standard",
     "alg_nVals": 6,
     "alg_nReps": 3,
