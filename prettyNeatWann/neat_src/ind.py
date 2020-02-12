@@ -1,5 +1,6 @@
 import numpy as np
 import copy
+from utils import listXor
 from .ann import getLayer, getNodeOrder
 
 
@@ -201,7 +202,15 @@ class Ind():
     
     if (np.random.rand() < p['prob_addConn']):
       connG, innov = self.mutAddConn(connG, nodeG, innov, gen, p) 
-    
+
+    if np.random.rand() < p['prob_mutAct']:
+      start = 1+self.nInput + self.nOutput #bias, input nodes and output nodes are ignored
+      end = nodeG.shape[1]           
+      if start != end:
+        mutNode = np.random.randint(start,end)
+        newActPool = listXor([int(nodeG[2,mutNode])], list(p['ann_actRange']))
+        nodeG[2,mutNode] = int(newActPool[np.random.randint(len(newActPool))])
+        
     child = Ind(connG, nodeG)
     child.birth = gen
 
