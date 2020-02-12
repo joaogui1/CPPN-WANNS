@@ -65,8 +65,8 @@ class EvosoroEnv(gym.Env):
 
     self.action_space = spaces.Box(low=0.0, high=1.0, shape=(5,))
     self.observation_space = spaces.Box(low=np.array([0.0, 0.0, 0.0, 0.0]), 
-                                        high=np.array([orig_size[0], orig_size[1], orig_size[2]], 
-                                          np.sqrt(np.sum(np.square(np.asarray(self.orig_size[:3]) - 2.5)))))
+                                        high=np.array([orig_size[0], orig_size[1], orig_size[2], 
+                                          np.sqrt(np.sum(np.square(np.asarray(self.orig_size[:3]) - 2.5)))]))
 
     self.state = [0, 0, 0, 0]
   def seed(self, seed=None):
