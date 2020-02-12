@@ -106,7 +106,8 @@ def initialize_settings(sigma_init=0.1, sigma_decay=0.9999, initial_weight=0.0):
       learning_rate_decay=1.0,
       learning_rate_limit=0.01,
       weight_decay=0.005,
-      popsize=population)
+      popsize=population,
+      initial_weight=initial_weight)
     es = pepg
   else:
     oes = OpenES(num_params,
