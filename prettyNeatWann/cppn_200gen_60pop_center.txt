@@ -1,0 +1,86 @@
+	*** Running with hyperparameters:  p/evosoro.json 	***
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  8ph15_8w
+My id is  _sd6nrqi
+	*** Running with hyperparameters:  p/evosoro.json 	***
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  5z980sj7
+My id is  8e9joy1i
+	*** Running with hyperparameters:  p/evosoro.json 	***
+	*** Running with hyperparameters:  p/evosoro.json 	***
+	*** Running with hyperparameters:  p/evosoro.json 	***
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  toevn10w
+My id is  9al6oojz
+My id is  qi_b9xlm
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  9lg039ws
+	*** Running with hyperparameters:  p/evosoro.json 	***
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  1q3_2pik
+My id is  umf9ft0c
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  zvwxaqtj
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  _55k99o8
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  lnw1z9s5
+	*** Running with hyperparameters:  p/evosoro.json 	***
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  _pg5nvg4
+My id is  d7ys2_e3
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  qq24hk9r
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  00n1_lj7
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  l0hb4hjf
+	*** Running with hyperparameters:  p/evosoro.json 	***
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  qi561c32
+My id is  feak2o7r
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  43ye0kgo
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  q8so3i3x
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  dkd8j8gq
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  drjz_nws
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  oyri4f6z
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  qfa8ohwg
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  oo972i7i
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  i83z9j74
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  9yy3al19
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  kt_lenv0
+0 	 |---| Elite Fit: 1.58 	|---| Best Fit:  1.58 time: 0.0 h 4.0 min 35.33014726638794 s
+Traceback (most recent call last):
+  File "neat_train.py", line 287, in <module>
+    main(args)                              
+  File "neat_train.py", line 261, in main
+    master()
+  File "neat_train.py", line 30, in master
+    pop = alg.ask()            # Get newly evolved individuals from NEAT  
+  File "/home/joaogui1/CPPN-WANNS/prettyNeatWann/neat_src/neat.py", line 53, in ask
+    self.evolvePop()    # Create child population
+  File "/home/joaogui1/CPPN-WANNS/prettyNeatWann/neat_src/_variation.py", line 14, in evolvePop
+    self.innov, self.gen)
+  File "/home/joaogui1/CPPN-WANNS/prettyNeatWann/neat_src/_variation.py", line 77, in recombine
+    child, innov = pop[parents[0,i]].createChild(p,innov,gen)
+  File "/home/joaogui1/CPPN-WANNS/prettyNeatWann/neat_src/ind.py", line 102, in createChild
+    child, innov = child.mutate(p,innov,gen)
+  File "/home/joaogui1/CPPN-WANNS/prettyNeatWann/neat_src/ind.py", line 212, in mutate
+    nodeG[2,mutNode] = int(newActPool[np.random.randint(len(newActPool))])
+  File "mtrand.pyx", line 747, in numpy.random.mtrand.RandomState.randint
+  File "_bounded_integers.pyx", line 1270, in numpy.random._bounded_integers._rand_int64
+ValueError: low >= high
+[warn] Epoll ADD(4) on fd 29 failed.  Old events were 0; read change was 0 (none); write change was 1 (add): Bad file descriptor
+--------------------------------------------------------------------------
+mpirun noticed that process rank 4 with PID 0 on node 97af702b9f98 exited on signal 15 (Terminated).
+--------------------------------------------------------------------------

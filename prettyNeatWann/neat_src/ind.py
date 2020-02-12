@@ -209,7 +209,7 @@ class Ind():
       if start != end:
         mutNode = np.random.randint(start,end)
         newActPool = listXor([int(nodeG[2,mutNode])], list(p['ann_actRange']))
-        nodeG[2,mutNode] = int(newActPool[np.random.randint(len(newActPool))])
+        nodeG[2,mutNode] = int(numpy.random.choice(newActPool))
         
     child = Ind(connG, nodeG)
     child.birth = gen
