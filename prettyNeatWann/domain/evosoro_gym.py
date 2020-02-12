@@ -139,11 +139,11 @@ class EvosoroEnv(gym.Env):
       print(f"before read voxelyze id: {self.id}")
       reward = read_voxlyze_results(RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml")
       print(f"after read voxelyze id: {self.id}")
-      # print(f"Individual {self.id} has fitness {reward}")
+      print(f"Individual {self.id} has fitness {reward}")
       p.kill()
       done = True
-      sub.Popen(f"rm  -f " + RUN_DIR + f"/voxelyzeFiles/Basic--id_{self.id}.vxa", shell=False)
-      sub.Popen(f"rm  -f " + RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml", shell=False)
+      sub.Popen(f"rm  -f " + RUN_DIR + f"/voxelyzeFiles/Basic--id_{self.id}.vxa", shell=True)
+      sub.Popen(f"rm  -f " + RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml", shell=True)
 
     self.state[3] = np.sqrt(np.sum(np.square(np.asarray(self.state[:3]) - 2.5)))
     obs = self.state
