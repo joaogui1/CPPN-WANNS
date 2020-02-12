@@ -1,86 +1,446 @@
 	*** Running with hyperparameters:  p/evosoro.json 	***
-	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  8ph15_8w
-My id is  _sd6nrqi
-	*** Running with hyperparameters:  p/evosoro.json 	***
-	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  5z980sj7
-My id is  8e9joy1i
+My id is  i6rymfp7
 	*** Running with hyperparameters:  p/evosoro.json 	***
 	*** Running with hyperparameters:  p/evosoro.json 	***
 	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  gqmm9q9k
 	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  toevn10w
-My id is  9al6oojz
-My id is  qi_b9xlm
+My id is  e4zmxjvn
+My id is  kev9zfdk
 	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  9lg039ws
+My id is  qb6hx7ms
+My id is  ub17wh0v
 	*** Running with hyperparameters:  p/evosoro.json 	***
-	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  1q3_2pik
-My id is  umf9ft0c
-	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  zvwxaqtj
-	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  _55k99o8
-	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  lnw1z9s5
+My id is  kt24v22j
 	*** Running with hyperparameters:  p/evosoro.json 	***
 	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  _pg5nvg4
-My id is  d7ys2_e3
+	*** Running with hyperparameters:  p/evosoro.json 	My id is  6zze2z9b
+My id is  ir0qwyo6
+***
 	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  qq24hk9r
+My id is  bil9kp_o
+My id is  kue4xsan
 	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  00n1_lj7
-	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  l0hb4hjf
+My id is  zaa_c61e
 	*** Running with hyperparameters:  p/evosoro.json 	***
 	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  qi561c32
-My id is  feak2o7r
+My id is  3q71d007
+My id is  4639n6i8
 	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  43ye0kgo
 	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  q8so3i3x
+My id is  l7wqsusc
+My id is  xicpz8un
 	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  dkd8j8gq
 	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  drjz_nws
+My id is  vys2fyji
 	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  oyri4f6z
+My id is  veum9629
 	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  qfa8ohwg
+My id is  y1f42brt
 	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  oo972i7i
+My id is  hi3r43ef
 	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  i83z9j74
+My id is  cfurfb1y
 	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  9yy3al19
+My id is  sgh3gy9e
 	*** Running with hyperparameters:  p/evosoro.json 	***
-My id is  kt_lenv0
-0 	 |---| Elite Fit: 1.58 	|---| Best Fit:  1.58 time: 0.0 h 4.0 min 35.33014726638794 s
-Traceback (most recent call last):
-  File "neat_train.py", line 287, in <module>
-    main(args)                              
-  File "neat_train.py", line 261, in main
-    master()
-  File "neat_train.py", line 30, in master
-    pop = alg.ask()            # Get newly evolved individuals from NEAT  
-  File "/home/joaogui1/CPPN-WANNS/prettyNeatWann/neat_src/neat.py", line 53, in ask
-    self.evolvePop()    # Create child population
-  File "/home/joaogui1/CPPN-WANNS/prettyNeatWann/neat_src/_variation.py", line 14, in evolvePop
-    self.innov, self.gen)
-  File "/home/joaogui1/CPPN-WANNS/prettyNeatWann/neat_src/_variation.py", line 77, in recombine
-    child, innov = pop[parents[0,i]].createChild(p,innov,gen)
-  File "/home/joaogui1/CPPN-WANNS/prettyNeatWann/neat_src/ind.py", line 102, in createChild
-    child, innov = child.mutate(p,innov,gen)
-  File "/home/joaogui1/CPPN-WANNS/prettyNeatWann/neat_src/ind.py", line 212, in mutate
-    nodeG[2,mutNode] = int(newActPool[np.random.randint(len(newActPool))])
-  File "mtrand.pyx", line 747, in numpy.random.mtrand.RandomState.randint
-  File "_bounded_integers.pyx", line 1270, in numpy.random._bounded_integers._rand_int64
-ValueError: low >= high
-[warn] Epoll ADD(4) on fd 29 failed.  Old events were 0; read change was 0 (none); write change was 1 (add): Bad file descriptor
---------------------------------------------------------------------------
-mpirun noticed that process rank 4 with PID 0 on node 97af702b9f98 exited on signal 15 (Terminated).
---------------------------------------------------------------------------
+My id is  oo76nlh9
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  11ou_a8o
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  kfzghflf
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  j8p0vidz
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  bx9l6f03
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  ppu0j4s8
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  p0ck1ln5
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  b681191l
+0 	 |---| Elite Fit: 0.86 	|---| Best Fit:  0.86 time: 0.0 h 4.0 min 35.12083601951599 s
+1 	 |---| Elite Fit: 2.56 	|---| Best Fit:  2.56 time: 0.0 h 6.0 min 54.067288637161255 s
+2 	 |---| Elite Fit: 4.50 	|---| Best Fit:  4.50 time: 0.0 h 6.0 min 55.829225301742554 s
+3 	 |---| Elite Fit: 5.11 	|---| Best Fit:  5.11 time: 0.0 h 6.0 min 55.293283224105835 s
+4 	 |---| Elite Fit: 0.00 	|---| Best Fit:  5.11 time: 0.0 h 4.0 min 35.326828479766846 s
+5 	 |---| Elite Fit: 0.00 	|---| Best Fit:  5.11 time: 0.0 h 4.0 min 35.50129556655884 s
+6 	 |---| Elite Fit: 2.56 	|---| Best Fit:  5.11 time: 0.0 h 4.0 min 35.26861572265625 s
+7 	 |---| Elite Fit: 0.00 	|---| Best Fit:  5.11 time: 0.0 h 4.0 min 35.64083814620972 s
+8 	 |---| Elite Fit: 0.00 	|---| Best Fit:  5.11 time: 0.0 h 4.0 min 35.78927040100098 s
+9 	 |---| Elite Fit: 0.25 	|---| Best Fit:  5.11 time: 0.0 h 4.0 min 35.718233585357666 s
+10 	 |---| Elite Fit: 1.13 	|---| Best Fit:  5.11 time: 0.0 h 4.0 min 35.2558217048645 s
+11 	 |---| Elite Fit: 2.56 	|---| Best Fit:  5.11 time: 0.0 h 4.0 min 34.85673546791077 s
+12 	 |---| Elite Fit: 3.18 	|---| Best Fit:  5.11 time: 0.0 h 4.0 min 34.59685397148132 s
+13 	 |---| Elite Fit: 4.33 	|---| Best Fit:  5.11 time: 0.0 h 4.0 min 36.14502215385437 s
+14 	 |---| Elite Fit: 10.00 	|---| Best Fit:  10.00 time: 0.0 h 6.0 min 51.50768256187439 s
+15 	 |---| Elite Fit: 9.96 	|---| Best Fit:  10.00 time: 0.0 h 4.0 min 36.0585401058197 s
+16 	 |---| Elite Fit: 9.53 	|---| Best Fit:  10.00 time: 0.0 h 4.0 min 39.92241454124451 s
+17 	 |---| Elite Fit: 10.00 	|---| Best Fit:  10.00 time: 0.0 h 4.0 min 35.53150749206543 s
+18 	 |---| Elite Fit: 9.90 	|---| Best Fit:  10.00 time: 0.0 h 4.0 min 36.21626019477844 s
+19 	 |---| Elite Fit: 14.96 	|---| Best Fit:  14.96 time: 0.0 h 6.0 min 56.908682346343994 s
+20 	 |---| Elite Fit: 14.96 	|---| Best Fit:  14.96 time: 0.0 h 4.0 min 37.37693119049072 s
+21 	 |---| Elite Fit: 9.67 	|---| Best Fit:  14.96 time: 0.0 h 4.0 min 38.89450263977051 s
+22 	 |---| Elite Fit: 15.02 	|---| Best Fit:  15.02 time: 0.0 h 6.0 min 57.562016010284424 s
+23 	 |---| Elite Fit: 6.92 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.94210433959961 s
+24 	 |---| Elite Fit: 6.96 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.80220675468445 s
+25 	 |---| Elite Fit: 10.01 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.97780728340149 s
+26 	 |---| Elite Fit: 10.01 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.87255263328552 s
+27 	 |---| Elite Fit: 10.02 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.176332235336304 s
+28 	 |---| Elite Fit: 6.92 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.276813983917236 s
+29 	 |---| Elite Fit: 6.92 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.71390438079834 s
+30 	 |---| Elite Fit: 6.96 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.52638864517212 s
+31 	 |---| Elite Fit: 6.96 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.92313098907471 s
+32 	 |---| Elite Fit: 8.61 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.27516412734985 s
+33 	 |---| Elite Fit: 9.75 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.37010455131531 s
+34 	 |---| Elite Fit: 8.92 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 37.45291471481323 s
+35 	 |---| Elite Fit: 7.04 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 33.698689222335815 s
+36 	 |---| Elite Fit: 7.04 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.86197519302368 s
+37 	 |---| Elite Fit: 7.04 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.32997393608093 s
+38 	 |---| Elite Fit: 7.04 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.40992069244385 s
+39 	 |---| Elite Fit: 7.04 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.179500579833984 s
+40 	 |---| Elite Fit: 7.04 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.144243240356445 s
+41 	 |---| Elite Fit: 8.79 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.879234075546265 s
+42 	 |---| Elite Fit: 9.95 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.79913592338562 s
+43 	 |---| Elite Fit: 7.22 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.629470109939575 s
+44 	 |---| Elite Fit: 7.15 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 33.84697389602661 s
+45 	 |---| Elite Fit: 9.17 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.099244356155396 s
+46 	 |---| Elite Fit: 9.76 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.445987701416016 s
+47 	 |---| Elite Fit: 7.15 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.37465691566467 s
+48 	 |---| Elite Fit: 13.53 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.58679223060608 s
+49 	 |---| Elite Fit: 9.24 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 37.21041798591614 s
+50 	 |---| Elite Fit: 9.30 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.682891845703125 s
+51 	 |---| Elite Fit: 9.34 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.64270234107971 s
+52 	 |---| Elite Fit: 9.51 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 37.911957025527954 s
+53 	 |---| Elite Fit: 9.51 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.9084255695343 s
+54 	 |---| Elite Fit: 7.64 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.80459952354431 s
+[97af702b9f98:05778] Read -1, expected 4232, errno = 1
+[97af702b9f98:05768] Read -1, expected 4232, errno = 1
+[97af702b9f98:05776] Read -1, expected 4232, errno = 1
+55 	 |---| Elite Fit: 9.19 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 39.999998331069946 s
+[97af702b9f98:05786] Read -1, expected 4232, errno = 1
+[97af702b9f98:05788] Read -1, expected 4232, errno = 1
+[97af702b9f98:05767] Read -1, expected 4232, errno = 1
+[97af702b9f98:05768] Read -1, expected 4232, errno = 1
+[97af702b9f98:05775] Read -1, expected 4232, errno = 1
+[97af702b9f98:05777] Read -1, expected 4232, errno = 1
+[97af702b9f98:05779] Read -1, expected 4232, errno = 1
+[97af702b9f98:05787] Read -1, expected 4232, errno = 1
+56 	 |---| Elite Fit: 9.06 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.91669321060181 s
+[97af702b9f98:05781] Read -1, expected 4608, errno = 1
+[97af702b9f98:05786] Read -1, expected 4608, errno = 1
+[97af702b9f98:05781] Read -1, expected 4232, errno = 1
+[97af702b9f98:05788] Read -1, expected 4232, errno = 1
+57 	 |---| Elite Fit: 8.33 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 37.968021392822266 s
+58 	 |---| Elite Fit: 8.33 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.70057654380798 s
+[97af702b9f98:05786] Read -1, expected 4232, errno = 1
+[97af702b9f98:05773] Read -1, expected 4232, errno = 1
+[97af702b9f98:05789] Read -1, expected 4232, errno = 1
+59 	 |---| Elite Fit: 9.71 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 37.29540038108826 s
+[97af702b9f98:05781] Read -1, expected 4608, errno = 1
+[97af702b9f98:05789] Read -1, expected 4232, errno = 1
+[97af702b9f98:05762] Read -1, expected 4232, errno = 1
+[97af702b9f98:05777] Read -1, expected 4232, errno = 1
+60 	 |---| Elite Fit: 10.03 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 37.03034949302673 s
+[97af702b9f98:05783] Read -1, expected 4232, errno = 1
+[97af702b9f98:05785] Read -1, expected 4608, errno = 1
+[97af702b9f98:05788] Read -1, expected 4232, errno = 1
+[97af702b9f98:05764] Read -1, expected 4608, errno = 1
+[97af702b9f98:05765] Read -1, expected 4608, errno = 1
+[97af702b9f98:05779] Read -1, expected 4232, errno = 1
+[97af702b9f98:05782] Read -1, expected 4232, errno = 1
+[97af702b9f98:05787] Read -1, expected 4232, errno = 1
+61 	 |---| Elite Fit: 10.03 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.267496824264526 s
+[97af702b9f98:05774] Read -1, expected 4232, errno = 1
+[97af702b9f98:05779] Read -1, expected 4232, errno = 1
+[97af702b9f98:05781] Read -1, expected 4232, errno = 1
+[97af702b9f98:05773] Read -1, expected 4232, errno = 1
+[97af702b9f98:05786] Read -1, expected 4232, errno = 1
+62 	 |---| Elite Fit: 10.05 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.50285291671753 s
+[97af702b9f98:05762] Read -1, expected 4232, errno = 1
+[97af702b9f98:05765] Read -1, expected 4232, errno = 1
+[97af702b9f98:05773] Read -1, expected 4232, errno = 1
+[97af702b9f98:05774] Read -1, expected 4608, errno = 1
+[97af702b9f98:05776] Read -1, expected 4608, errno = 1
+[97af702b9f98:05778] Read -1, expected 4608, errno = 1
+[97af702b9f98:05782] Read -1, expected 4608, errno = 1
+[97af702b9f98:05785] Read -1, expected 4608, errno = 1
+[97af702b9f98:05790] Read -1, expected 4232, errno = 1
+[97af702b9f98:05791] Read -1, expected 4608, errno = 1
+[97af702b9f98:05765] Read -1, expected 4232, errno = 1
+[97af702b9f98:05772] Read -1, expected 4232, errno = 1
+[97af702b9f98:05775] Read -1, expected 4232, errno = 1
+[97af702b9f98:05776] Read -1, expected 4608, errno = 1
+[97af702b9f98:05779] Read -1, expected 4232, errno = 1
+[97af702b9f98:05785] Read -1, expected 4608, errno = 1
+[97af702b9f98:05787] Read -1, expected 4232, errno = 1
+[97af702b9f98:05790] Read -1, expected 4232, errno = 1
+63 	 |---| Elite Fit: 7.86 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.676523208618164 s
+[97af702b9f98:05769] Read -1, expected 4232, errno = 1
+[97af702b9f98:05772] Read -1, expected 4232, errno = 1
+[97af702b9f98:05780] Read -1, expected 4608, errno = 1
+[97af702b9f98:05791] Read -1, expected 4232, errno = 1
+[97af702b9f98:05767] Read -1, expected 4608, errno = 1
+[97af702b9f98:05770] Read -1, expected 4608, errno = 1
+[97af702b9f98:05781] Read -1, expected 4232, errno = 1
+64 	 |---| Elite Fit: 7.86 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.42599415779114 s
+[97af702b9f98:05771] Read -1, expected 4232, errno = 1
+65 	 |---| Elite Fit: 13.42 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.70561599731445 s
+[97af702b9f98:05762] Read -1, expected 4232, errno = 1
+[97af702b9f98:05779] Read -1, expected 4232, errno = 1
+[97af702b9f98:05781] Read -1, expected 4608, errno = 1
+[97af702b9f98:05782] Read -1, expected 4608, errno = 1
+[97af702b9f98:05762] Read -1, expected 4232, errno = 1
+[97af702b9f98:05765] Read -1, expected 4232, errno = 1
+[97af702b9f98:05766] Read -1, expected 4608, errno = 1
+[97af702b9f98:05773] Read -1, expected 4232, errno = 1
+[97af702b9f98:05774] Read -1, expected 4232, errno = 1
+[97af702b9f98:05778] Read -1, expected 4608, errno = 1
+[97af702b9f98:05783] Read -1, expected 4232, errno = 1
+66 	 |---| Elite Fit: 9.81 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.805078744888306 s
+[97af702b9f98:05762] Read -1, expected 4608, errno = 1
+[97af702b9f98:05771] Read -1, expected 5000, errno = 1
+[97af702b9f98:05772] Read -1, expected 4608, errno = 1
+[97af702b9f98:05774] Read -1, expected 4608, errno = 1
+[97af702b9f98:05777] Read -1, expected 4608, errno = 1
+[97af702b9f98:05779] Read -1, expected 4608, errno = 1
+[97af702b9f98:05781] Read -1, expected 5000, errno = 1
+[97af702b9f98:05786] Read -1, expected 5000, errno = 1
+[97af702b9f98:05762] Read -1, expected 5000, errno = 1
+[97af702b9f98:05765] Read -1, expected 4608, errno = 1
+[97af702b9f98:05767] Read -1, expected 4608, errno = 1
+[97af702b9f98:05773] Read -1, expected 5000, errno = 1
+[97af702b9f98:05780] Read -1, expected 4608, errno = 1
+[97af702b9f98:05781] Read -1, expected 5000, errno = 1
+[97af702b9f98:05786] Read -1, expected 4608, errno = 1
+67 	 |---| Elite Fit: 9.81 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.54302144050598 s
+[97af702b9f98:05762] Read -1, expected 4608, errno = 1
+[97af702b9f98:05763] Read -1, expected 4608, errno = 1
+[97af702b9f98:05772] Read -1, expected 4608, errno = 1
+[97af702b9f98:05774] Read -1, expected 4608, errno = 1
+[97af702b9f98:05776] Read -1, expected 4608, errno = 1
+[97af702b9f98:05779] Read -1, expected 4608, errno = 1
+[97af702b9f98:05780] Read -1, expected 5000, errno = 1
+[97af702b9f98:05781] Read -1, expected 4608, errno = 1
+[97af702b9f98:05782] Read -1, expected 5000, errno = 1
+[97af702b9f98:05787] Read -1, expected 5000, errno = 1
+[97af702b9f98:05788] Read -1, expected 5000, errno = 1
+[97af702b9f98:05762] Read -1, expected 4608, errno = 1
+[97af702b9f98:05763] Read -1, expected 4608, errno = 1
+[97af702b9f98:05768] Read -1, expected 5000, errno = 1
+[97af702b9f98:05769] Read -1, expected 4608, errno = 1
+[97af702b9f98:05772] Read -1, expected 5000, errno = 1
+[97af702b9f98:05775] Read -1, expected 5000, errno = 1
+[97af702b9f98:05776] Read -1, expected 4608, errno = 1
+[97af702b9f98:05781] Read -1, expected 5000, errno = 1
+[97af702b9f98:05783] Read -1, expected 5000, errno = 1
+68 	 |---| Elite Fit: 7.86 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.35917544364929 s
+[97af702b9f98:05774] Read -1, expected 5000, errno = 1
+[97af702b9f98:05781] Read -1, expected 4608, errno = 1
+[97af702b9f98:05763] Read -1, expected 5000, errno = 1
+[97af702b9f98:05767] Read -1, expected 5000, errno = 1
+[97af702b9f98:05774] Read -1, expected 5000, errno = 1
+[97af702b9f98:05775] Read -1, expected 5000, errno = 1
+[97af702b9f98:05780] Read -1, expected 5000, errno = 1
+69 	 |---| Elite Fit: 8.58 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.55999779701233 s
+[97af702b9f98:05762] Read -1, expected 5000, errno = 1
+[97af702b9f98:05768] Read -1, expected 5000, errno = 1
+[97af702b9f98:05775] Read -1, expected 5408, errno = 1
+70 	 |---| Elite Fit: 8.58 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.425368785858154 s
+71 	 |---| Elite Fit: 8.58 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.993165731430054 s
+72 	 |---| Elite Fit: 8.58 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.586339712142944 s
+73 	 |---| Elite Fit: 8.58 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.99817943572998 s
+74 	 |---| Elite Fit: 8.58 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.71812653541565 s
+75 	 |---| Elite Fit: 8.58 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.72184443473816 s
+76 	 |---| Elite Fit: 8.58 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.42407989501953 s
+77 	 |---| Elite Fit: 8.58 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.419599771499634 s
+78 	 |---| Elite Fit: 8.58 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.902209520339966 s
+79 	 |---| Elite Fit: 8.58 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.13054847717285 s
+80 	 |---| Elite Fit: 8.58 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.43205714225769 s
+81 	 |---| Elite Fit: 8.58 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.15655779838562 s
+82 	 |---| Elite Fit: 8.63 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.003127336502075 s
+83 	 |---| Elite Fit: 9.43 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.16234230995178 s
+84 	 |---| Elite Fit: 8.63 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 37.00212907791138 s
+85 	 |---| Elite Fit: 9.98 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.51245403289795 s
+86 	 |---| Elite Fit: 8.63 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.350127935409546 s
+87 	 |---| Elite Fit: 8.63 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 38.727320432662964 s
+88 	 |---| Elite Fit: 8.63 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.1316123008728 s
+89 	 |---| Elite Fit: 8.63 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 33.683390855789185 s
+90 	 |---| Elite Fit: 8.63 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 37.313071966171265 s
+91 	 |---| Elite Fit: 8.63 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.990938663482666 s
+92 	 |---| Elite Fit: 8.63 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.71792960166931 s
+93 	 |---| Elite Fit: 8.63 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.281545877456665 s
+94 	 |---| Elite Fit: 8.63 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.42185187339783 s
+95 	 |---| Elite Fit: 8.63 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 33.96751093864441 s
+96 	 |---| Elite Fit: 8.63 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.539214849472046 s
+97 	 |---| Elite Fit: 8.63 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.284467697143555 s
+98 	 |---| Elite Fit: 8.63 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.06312870979309 s
+99 	 |---| Elite Fit: 8.63 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.91752791404724 s
+100 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.239259243011475 s
+101 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.88444900512695 s
+102 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.20680522918701 s
+103 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.684277296066284 s
+104 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.475884199142456 s
+105 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.133235454559326 s
+106 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.56176686286926 s
+107 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.12870788574219 s
+108 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.559367418289185 s
+109 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.31000781059265 s
+110 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 37.84690856933594 s
+111 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.730321168899536 s
+112 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.46868348121643 s
+113 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.9402391910553 s
+114 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.48250365257263 s
+115 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 34.63874578475952 s
+116 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.11230230331421 s
+117 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.238525390625 s
+118 	 |---| Elite Fit: 8.83 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.404013872146606 s
+119 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.46129822731018 s
+[97af702b9f98:05774] Read -1, expected 4232, errno = 1
+120 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.003235816955566 s
+[97af702b9f98:05766] Read -1, expected 4232, errno = 1
+[97af702b9f98:05776] Read -1, expected 4232, errno = 1
+121 	 |---| Elite Fit: 8.81 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.6007137298584 s
+[97af702b9f98:05762] Read -1, expected 4232, errno = 1
+[97af702b9f98:05771] Read -1, expected 4232, errno = 1
+[97af702b9f98:05773] Read -1, expected 4232, errno = 1
+[97af702b9f98:05774] Read -1, expected 4232, errno = 1
+[97af702b9f98:05778] Read -1, expected 4232, errno = 1
+[97af702b9f98:05785] Read -1, expected 4232, errno = 1
+[97af702b9f98:05786] Read -1, expected 4232, errno = 1
+[97af702b9f98:05790] Read -1, expected 4232, errno = 1
+[97af702b9f98:05763] Read -1, expected 4232, errno = 1
+[97af702b9f98:05764] Read -1, expected 4232, errno = 1
+[97af702b9f98:05769] Read -1, expected 4608, errno = 1
+[97af702b9f98:05770] Read -1, expected 4232, errno = 1
+[97af702b9f98:05778] Read -1, expected 4608, errno = 1
+[97af702b9f98:05783] Read -1, expected 4608, errno = 1
+[97af702b9f98:05788] Read -1, expected 4608, errno = 1
+122 	 |---| Elite Fit: 8.81 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.57181453704834 s
+[97af702b9f98:05762] Read -1, expected 4232, errno = 1
+[97af702b9f98:05774] Read -1, expected 4232, errno = 1
+[97af702b9f98:05775] Read -1, expected 4232, errno = 1
+[97af702b9f98:05778] Read -1, expected 4608, errno = 1
+[97af702b9f98:05781] Read -1, expected 4232, errno = 1
+[97af702b9f98:05789] Read -1, expected 4232, errno = 1
+[97af702b9f98:05763] Read -1, expected 4232, errno = 1
+[97af702b9f98:05765] Read -1, expected 4232, errno = 1
+[97af702b9f98:05769] Read -1, expected 4232, errno = 1
+[97af702b9f98:05771] Read -1, expected 4232, errno = 1
+[97af702b9f98:05772] Read -1, expected 4608, errno = 1
+[97af702b9f98:05777] Read -1, expected 4608, errno = 1
+[97af702b9f98:05778] Read -1, expected 4232, errno = 1
+[97af702b9f98:05781] Read -1, expected 5000, errno = 1
+[97af702b9f98:05783] Read -1, expected 4608, errno = 1
+[97af702b9f98:05789] Read -1, expected 4232, errno = 1
+123 	 |---| Elite Fit: 9.17 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.340506076812744 s
+[97af702b9f98:05762] Read -1, expected 4608, errno = 1
+[97af702b9f98:05764] Read -1, expected 4232, errno = 1
+[97af702b9f98:05772] Read -1, expected 5000, errno = 1
+[97af702b9f98:05784] Read -1, expected 4608, errno = 1
+[97af702b9f98:05785] Read -1, expected 4608, errno = 1
+[97af702b9f98:05790] Read -1, expected 4608, errno = 1
+[97af702b9f98:05762] Read -1, expected 4608, errno = 1
+[97af702b9f98:05770] Read -1, expected 4608, errno = 1
+[97af702b9f98:05772] Read -1, expected 5000, errno = 1
+[97af702b9f98:05773] Read -1, expected 5000, errno = 1
+[97af702b9f98:05776] Read -1, expected 5000, errno = 1
+[97af702b9f98:05783] Read -1, expected 4608, errno = 1
+[97af702b9f98:05784] Read -1, expected 4232, errno = 1
+[97af702b9f98:05786] Read -1, expected 4232, errno = 1
+[97af702b9f98:05788] Read -1, expected 4232, errno = 1
+[97af702b9f98:05789] Read -1, expected 5000, errno = 1
+124 	 |---| Elite Fit: 8.92 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.02767014503479 s
+[97af702b9f98:05762] Read -1, expected 5000, errno = 1
+[97af702b9f98:05763] Read -1, expected 4608, errno = 1
+[97af702b9f98:05764] Read -1, expected 4232, errno = 1
+[97af702b9f98:05776] Read -1, expected 4608, errno = 1
+[97af702b9f98:05778] Read -1, expected 5408, errno = 1
+[97af702b9f98:05780] Read -1, expected 5408, errno = 1
+[97af702b9f98:05782] Read -1, expected 5000, errno = 1
+[97af702b9f98:05784] Read -1, expected 4608, errno = 1
+[97af702b9f98:05785] Read -1, expected 4232, errno = 1
+[97af702b9f98:05786] Read -1, expected 4608, errno = 1
+[97af702b9f98:05787] Read -1, expected 5000, errno = 1
+[97af702b9f98:05788] Read -1, expected 5000, errno = 1
+[97af702b9f98:05790] Read -1, expected 4232, errno = 1
+[97af702b9f98:05791] Read -1, expected 5408, errno = 1
+[97af702b9f98:05763] Read -1, expected 4232, errno = 1
+[97af702b9f98:05766] Read -1, expected 5408, errno = 1
+[97af702b9f98:05767] Read -1, expected 5000, errno = 1
+[97af702b9f98:05768] Read -1, expected 5000, errno = 1
+[97af702b9f98:05772] Read -1, expected 5000, errno = 1
+[97af702b9f98:05773] Read -1, expected 5000, errno = 1
+[97af702b9f98:05775] Read -1, expected 5408, errno = 1
+[97af702b9f98:05776] Read -1, expected 5000, errno = 1
+[97af702b9f98:05777] Read -1, expected 5000, errno = 1
+[97af702b9f98:05778] Read -1, expected 5408, errno = 1
+[97af702b9f98:05779] Read -1, expected 5000, errno = 1
+[97af702b9f98:05780] Read -1, expected 5000, errno = 1
+[97af702b9f98:05781] Read -1, expected 5000, errno = 1
+[97af702b9f98:05783] Read -1, expected 5000, errno = 1
+[97af702b9f98:05788] Read -1, expected 5408, errno = 1
+125 	 |---| Elite Fit: 10.36 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 37.01266050338745 s
+[97af702b9f98:05768] Read -1, expected 5000, errno = 1
+[97af702b9f98:05770] Read -1, expected 4608, errno = 1
+[97af702b9f98:05773] Read -1, expected 5408, errno = 1
+[97af702b9f98:05775] Read -1, expected 5000, errno = 1
+[97af702b9f98:05789] Read -1, expected 5408, errno = 1
+[97af702b9f98:05769] Read -1, expected 4608, errno = 1
+[97af702b9f98:05788] Read -1, expected 4608, errno = 1
+126 	 |---| Elite Fit: 9.90 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 37.501564502716064 s
+[97af702b9f98:05762] Read -1, expected 4608, errno = 1
+[97af702b9f98:05763] Read -1, expected 5408, errno = 1
+[97af702b9f98:05764] Read -1, expected 4608, errno = 1
+[97af702b9f98:05765] Read -1, expected 5000, errno = 1
+[97af702b9f98:05773] Read -1, expected 4608, errno = 1
+[97af702b9f98:05774] Read -1, expected 5832, errno = 1
+[97af702b9f98:05775] Read -1, expected 4608, errno = 1
+[97af702b9f98:05777] Read -1, expected 5408, errno = 1
+[97af702b9f98:05778] Read -1, expected 5408, errno = 1
+[97af702b9f98:05779] Read -1, expected 4608, errno = 1
+[97af702b9f98:05781] Read -1, expected 5408, errno = 1
+[97af702b9f98:05786] Read -1, expected 4608, errno = 1
+[97af702b9f98:05787] Read -1, expected 5000, errno = 1
+[97af702b9f98:05788] Read -1, expected 5408, errno = 1
+[97af702b9f98:05790] Read -1, expected 5000, errno = 1
+[97af702b9f98:05763] Read -1, expected 5408, errno = 1
+[97af702b9f98:05764] Read -1, expected 5832, errno = 1
+[97af702b9f98:05766] Read -1, expected 4608, errno = 1
+[97af702b9f98:05767] Read -1, expected 5832, errno = 1
+[97af702b9f98:05769] Read -1, expected 5000, errno = 1
+[97af702b9f98:05770] Read -1, expected 5000, errno = 1
+[97af702b9f98:05775] Read -1, expected 4608, errno = 1
+[97af702b9f98:05776] Read -1, expected 4608, errno = 1
+[97af702b9f98:05778] Read -1, expected 5000, errno = 1
+[97af702b9f98:05779] Read -1, expected 4608, errno = 1
+[97af702b9f98:05785] Read -1, expected 5000, errno = 1
+[97af702b9f98:05786] Read -1, expected 5000, errno = 1
+[97af702b9f98:05788] Read -1, expected 5000, errno = 1
+[97af702b9f98:05789] Read -1, expected 5000, errno = 1
+[97af702b9f98:05791] Read -1, expected 4608, errno = 1
+127 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.77412295341492 s
+[97af702b9f98:05770] Read -1, expected 4608, errno = 1
+[97af702b9f98:05771] Read -1, expected 5000, errno = 1
+[97af702b9f98:05772] Read -1, expected 5000, errno = 1
+[97af702b9f98:05764] Read -1, expected 5000, errno = 1
+[97af702b9f98:05768] Read -1, expected 5408, errno = 1
+[97af702b9f98:05777] Read -1, expected 5408, errno = 1
+[97af702b9f98:05786] Read -1, expected 5000, errno = 1
+[97af702b9f98:05791] Read -1, expected 5000, errno = 1
+128 	 |---| Elite Fit: 9.90 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 35.81790637969971 s
+[97af702b9f98:05762] Read -1, expected 4608, errno = 1
+[97af702b9f98:05782] Read -1, expected 5408, errno = 1
+[97af702b9f98:05787] Read -1, expected 5000, errno = 1
+[97af702b9f98:05788] Read -1, expected 5000, errno = 1
+[97af702b9f98:05763] Read -1, expected 4608, errno = 1
+[97af702b9f98:05765] Read -1, expected 5408, errno = 1
+[97af702b9f98:05777] Read -1, expected 5000, errno = 1
+[97af702b9f98:05779] Read -1, expected 5000, errno = 1
+[97af702b9f98:05782] Read -1, expected 5000, errno = 1
+[97af702b9f98:05786] Read -1, expected 5000, errno = 1
+[97af702b9f98:05791] Read -1, expected 4608, errno = 1
+129 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 37.23952555656433 s
+130 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 37.11876106262207 s
+131 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 37.83553767204285 s
+132 	 |---| Elite Fit: 8.73 	|---| Best Fit:  15.02 time: 0.0 h 4.0 min 36.141820430755615 s
