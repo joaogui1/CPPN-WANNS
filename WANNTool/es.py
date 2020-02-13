@@ -365,7 +365,7 @@ class PEPG:
                average_baseline=True,        # set baseline to average of batch
                weight_decay=0.01,            # weight decay coefficient
                rank_fitness=True,            # use rank rather than fitness numbers
-               forget_best=True            # don't keep the historical best solution
+               forget_best=True,            # don't keep the historical best solution
                initial_weight=0.0):
 
     self.num_params = num_params
@@ -395,10 +395,10 @@ class PEPG:
 
     self.forget_best = forget_best
     self.batch_reward = np.zeros(self.batch_size * 2)
-    self.mu = initial_weights*np.ones(self.num_params)#np.zeros(self.num_params)
+    self.mu = initial_weight*np.ones(self.num_params)#np.zeros(self.num_params)
     self.sigma = np.ones(self.num_params) * self.sigma_init
-    self.curr_best_mu = initial_weights*np.ones(self.num_params)#np.zeros(self.num_params)
-    self.best_mu = initial_weights*np.ones(self.num_params)#np.zeros(self.num_params)
+    self.curr_best_mu = initial_weight*np.ones(self.num_params)#np.zeros(self.num_params)
+    self.best_mu = initial_weight*np.ones(self.num_params)#np.zeros(self.num_params)
     self.best_reward = 0
     self.first_interation = True
     self.weight_decay = weight_decay

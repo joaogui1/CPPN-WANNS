@@ -12,8 +12,8 @@ import sys
 
 # sys.path.append(os.getcwd() + "/../..")
 
-from domain.evosoro_base import Sim, Env, ObjectiveDict
-from domain.read_write_voxelyze import *
+from custom_envs.evosoro_base import Sim, Env, ObjectiveDict
+from custom_envs.read_write_voxelyze import *
 
 
 VOXELYZE_VERSION = '_voxcad'
@@ -114,11 +114,11 @@ class EvosoroEnv(gym.Env):
         return self.state, 0.0, True, {}
       # print(total_voxels)
 
-      print(f"before write voxelyze id: {self.id}")
+     # print(f"before write voxelyze id: {self.id}")
       write_voxelyze_file(self.my_sim, self.my_env, self, RUN_DIR, RUN_NAME)
-      print(f"after write voxelyze id: {self.id}")
+     # print(f"after write voxelyze id: {self.id}")
 
-      print(f"before executing voxelyze id: {self.id}")
+     # print(f"before executing voxelyze id: {self.id}")
       p = sub.Popen(f"exec ./voxelyze  -f " + RUN_DIR + f"/voxelyzeFiles/" + RUN_NAME + f"--id_{self.id}.vxa",
                       shell=True)
       
@@ -134,16 +134,16 @@ class EvosoroEnv(gym.Env):
           # print(f"took too long {self.id}")
           return self.state, 0.0, True, {}
 
-      print(f"after executing voxelyze id: {self.id}")
+      #print(f"after executing voxelyze id: {self.id}")
       time.sleep(2) #weird behaviors
-      print(f"before read voxelyze id: {self.id}")
+      #print(f"before read voxelyze id: {self.id}")
       reward = read_voxlyze_results(RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml")
-      print(f"after read voxelyze id: {self.id}")
+      #print(f"after read voxelyze id: {self.id}")
       # print(f"Individual {self.id} has fitness {reward}")
       p.kill()
       done = True
-      sub.Popen(f"rm  -f " + RUN_DIR + f"/voxelyzeFiles/Basic--id_{self.id}.vxa", shell=False)
-      sub.Popen(f"rm  -f " + RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml", shell=False)
+      sub.Popen(f"rm  -f " + RUN_DIR + f"/voxelyzeFiles/Basic--id_{self.id}.vxa", shell=True)
+      sub.Popen(f"rm  -f " + RUN_DIR + f"/fitnessFiles/softbotsOutput--id_{self.id}.xml", shell=True)
 
     self.state[3] = np.sqrt(np.sum(np.square(np.asarray(self.state[:3]) - 2.5)))
     obs = self.state
