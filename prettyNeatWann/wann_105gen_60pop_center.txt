@@ -3956,3 +3956,6 @@ file basic_data/fitnessFiles/softbotsOutput--id_33br3v_n.xml wasn't present
 [97af702b9f98:24759] Read -1, expected 7200, errno = 1
 [97af702b9f98:24760] Read -1, expected 6728, errno = 1
 [97af702b9f98:24761] Read -1, expected 7200, errno = 1
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node 97af702b9f98 exited on signal 15 (Terminated).
+--------------------------------------------------------------------------
