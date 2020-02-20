@@ -1,4 +1,4 @@
-ifeq ($(origin .RECIPEPREFIX), undefined)
+eq ($(origin .RECIPEPREFIX), undefined)
   $(error This Make does not support .RECIPEPREFIX. Please use GNU Make 4.0 or later)
 endif
 .RECIPEPREFIX = >
@@ -22,3 +22,6 @@ neat_nocenter_train:
 
 neat_recur_train:
 > nohup python3 neat_train.py -p p/evosoro.json -n 30 -o neat_recur > neat_recur.txt &
+
+clean:
+> rm prettyNeatWANN/Basic--id*
