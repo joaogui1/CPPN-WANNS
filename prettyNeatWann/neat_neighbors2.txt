@@ -1,0 +1,73 @@
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  ol42s1hz
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  7ubq4bqp
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  mhk1_787
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  ct3ytkan
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  k6y882pl
+My id is  yqhcbper
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+	*** Running with hyperparameters:  p/rec_evosoro.json 		***
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  z1e1otvc
+*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  7ubtto50
+My id is  ydc16ylv
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  9xoe3wts
+My id is  o2sprmwn
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  jagiuu5t
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  c69affa8
+My id is  b0t3mm7r
+My id is  zw6rbd9v
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  cxj4lm8q
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  s9gfvnqf
+My id is  kuwjmzq1
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  675svpcw
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  tfx6_9zz
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  ps1nwb2z
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  2o20unzk
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  p4ras2i7
+My id is  r3ibbq4w
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  n0n3qdby
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  0y14fugq
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  gjil2wcl
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  9zi4xaxw
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  hxt3da8n
+	*** Running with hyperparameters:  p/rec_evosoro.json 	***
+My id is  x1hwph0o
+0 	 |---| Elite Fit: 8.05 	|---| Best Fit:  8.05 time: 0.0 h 2.0 min 16.960581064224243 s
+1 	 |---| Elite Fit: 8.21 	|---| Best Fit:  8.21 time: 0.0 h 4.0 min 37.049989223480225 s
+2 	 |---| Elite Fit: 0.53 	|---| Best Fit:  8.21 time: 0.0 h 2.0 min 17.842108249664307 s
+3 	 |---| Elite Fit: 2.94 	|---| Best Fit:  8.21 time: 0.0 h 2.0 min 19.72741389274597 s
+4 	 |---| Elite Fit: 3.77 	|---| Best Fit:  8.21 time: 0.0 h 2.0 min 21.523067712783813 s
+5 	 |---| Elite Fit: 2.94 	|---| Best Fit:  8.21 time: 0.0 h 2.0 min 19.692522048950195 s
+6 	 |---| Elite Fit: 2.91 	|---| Best Fit:  8.21 time: 0.0 h 2.0 min 17.95474672317505 s
+7 	 |---| Elite Fit: 1.95 	|---| Best Fit:  8.21 time: 0.0 h 2.0 min 18.894845485687256 s
+8 	 |---| Elite Fit: 3.46 	|---| Best Fit:  8.21 time: 0.0 h 2.0 min 19.814483880996704 s
+9 	 |---| Elite Fit: 2.02 	|---| Best Fit:  8.21 time: 0.0 h 2.0 min 17.927741289138794 s
+10 	 |---| Elite Fit: 0.37 	|---| Best Fit:  8.21 time: 0.0 h 2.0 min 19.122154235839844 s
+11 	 |---| Elite Fit: 2.54 	|---| Best Fit:  8.21 time: 0.0 h 2.0 min 20.16330051422119 s
