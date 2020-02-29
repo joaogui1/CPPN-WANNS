@@ -1,0 +1,13 @@
+	*** Running with hyperparameters:  p/evosoro.json 	***
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  4xuzosn5
+My id is  5f8u5f7n
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  87tu6ony
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  vgodi6d2
+	*** Running with hyperparameters:  p/evosoro.json 	***
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  pwpkq7yf
+0 	 |---| Elite Fit: 0.50 	|---| Best Fit:  0.50 	|---| Peak Fit:  1.00 time: 0.0 h 49.0 min 28.00138282775879 s
+1 	 |---| Elite Fit: 0.68 	|---| Best Fit:  0.68 	|---| Peak Fit:  1.59 time: 0.0 h 51.0 min 54.95227074623108 s

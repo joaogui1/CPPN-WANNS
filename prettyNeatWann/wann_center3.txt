@@ -1,0 +1,11 @@
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  5boc0qae
+	*** Running with hyperparameters:  p/evosoro.json 	***
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  _x_t7571
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  edrnjkly
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  z4htjofm
+	*** Running with hyperparameters:  p/evosoro.json 	***
+My id is  rzc0ekwc
