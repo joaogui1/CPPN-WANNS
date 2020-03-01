@@ -9,3 +9,32 @@ My id is  lo54gcle
 	*** Running with hyperparameters:  p/evosoro.json 	***
 	*** Running with hyperparameters:  p/evosoro.json 	***
 My id is  c9kzfeb3
+0 	 |---| Elite Fit: 0.50 	|---| Best Fit:  0.50 	|---| Peak Fit:  1.00 time: 0.0 h 53.0 min 12.737462759017944 s
+1 	 |---| Elite Fit: 1.54 	|---| Best Fit:  1.54 	|---| Peak Fit:  3.07 time: 1.0 h 4.0 min 31.38561463356018 s
+2 	 |---| Elite Fit: 1.54 	|---| Best Fit:  1.54 	|---| Peak Fit:  3.07 time: 1.0 h 9.0 min 28.94849967956543 s
+3 	 |---| Elite Fit: 1.63 	|---| Best Fit:  1.76 	|---| Peak Fit:  3.66 time: 1.0 h 6.0 min 53.42368769645691 s
+4 	 |---| Elite Fit: 5.36 	|---| Best Fit:  5.81 	|---| Peak Fit:  12.06 time: 1.0 h 14.0 min 15.622202634811401 s
+5 	 |---| Elite Fit: 6.03 	|---| Best Fit:  6.03 	|---| Peak Fit:  12.06 time: 1.0 h 10.0 min 2.9318766593933105 s
+6 	 |---| Elite Fit: 6.03 	|---| Best Fit:  6.03 	|---| Peak Fit:  12.06 time: 0.0 h 45.0 min 25.416667699813843 s
+7 	 |---| Elite Fit: 7.04 	|---| Best Fit:  7.04 	|---| Peak Fit:  14.08 time: 0.0 h 57.0 min 18.58117985725403 s
+8 	 |---| Elite Fit: 7.04 	|---| Best Fit:  7.04 	|---| Peak Fit:  14.08 time: 0.0 h 50.0 min 58.81605839729309 s
+9 	 |---| Elite Fit: 7.04 	|---| Best Fit:  7.04 	|---| Peak Fit:  14.08 time: 0.0 h 36.0 min 15.229832410812378 s
+10 	 |---| Elite Fit: 7.04 	|---| Best Fit:  7.04 	|---| Peak Fit:  14.08 time: 0.0 h 35.0 min 22.596115589141846 s
+11 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 51.0 min 5.447092056274414 s
+12 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 31.0 min 54.8216872215271 s
+13 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 36.0 min 22.36617636680603 s
+14 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 33.0 min 39.528080224990845 s
+15 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 33.0 min 58.05861020088196 s
+16 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 32.0 min 51.06399965286255 s
+17 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 37.0 min 41.99839115142822 s
+18 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 36.0 min 31.528827905654907 s
+19 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 35.0 min 18.900190114974976 s
+20 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 32.0 min 51.05912637710571 s
+21 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 33.0 min 34.05281329154968 s
+22 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 34.0 min 17.550495862960815 s
+23 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 32.0 min 56.78851771354675 s
+24 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 33.0 min 22.21385669708252 s
+25 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 35.0 min 14.71790099143982 s
+26 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 34.0 min 15.609911441802979 s
+27 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 33.0 min 45.34269428253174 s
+28 	 |---| Elite Fit: 7.17 	|---| Best Fit:  7.17 	|---| Peak Fit:  14.33 time: 0.0 h 35.0 min 41.95851016044617 s

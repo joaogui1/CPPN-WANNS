@@ -9,3 +9,19 @@ My id is  edrnjkly
 My id is  z4htjofm
 	*** Running with hyperparameters:  p/evosoro.json 	***
 My id is  rzc0ekwc
+0 	 |---| Elite Fit: 0.07 	|---| Best Fit:  0.07 	|---| Peak Fit:  0.14 time: 0.0 h 54.0 min 49.306031703948975 s
+1 	 |---| Elite Fit: 1.99 	|---| Best Fit:  1.95 	|---| Peak Fit:  3.99 time: 1.0 h 11.0 min 51.73227310180664 s
+2 	 |---| Elite Fit: 2.11 	|---| Best Fit:  2.11 	|---| Peak Fit:  4.74 time: 1.0 h 13.0 min 40.8876588344574 s
+3 	 |---| Elite Fit: 2.37 	|---| Best Fit:  2.37 	|---| Peak Fit:  4.74 time: 1.0 h 18.0 min 22.74811601638794 s
+4 	 |---| Elite Fit: 2.91 	|---| Best Fit:  2.91 	|---| Peak Fit:  10.72 time: 1.0 h 20.0 min 12.25502872467041 s
+5 	 |---| Elite Fit: 2.91 	|---| Best Fit:  2.91 	|---| Peak Fit:  10.72 time: 0.0 h 57.0 min 14.3945894241333 s
+6 	 |---| Elite Fit: 4.20 	|---| Best Fit:  3.68 	|---| Peak Fit:  13.90 time: 1.0 h 27.0 min 5.387271881103516 s
+7 	 |---| Elite Fit: 4.80 	|---| Best Fit:  4.67 	|---| Peak Fit:  11.31 time: 1.0 h 21.0 min 25.572491884231567 s
+8 	 |---| Elite Fit: 4.96 	|---| Best Fit:  4.96 	|---| Peak Fit:  13.90 time: 1.0 h 13.0 min 3.5605618953704834 s
+9 	 |---| Elite Fit: 5.05 	|---| Best Fit:  5.05 	|---| Peak Fit:  12.83 time: 1.0 h 15.0 min 3.6358933448791504 s
+10 	 |---| Elite Fit: 5.67 	|---| Best Fit:  5.43 	|---| Peak Fit:  13.37 time: 1.0 h 20.0 min 5.448775053024292 s
+11 	 |---| Elite Fit: 5.74 	|---| Best Fit:  5.43 	|---| Peak Fit:  14.30 time: 1.0 h 27.0 min 24.766461610794067 s
+12 	 |---| Elite Fit: 5.83 	|---| Best Fit:  5.83 	|---| Peak Fit:  13.98 time: 1.0 h 9.0 min 20.89521336555481 s
+13 	 |---| Elite Fit: 6.43 	|---| Best Fit:  6.52 	|---| Peak Fit:  14.30 time: 1.0 h 40.0 min 14.294256210327148 s
+14 	 |---| Elite Fit: 7.09 	|---| Best Fit:  7.40 	|---| Peak Fit:  14.30 time: 1.0 h 42.0 min 7.1796715259552 s
+15 	 |---| Elite Fit: 7.75 	|---| Best Fit:  7.56 	|---| Peak Fit:  13.29 time: 1.0 h 36.0 min 21.475929975509644 s
