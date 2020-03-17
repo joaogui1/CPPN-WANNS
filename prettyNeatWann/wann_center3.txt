@@ -25,3 +25,54 @@ My id is  rzc0ekwc
 13 	 |---| Elite Fit: 6.43 	|---| Best Fit:  6.52 	|---| Peak Fit:  14.30 time: 1.0 h 40.0 min 14.294256210327148 s
 14 	 |---| Elite Fit: 7.09 	|---| Best Fit:  7.40 	|---| Peak Fit:  14.30 time: 1.0 h 42.0 min 7.1796715259552 s
 15 	 |---| Elite Fit: 7.75 	|---| Best Fit:  7.56 	|---| Peak Fit:  13.29 time: 1.0 h 36.0 min 21.475929975509644 s
+16 	 |---| Elite Fit: 8.80 	|---| Best Fit:  8.22 	|---| Peak Fit:  14.30 time: 2.0 h 5.0 min 21.43266749382019 s
+17 	 |---| Elite Fit: 9.57 	|---| Best Fit:  8.31 	|---| Peak Fit:  14.08 time: 2.0 h 31.0 min 54.825148820877075 s
+18 	 |---| Elite Fit: 11.17 	|---| Best Fit:  11.29 	|---| Peak Fit:  14.08 time: 2.0 h 29.0 min 0.3180396556854248 s
+19 	 |---| Elite Fit: 11.86 	|---| Best Fit:  11.86 	|---| Peak Fit:  14.08 time: 2.0 h 27.0 min 50.355597734451294 s
+20 	 |---| Elite Fit: 12.52 	|---| Best Fit:  12.23 	|---| Peak Fit:  14.08 time: 2.0 h 28.0 min 0.626943826675415 s
+21 	 |---| Elite Fit: 12.25 	|---| Best Fit:  12.25 	|---| Peak Fit:  14.08 time: 2.0 h 26.0 min 47.72040033340454 s
+22 	 |---| Elite Fit: 12.25 	|---| Best Fit:  12.25 	|---| Peak Fit:  14.08 time: 1.0 h 37.0 min 26.99805521965027 s
+23 	 |---| Elite Fit: 12.42 	|---| Best Fit:  12.42 	|---| Peak Fit:  14.08 time: 2.0 h 30.0 min 39.85217475891113 s
+24 	 |---| Elite Fit: 11.64 	|---| Best Fit:  12.42 	|---| Peak Fit:  14.08 time: 1.0 h 39.0 min 23.988322496414185 s
+25 	 |---| Elite Fit: 12.25 	|---| Best Fit:  12.42 	|---| Peak Fit:  14.08 time: 1.0 h 38.0 min 8.672908067703247 s
+26 	 |---| Elite Fit: 12.42 	|---| Best Fit:  12.42 	|---| Peak Fit:  14.08 time: 1.0 h 38.0 min 9.327455997467041 s
+27 	 |---| Elite Fit: 12.42 	|---| Best Fit:  12.42 	|---| Peak Fit:  14.08 time: 1.0 h 39.0 min 38.049410820007324 s
+28 	 |---| Elite Fit: 12.62 	|---| Best Fit:  12.62 	|---| Peak Fit:  14.08 time: 2.0 h 18.0 min 50.35828518867493 s
+29 	 |---| Elite Fit: 13.63 	|---| Best Fit:  13.46 	|---| Peak Fit:  14.51 time: 1.0 h 45.0 min 14.92506718635559 s
+30 	 |---| Elite Fit: 13.63 	|---| Best Fit:  13.63 	|---| Peak Fit:  14.51 time: 1.0 h 49.0 min 18.707526206970215 s
+31 	 |---| Elite Fit: 13.63 	|---| Best Fit:  13.63 	|---| Peak Fit:  14.51 time: 1.0 h 17.0 min 5.378098011016846 s
+32 	 |---| Elite Fit: 13.63 	|---| Best Fit:  13.63 	|---| Peak Fit:  14.51 time: 1.0 h 10.0 min 41.24770522117615 s
+33 	 |---| Elite Fit: 14.01 	|---| Best Fit:  13.80 	|---| Peak Fit:  14.51 time: 1.0 h 45.0 min 3.8408899307250977 s
+34 	 |---| Elite Fit: 14.01 	|---| Best Fit:  14.01 	|---| Peak Fit:  14.51 time: 1.0 h 53.0 min 50.56234383583069 s
+35 	 |---| Elite Fit: 14.12 	|---| Best Fit:  14.12 	|---| Peak Fit:  14.51 time: 1.0 h 45.0 min 6.4462502002716064 s
+36 	 |---| Elite Fit: 14.12 	|---| Best Fit:  14.12 	|---| Peak Fit:  14.51 time: 1.0 h 14.0 min 14.583278894424438 s
+37 	 |---| Elite Fit: 14.12 	|---| Best Fit:  14.12 	|---| Peak Fit:  14.51 time: 1.0 h 21.0 min 47.44645118713379 s
+38 	 |---| Elite Fit: 14.19 	|---| Best Fit:  14.19 	|---| Peak Fit:  14.51 time: 1.0 h 41.0 min 38.49597215652466 s
+39 	 |---| Elite Fit: 14.19 	|---| Best Fit:  14.19 	|---| Peak Fit:  14.51 time: 1.0 h 19.0 min 32.67503094673157 s
+40 	 |---| Elite Fit: 14.20 	|---| Best Fit:  14.20 	|---| Peak Fit:  14.51 time: 1.0 h 55.0 min 6.527563571929932 s
+41 	 |---| Elite Fit: 14.20 	|---| Best Fit:  14.20 	|---| Peak Fit:  14.51 time: 1.0 h 15.0 min 55.32863664627075 s
+42 	 |---| Elite Fit: 14.29 	|---| Best Fit:  14.29 	|---| Peak Fit:  14.51 time: 1.0 h 40.0 min 46.350868701934814 s
+43 	 |---| Elite Fit: 14.29 	|---| Best Fit:  14.29 	|---| Peak Fit:  14.51 time: 1.0 h 7.0 min 56.126922369003296 s
+44 	 |---| Elite Fit: 14.29 	|---| Best Fit:  14.29 	|---| Peak Fit:  14.51 time: 1.0 h 9.0 min 41.601173639297485 s
+45 	 |---| Elite Fit: 14.29 	|---| Best Fit:  14.29 	|---| Peak Fit:  14.51 time: 1.0 h 2.0 min 5.7884252071380615 s
+46 	 |---| Elite Fit: 14.29 	|---| Best Fit:  14.29 	|---| Peak Fit:  14.51 time: 1.0 h 9.0 min 41.52847719192505 s
+47 	 |---| Elite Fit: 14.29 	|---| Best Fit:  14.29 	|---| Peak Fit:  14.51 time: 1.0 h 4.0 min 24.37193727493286 s
+48 	 |---| Elite Fit: 14.29 	|---| Best Fit:  14.29 	|---| Peak Fit:  14.51 time: 1.0 h 17.0 min 47.01317095756531 s
+49 	 |---| Elite Fit: 14.29 	|---| Best Fit:  14.29 	|---| Peak Fit:  14.51 time: 1.0 h 15.0 min 3.885082721710205 s
+50 	 |---| Elite Fit: 14.29 	|---| Best Fit:  14.29 	|---| Peak Fit:  14.51 time: 1.0 h 14.0 min 36.53859519958496 s
+51 	 |---| Elite Fit: 14.29 	|---| Best Fit:  14.29 	|---| Peak Fit:  14.51 time: 1.0 h 6.0 min 15.288039207458496 s
+[97af702b9f98:12369] Read -1, expected 4232, errno = 1
+52 	 |---| Elite Fit: 14.29 	|---| Best Fit:  14.29 	|---| Peak Fit:  14.51 time: 1.0 h 3.0 min 47.03414225578308 s
+53 	 |---| Elite Fit: 14.29 	|---| Best Fit:  14.29 	|---| Peak Fit:  14.51 time: 1.0 h 13.0 min 22.588611125946045 s
+54 	 |---| Elite Fit: 14.29 	|---| Best Fit:  14.29 	|---| Peak Fit:  14.51 time: 1.0 h 7.0 min 13.667748928070068 s
+55 	 |---| Elite Fit: 14.29 	|---| Best Fit:  14.29 	|---| Peak Fit:  14.51 time: 1.0 h 13.0 min 28.739487171173096 s
+56 	 |---| Elite Fit: 14.29 	|---| Best Fit:  14.29 	|---| Peak Fit:  14.51 time: 1.0 h 6.0 min 5.839799404144287 s
+57 	 |---| Elite Fit: 14.29 	|---| Best Fit:  14.29 	|---| Peak Fit:  14.51 time: 1.0 h 9.0 min 20.804085969924927 s
+58 	 |---| Elite Fit: 14.69 	|---| Best Fit:  14.69 	|---| Peak Fit:  16.88 time: 1.0 h 31.0 min 14.53884768486023 s
+59 	 |---| Elite Fit: 14.69 	|---| Best Fit:  14.69 	|---| Peak Fit:  16.88 time: 1.0 h 11.0 min 38.56749653816223 s
+stopping workers
+Worker #  4  shutting down.
+Worker #  3  shutting down.
+Worker #  5  shutting down.
+Worker #  1  shutting down.
+Worker #  2  shutting down.
