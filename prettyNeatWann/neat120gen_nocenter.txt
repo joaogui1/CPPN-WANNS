@@ -59,3 +59,154 @@ My id is  s89go4oi
 My id is  nd_1_dso
 	*** Running with hyperparameters:  p/evosoro_nocenter.json 	***
 My id is  c5khltb2
+0 	 |---| Elite Fit: 4.16 	|---| Best Fit:  4.16 time: 0.0 h 2.0 min 16.770963191986084 s
+1 	 |---| Elite Fit: 4.22 	|---| Best Fit:  4.22 time: 0.0 h 4.0 min 35.5989716053009 s
+2 	 |---| Elite Fit: 0.07 	|---| Best Fit:  4.22 time: 0.0 h 2.0 min 18.496920108795166 s
+3 	 |---| Elite Fit: 0.05 	|---| Best Fit:  4.22 time: 0.0 h 2.0 min 18.953039407730103 s
+4 	 |---| Elite Fit: 0.16 	|---| Best Fit:  4.22 time: 0.0 h 2.0 min 19.359073162078857 s
+5 	 |---| Elite Fit: 2.91 	|---| Best Fit:  4.22 time: 0.0 h 2.0 min 17.34608745574951 s
+6 	 |---| Elite Fit: 1.91 	|---| Best Fit:  4.22 time: 0.0 h 2.0 min 17.227393865585327 s
+7 	 |---| Elite Fit: 3.74 	|---| Best Fit:  4.22 time: 0.0 h 2.0 min 17.42555022239685 s
+8 	 |---| Elite Fit: 3.87 	|---| Best Fit:  4.22 time: 0.0 h 2.0 min 19.054807901382446 s
+9 	 |---| Elite Fit: 4.85 	|---| Best Fit:  4.85 time: 0.0 h 3.0 min 30.00977897644043 s
+10 	 |---| Elite Fit: 13.67 	|---| Best Fit:  13.49 time: 0.0 h 2.0 min 54.8516161441803 s
+11 	 |---| Elite Fit: 15.64 	|---| Best Fit:  15.47 time: 0.0 h 2.0 min 54.759013414382935 s
+12 	 |---| Elite Fit: 18.37 	|---| Best Fit:  18.37 time: 0.0 h 2.0 min 21.17768883705139 s
+13 	 |---| Elite Fit: 18.37 	|---| Best Fit:  18.37 time: 0.0 h 1.0 min 26.15664839744568 s
+14 	 |---| Elite Fit: 18.37 	|---| Best Fit:  18.37 time: 0.0 h 2.0 min 17.09611487388611 s
+15 	 |---| Elite Fit: 18.37 	|---| Best Fit:  18.37 time: 0.0 h 1.0 min 35.3548469543457 s
+16 	 |---| Elite Fit: 18.37 	|---| Best Fit:  18.37 time: 0.0 h 1.0 min 45.665621757507324 s
+17 	 |---| Elite Fit: 19.22 	|---| Best Fit:  19.22 time: 0.0 h 2.0 min 20.83774447441101 s
+18 	 |---| Elite Fit: 19.22 	|---| Best Fit:  19.22 time: 0.0 h 2.0 min 19.449635982513428 s
+19 	 |---| Elite Fit: 19.22 	|---| Best Fit:  19.22 time: 0.0 h 1.0 min 23.971104621887207 s
+20 	 |---| Elite Fit: 19.22 	|---| Best Fit:  19.22 time: 0.0 h 1.0 min 27.460657358169556 s
+21 	 |---| Elite Fit: 19.22 	|---| Best Fit:  19.22 time: 0.0 h 2.0 min 16.792323350906372 s
+22 	 |---| Elite Fit: 19.22 	|---| Best Fit:  19.22 time: 0.0 h 2.0 min 17.285120487213135 s
+23 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 54.849326610565186 s
+24 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 14.846463441848755 s
+25 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 16.607768058776855 s
+26 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 17.360034942626953 s
+27 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 17.428223848342896 s
+28 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 17.18969750404358 s
+29 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 17.313323497772217 s
+30 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 17.102397203445435 s
+31 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 17.213852882385254 s
+32 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 17.071635484695435 s
+33 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 19.721903085708618 s
+34 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 17.98997449874878 s
+35 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 17.457884311676025 s
+36 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 17.619990348815918 s
+37 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 11.441573858261108 s
+38 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 17.375723600387573 s
+39 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 15.55030608177185 s
+40 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 14.183653831481934 s
+41 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 16.91779375076294 s
+42 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 12.695390224456787 s
+43 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 13.724141359329224 s
+44 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 19.631234645843506 s
+45 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 1.0 min 8.991024017333984 s
+46 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 17.113781452178955 s
+47 	 |---| Elite Fit: 20.04 	|---| Best Fit:  20.04 time: 0.0 h 2.0 min 17.20530390739441 s
+48 	 |---| Elite Fit: 20.23 	|---| Best Fit:  20.23 time: 0.0 h 2.0 min 54.06462907791138 s
+49 	 |---| Elite Fit: 20.23 	|---| Best Fit:  20.23 time: 0.0 h 2.0 min 19.246927976608276 s
+50 	 |---| Elite Fit: 20.23 	|---| Best Fit:  20.23 time: 0.0 h 1.0 min 4.811788082122803 s
+51 	 |---| Elite Fit: 20.23 	|---| Best Fit:  20.23 time: 0.0 h 2.0 min 16.963207483291626 s
+52 	 |---| Elite Fit: 20.23 	|---| Best Fit:  20.23 time: 0.0 h 1.0 min 34.44675660133362 s
+53 	 |---| Elite Fit: 20.23 	|---| Best Fit:  20.23 time: 0.0 h 1.0 min 29.139790534973145 s
+54 	 |---| Elite Fit: 20.23 	|---| Best Fit:  20.23 time: 0.0 h 2.0 min 16.935384273529053 s
+55 	 |---| Elite Fit: 20.31 	|---| Best Fit:  20.31 time: 0.0 h 1.0 min 43.20739436149597 s
+56 	 |---| Elite Fit: 20.31 	|---| Best Fit:  20.31 time: 0.0 h 2.0 min 56.206915616989136 s
+57 	 |---| Elite Fit: 20.31 	|---| Best Fit:  20.31 time: 0.0 h 2.0 min 17.76867175102234 s
+58 	 |---| Elite Fit: 20.31 	|---| Best Fit:  20.31 time: 0.0 h 2.0 min 17.7922682762146 s
+59 	 |---| Elite Fit: 20.31 	|---| Best Fit:  20.31 time: 0.0 h 2.0 min 18.13977599143982 s
+60 	 |---| Elite Fit: 20.31 	|---| Best Fit:  20.31 time: 0.0 h 2.0 min 18.94827365875244 s
+61 	 |---| Elite Fit: 20.31 	|---| Best Fit:  20.31 time: 0.0 h 2.0 min 19.1438090801239 s
+62 	 |---| Elite Fit: 20.31 	|---| Best Fit:  20.31 time: 0.0 h 2.0 min 17.581889390945435 s
+63 	 |---| Elite Fit: 20.31 	|---| Best Fit:  20.31 time: 0.0 h 2.0 min 16.936946630477905 s
+64 	 |---| Elite Fit: 20.31 	|---| Best Fit:  20.31 time: 0.0 h 2.0 min 18.079197645187378 s
+65 	 |---| Elite Fit: 20.31 	|---| Best Fit:  20.31 time: 0.0 h 2.0 min 19.344650983810425 s
+66 	 |---| Elite Fit: 20.31 	|---| Best Fit:  20.31 time: 0.0 h 2.0 min 16.52894639968872 s
+67 	 |---| Elite Fit: 20.31 	|---| Best Fit:  20.31 time: 0.0 h 2.0 min 17.21147108078003 s
+68 	 |---| Elite Fit: 20.31 	|---| Best Fit:  20.31 time: 0.0 h 2.0 min 18.400336265563965 s
+69 	 |---| Elite Fit: 20.31 	|---| Best Fit:  20.31 time: 0.0 h 1.0 min 42.434937953948975 s
+70 	 |---| Elite Fit: 20.39 	|---| Best Fit:  20.39 time: 0.0 h 2.0 min 55.29143667221069 s
+71 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 54.5745210647583 s
+72 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 1.0 min 50.69146728515625 s
+73 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.20408010482788 s
+74 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 15.794254541397095 s
+75 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 1.0 min 6.620263338088989 s
+76 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.91604447364807 s
+77 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 13.691754579544067 s
+78 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 16.959821701049805 s
+79 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 16.73824906349182 s
+80 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.42858862876892 s
+81 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 13.743770122528076 s
+82 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.084594249725342 s
+83 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.889972686767578 s
+84 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 16.751123428344727 s
+85 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.30339217185974 s
+86 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.32863473892212 s
+87 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.214088678359985 s
+88 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.4219651222229 s
+89 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 16.66332507133484 s
+90 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.403514623641968 s
+91 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.667811155319214 s
+92 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.241057634353638 s
+93 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.711102962493896 s
+94 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.950544357299805 s
+95 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.933497428894043 s
+96 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.688807487487793 s
+97 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.645371198654175 s
+98 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.8481342792511 s
+99 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 16.812179803848267 s
+100 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.47629189491272 s
+101 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.336875677108765 s
+102 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.42662024497986 s
+103 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.371318578720093 s
+104 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 18.417914390563965 s
+105 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.795604467391968 s
+106 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.269049882888794 s
+107 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.077122688293457 s
+108 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.473013877868652 s
+109 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 18.969125986099243 s
+110 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 18.800915241241455 s
+111 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.569836139678955 s
+112 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.223191022872925 s
+113 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 18.034886837005615 s
+114 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 18.645179986953735 s
+115 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.744661331176758 s
+116 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.951005935668945 s
+117 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 17.343062162399292 s
+118 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 18.630385398864746 s
+119 	 |---| Elite Fit: 20.42 	|---| Best Fit:  20.42 time: 0.0 h 2.0 min 16.843443870544434 s
+stopping workers
+Worker #  24  shutting down.
+Worker #  17  shutting down.
+Worker #  13  shutting down.
+Worker #  27  shutting down.
+Worker #  7  shutting down.
+Worker #  22  shutting down.
+Worker #  19  shutting down.
+Worker #  20  shutting down.
+Worker #  5  shutting down.
+Worker #  23  shutting down.
+Worker #  18  shutting down.
+Worker #  12  shutting down.
+Worker #  26  shutting down.
+Worker #  4  shutting down.
+Worker #  8  shutting down.
+Worker #  21  shutting down.
+Worker #  16  shutting down.
+Worker #  11  shutting down.
+Worker #  28  shutting down.
+Worker #  25  shutting down.
+Worker #  6  shutting down.
+Worker #  2  shutting down.
+Worker #  3  shutting down.
+Worker #  9  shutting down.
+Worker #  30  shutting down.
+Worker #  10  shutting down.
+Worker #  1  shutting down.
+Worker #  14  shutting down.
+Worker #  15  shutting down.
+Worker #  29  shutting down.
