@@ -40,9 +40,9 @@
         </EquilibriumMode>
         <GA>
         <WriteFitnessFile>1</WriteFitnessFile>
-        <FitnessFileName>basic_data/fitnessFiles/softbotsOutput--id_wglnaic6.xml</FitnessFileName>
-        <QhullTmpFile>basic_data/tempFiles/qhullInput--id_wglnaic6.txt</QhullTmpFile>
-        <CurvaturesTmpFile>basic_data/tempFiles/curvatures--id_wglnaic6.txt</CurvaturesTmpFile>
+        <FitnessFileName>basic_data/fitnessFiles/softbotsOutput--id_117ofcz0.xml</FitnessFileName>
+        <QhullTmpFile>basic_data/tempFiles/qhullInput--id_117ofcz0.txt</QhullTmpFile>
+        <CurvaturesTmpFile>basic_data/tempFiles/curvatures--id_117ofcz0.txt</CurvaturesTmpFile>
         </GA>
         <MinTempFact>0.1</MinTempFact>
         <MaxTempFactChange>1e-05</MaxTempFactChange>
@@ -270,12 +270,12 @@
         <Y_Voxels>6</Y_Voxels>
         <Z_Voxels>6</Z_Voxels>
 <Data>
-<Layer><![CDATA[144444444444222222222222222222222222]]></Layer>
-<Layer><![CDATA[444444444444222222222222222222222222]]></Layer>
-<Layer><![CDATA[444444442244222222222222222222222222]]></Layer>
-<Layer><![CDATA[444444442244222222222222222222222222]]></Layer>
-<Layer><![CDATA[444444444444222222222222222222222222]]></Layer>
-<Layer><![CDATA[444444444444222222222222222222222222]]></Layer>
+<Layer><![CDATA[004444004444002222002222002222002222]]></Layer>
+<Layer><![CDATA[004444002244002222002222002222002222]]></Layer>
+<Layer><![CDATA[004444002224002222002222002222002222]]></Layer>
+<Layer><![CDATA[004444002224002222002222002222002222]]></Layer>
+<Layer><![CDATA[004444002244002222002222002222002222]]></Layer>
+<Layer><![CDATA[004444004444002222002222002222002222]]></Layer>
 </Data>
 </Structure>
         </VXC>
