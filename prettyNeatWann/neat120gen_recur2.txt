@@ -59,3 +59,1337 @@ My id is  aciyarvx
 My id is  ipqutjlp
 	*** Running with hyperparameters:  p/rec_evosoro.json 	***
 My id is  dgoz3nxb
+0 	 |---| Elite Fit: 2.25 	|---| Best Fit:  2.25 time: 0.0 h 2.0 min 18.658056497573853 s
+1 	 |---| Elite Fit: 3.34 	|---| Best Fit:  3.34 time: 0.0 h 4.0 min 26.848605155944824 s
+2 	 |---| Elite Fit: 3.76 	|---| Best Fit:  3.76 time: 0.0 h 4.0 min 23.31428599357605 s
+3 	 |---| Elite Fit: 3.59 	|---| Best Fit:  3.76 time: 0.0 h 2.0 min 17.454639673233032 s
+4 	 |---| Elite Fit: 3.65 	|---| Best Fit:  3.76 time: 0.0 h 2.0 min 18.50616979598999 s
+5 	 |---| Elite Fit: 3.59 	|---| Best Fit:  3.76 time: 0.0 h 2.0 min 19.763818979263306 s
+6 	 |---| Elite Fit: 3.58 	|---| Best Fit:  3.76 time: 0.0 h 2.0 min 19.00108790397644 s
+7 	 |---| Elite Fit: 3.58 	|---| Best Fit:  3.76 time: 0.0 h 2.0 min 18.880500316619873 s
+8 	 |---| Elite Fit: 3.52 	|---| Best Fit:  3.76 time: 0.0 h 2.0 min 19.16585111618042 s
+9 	 |---| Elite Fit: 3.76 	|---| Best Fit:  3.76 time: 0.0 h 2.0 min 20.86765956878662 s
+10 	 |---| Elite Fit: 3.58 	|---| Best Fit:  3.76 time: 0.0 h 2.0 min 18.651592254638672 s
+11 	 |---| Elite Fit: 4.92 	|---| Best Fit:  4.92 time: 0.0 h 4.0 min 39.09722089767456 s
+12 	 |---| Elite Fit: 7.37 	|---| Best Fit:  7.37 time: 0.0 h 4.0 min 37.54558229446411 s
+13 	 |---| Elite Fit: 8.82 	|---| Best Fit:  8.75 time: 0.0 h 3.0 min 48.557985067367554 s
+14 	 |---| Elite Fit: 14.71 	|---| Best Fit:  14.71 time: 0.0 h 3.0 min 49.37875699996948 s
+15 	 |---| Elite Fit: 15.29 	|---| Best Fit:  15.29 time: 0.0 h 3.0 min 46.459930419921875 s
+16 	 |---| Elite Fit: 16.95 	|---| Best Fit:  16.95 time: 0.0 h 3.0 min 49.15886402130127 s
+17 	 |---| Elite Fit: 17.56 	|---| Best Fit:  17.56 time: 0.0 h 3.0 min 41.07334923744202 s
+18 	 |---| Elite Fit: 17.83 	|---| Best Fit:  17.83 time: 0.0 h 3.0 min 45.5271577835083 s
+19 	 |---| Elite Fit: 17.83 	|---| Best Fit:  17.83 time: 0.0 h 3.0 min 40.61652112007141 s
+20 	 |---| Elite Fit: 18.58 	|---| Best Fit:  18.58 time: 0.0 h 3.0 min 40.81773114204407 s
+21 	 |---| Elite Fit: 18.59 	|---| Best Fit:  18.59 time: 0.0 h 3.0 min 47.52093839645386 s
+22 	 |---| Elite Fit: 18.64 	|---| Best Fit:  18.64 time: 0.0 h 3.0 min 45.74855709075928 s
+23 	 |---| Elite Fit: 18.64 	|---| Best Fit:  18.64 time: 0.0 h 2.0 min 18.049861431121826 s
+24 	 |---| Elite Fit: 18.64 	|---| Best Fit:  18.64 time: 0.0 h 2.0 min 18.041440725326538 s
+25 	 |---| Elite Fit: 18.84 	|---| Best Fit:  18.84 time: 0.0 h 3.0 min 49.39173340797424 s
+26 	 |---| Elite Fit: 18.84 	|---| Best Fit:  18.84 time: 0.0 h 2.0 min 17.215988397598267 s
+27 	 |---| Elite Fit: 18.84 	|---| Best Fit:  18.84 time: 0.0 h 2.0 min 17.978205680847168 s
+28 	 |---| Elite Fit: 18.84 	|---| Best Fit:  18.84 time: 0.0 h 2.0 min 17.816858053207397 s
+29 	 |---| Elite Fit: 18.97 	|---| Best Fit:  18.97 time: 0.0 h 3.0 min 51.26230716705322 s
+30 	 |---| Elite Fit: 18.97 	|---| Best Fit:  18.97 time: 0.0 h 3.0 min 50.261526584625244 s
+31 	 |---| Elite Fit: 18.97 	|---| Best Fit:  18.97 time: 0.0 h 2.0 min 17.8693425655365 s
+32 	 |---| Elite Fit: 18.97 	|---| Best Fit:  18.97 time: 0.0 h 2.0 min 18.165551900863647 s
+33 	 |---| Elite Fit: 18.97 	|---| Best Fit:  18.97 time: 0.0 h 2.0 min 17.362764596939087 s
+34 	 |---| Elite Fit: 18.97 	|---| Best Fit:  18.97 time: 0.0 h 2.0 min 17.299843072891235 s
+35 	 |---| Elite Fit: 18.97 	|---| Best Fit:  18.97 time: 0.0 h 2.0 min 17.92193841934204 s
+36 	 |---| Elite Fit: 18.97 	|---| Best Fit:  18.97 time: 0.0 h 2.0 min 17.76639723777771 s
+37 	 |---| Elite Fit: 18.97 	|---| Best Fit:  18.97 time: 0.0 h 2.0 min 17.51572299003601 s
+38 	 |---| Elite Fit: 19.03 	|---| Best Fit:  19.03 time: 0.0 h 3.0 min 48.74072813987732 s
+39 	 |---| Elite Fit: 19.22 	|---| Best Fit:  19.22 time: 0.0 h 2.0 min 51.804200410842896 s
+40 	 |---| Elite Fit: 19.53 	|---| Best Fit:  19.53 time: 0.0 h 3.0 min 22.487281799316406 s
+41 	 |---| Elite Fit: 19.53 	|---| Best Fit:  19.53 time: 0.0 h 3.0 min 17.378339290618896 s
+42 	 |---| Elite Fit: 19.53 	|---| Best Fit:  19.53 time: 0.0 h 2.0 min 17.536129236221313 s
+43 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 53.0350980758667 s
+44 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 17.511682748794556 s
+45 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 17.3457088470459 s
+46 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 17.027758598327637 s
+47 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 17.336333751678467 s
+48 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 17.84718680381775 s
+[ad14614d1a82:16830] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4232, errno = 1
+49 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 18.365071296691895 s
+50 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 18.334372520446777 s
+[ad14614d1a82:16830] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4232, errno = 1
+51 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 17.636642694473267 s
+[ad14614d1a82:16853] Read -1, expected 4232, errno = 1
+52 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 18.67683219909668 s
+[ad14614d1a82:16830] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4232, errno = 1
+53 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 17.80254626274109 s
+54 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 17.89193034172058 s
+[ad14614d1a82:16839] Read -1, expected 4232, errno = 1
+55 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 18.384550094604492 s
+[ad14614d1a82:16835] Read -1, expected 4232, errno = 1
+56 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 18.184502363204956 s
+[ad14614d1a82:16841] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4232, errno = 1
+57 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 17.96587610244751 s
+[ad14614d1a82:16837] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4232, errno = 1
+58 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 17.809449911117554 s
+[ad14614d1a82:16832] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4232, errno = 1
+59 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 17.867507934570312 s
+[ad14614d1a82:16854] Read -1, expected 4232, errno = 1
+60 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 17.313475370407104 s
+[ad14614d1a82:16831] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+61 	 |---| Elite Fit: 20.24 	|---| Best Fit:  20.24 time: 0.0 h 2.0 min 17.035576581954956 s
+[ad14614d1a82:16838] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+62 	 |---| Elite Fit: 20.31 	|---| Best Fit:  20.31 time: 0.0 h 2.0 min 52.173177003860474 s
+[ad14614d1a82:16852] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4232, errno = 1
+63 	 |---| Elite Fit: 20.80 	|---| Best Fit:  20.80 time: 0.0 h 2.0 min 54.39930510520935 s
+[ad14614d1a82:16835] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4232, errno = 1
+64 	 |---| Elite Fit: 20.80 	|---| Best Fit:  20.80 time: 0.0 h 2.0 min 18.06763219833374 s
+[ad14614d1a82:16839] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4232, errno = 1
+65 	 |---| Elite Fit: 20.80 	|---| Best Fit:  20.80 time: 0.0 h 2.0 min 17.78016233444214 s
+[ad14614d1a82:16830] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4232, errno = 1
+66 	 |---| Elite Fit: 20.80 	|---| Best Fit:  20.80 time: 0.0 h 2.0 min 18.482848644256592 s
+[ad14614d1a82:16829] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+67 	 |---| Elite Fit: 20.80 	|---| Best Fit:  20.80 time: 0.0 h 2.0 min 18.00535559654236 s
+[ad14614d1a82:16836] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4232, errno = 1
+68 	 |---| Elite Fit: 20.80 	|---| Best Fit:  20.80 time: 0.0 h 2.0 min 19.243199825286865 s
+[ad14614d1a82:16833] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4232, errno = 1
+69 	 |---| Elite Fit: 20.80 	|---| Best Fit:  20.80 time: 0.0 h 2.0 min 17.92798352241516 s
+[ad14614d1a82:16830] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4232, errno = 1
+70 	 |---| Elite Fit: 20.80 	|---| Best Fit:  20.80 time: 0.0 h 2.0 min 20.18198299407959 s
+[ad14614d1a82:16829] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4232, errno = 1
+71 	 |---| Elite Fit: 20.80 	|---| Best Fit:  20.80 time: 0.0 h 2.0 min 17.433311462402344 s
+[ad14614d1a82:16829] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4232, errno = 1
+72 	 |---| Elite Fit: 20.80 	|---| Best Fit:  20.80 time: 0.0 h 2.0 min 18.086487770080566 s
+[ad14614d1a82:16829] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+73 	 |---| Elite Fit: 20.80 	|---| Best Fit:  20.80 time: 0.0 h 1.0 min 12.290158033370972 s
+[ad14614d1a82:16828] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16832] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+74 	 |---| Elite Fit: 20.80 	|---| Best Fit:  20.80 time: 0.0 h 2.0 min 17.956167936325073 s
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16842] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16843] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16848] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 5000, errno = 1
+75 	 |---| Elite Fit: 20.80 	|---| Best Fit:  20.80 time: 0.0 h 1.0 min 23.40347981452942 s
+[ad14614d1a82:16826] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4232, errno = 1
+76 	 |---| Elite Fit: 20.80 	|---| Best Fit:  20.80 time: 0.0 h 2.0 min 18.906437873840332 s
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16851] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4232, errno = 1
+77 	 |---| Elite Fit: 20.80 	|---| Best Fit:  20.80 time: 0.0 h 2.0 min 17.113200664520264 s
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16830] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16838] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16825] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+78 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 50.40650486946106 s
+[ad14614d1a82:16825] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16838] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16825] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+79 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 52.38069486618042 s
+[ad14614d1a82:16825] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16838] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16842] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4608, errno = 1
+80 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 11.070194482803345 s
+[ad14614d1a82:16825] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4232, errno = 1
+81 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 16.73064398765564 s
+[ad14614d1a82:16825] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16832] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16845] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16849] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16854] Read -1, expected 5000, errno = 1
+82 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 19.699787616729736 s
+[ad14614d1a82:16825] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16840] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16843] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16845] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16848] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16849] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16851] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16853] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+83 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 0.0 min 34.31728959083557 s
+[ad14614d1a82:16825] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16834] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16836] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16844] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16851] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16853] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+84 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.65168070793152 s
+[ad14614d1a82:16825] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16831] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16834] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16836] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16837] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16849] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16850] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16851] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16852] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16853] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+85 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 1.0 min 36.95437479019165 s
+[ad14614d1a82:16825] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16837] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16838] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16840] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16845] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16849] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16852] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16853] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16854] Read -1, expected 5408, errno = 1
+86 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 0.0 min 47.249839544296265 s
+[ad14614d1a82:16825] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16829] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16833] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16840] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16844] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16849] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16850] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16852] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16853] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+87 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 0.0 min 56.42269802093506 s
+[ad14614d1a82:16825] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16829] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16831] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16839] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16842] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16847] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16848] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16849] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16850] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4608, errno = 1
+88 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 0.0 min 32.43275046348572 s
+[ad14614d1a82:16825] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16826] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16828] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16836] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16837] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16839] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16840] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16842] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16844] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16845] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16847] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16848] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16849] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16850] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16853] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+89 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 1.0 min 35.88542914390564 s
+[ad14614d1a82:16825] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16826] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16828] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16830] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16834] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16835] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16838] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16839] Read -1, expected 5832, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16842] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16844] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16848] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16853] Read -1, expected 5000, errno = 1
+90 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.50583243370056 s
+[ad14614d1a82:16825] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16826] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16828] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16833] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16834] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16835] Read -1, expected 5832, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16838] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16839] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16840] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16842] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16843] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16844] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16845] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16846] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4608, errno = 1
+91 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 0.0 min 31.255191802978516 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16837] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16842] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4232, errno = 1
+92 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 1.0 min 36.07583975791931 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16833] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16837] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16844] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16845] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16850] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4232, errno = 1
+93 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 18.013771533966064 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16829] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16834] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16838] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16840] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16843] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16847] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4232, errno = 1
+94 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.935858726501465 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16829] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16830] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16839] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16840] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16842] Read -1, expected 5832, errno = 1
+[ad14614d1a82:16843] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16845] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16846] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16851] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16852] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16853] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4232, errno = 1
+95 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.724460124969482 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16832] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16833] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16834] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16839] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16840] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16844] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16845] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16849] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+96 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 21.038982391357422 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16848] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16854] Read -1, expected 5000, errno = 1
+97 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.99074625968933 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16839] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16844] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16848] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16850] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16853] Read -1, expected 5000, errno = 1
+98 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.845417737960815 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16837] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16844] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16845] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16850] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+99 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 0.0 min 40.66101384162903 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16829] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16834] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16836] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16840] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16842] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16849] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16850] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16854] Read -1, expected 5000, errno = 1
+100 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.85277533531189 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16830] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16831] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16834] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16836] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16838] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16839] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16843] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16848] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16850] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16851] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+101 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 18.00035047531128 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16829] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16830] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16836] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16837] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16842] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16844] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16853] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16854] Read -1, expected 5408, errno = 1
+102 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.602629899978638 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16831] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16833] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 5832, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16837] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16840] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16843] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16848] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16850] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16852] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16854] Read -1, expected 5000, errno = 1
+103 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.652626752853394 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16839] Read -1, expected 5832, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16845] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16849] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16850] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16853] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+104 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 18.09997868537903 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16829] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16836] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16839] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16845] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16846] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16847] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16848] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16851] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16852] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4232, errno = 1
+105 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 18.00257420539856 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16831] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16832] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16836] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16840] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16842] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16845] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16851] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16853] Read -1, expected 5000, errno = 1
+106 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.329364776611328 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16831] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16832] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16838] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16839] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16843] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16848] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16851] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16853] Read -1, expected 5832, errno = 1
+[ad14614d1a82:16854] Read -1, expected 5408, errno = 1
+107 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.64483666419983 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16831] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16834] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16840] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16844] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16852] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+108 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.68640685081482 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16838] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16849] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16854] Read -1, expected 5000, errno = 1
+109 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 0.0 min 49.3938684463501 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16829] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16832] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16833] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16839] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16840] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16844] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16845] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16846] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16852] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16854] Read -1, expected 5000, errno = 1
+110 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 0.0 min 43.38891935348511 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16831] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16836] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16837] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16839] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16846] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16849] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16851] Read -1, expected 5000, errno = 1
+111 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.88529920578003 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16829] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16835] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16837] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16839] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16840] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16844] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16849] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16853] Read -1, expected 4232, errno = 1
+112 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 18.10336422920227 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16831] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16832] Read -1, expected 5832, errno = 1
+[ad14614d1a82:16833] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16834] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16843] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16845] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16848] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16852] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16853] Read -1, expected 5832, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+113 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.949880361557007 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16830] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16835] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16836] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16840] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16844] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16848] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16851] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16854] Read -1, expected 5832, errno = 1
+114 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.690099000930786 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16833] Read -1, expected 5832, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16836] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16838] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16843] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16845] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16852] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4232, errno = 1
+115 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.911219596862793 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16829] Read -1, expected 5832, errno = 1
+[ad14614d1a82:16830] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16832] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16834] Read -1, expected 5832, errno = 1
+[ad14614d1a82:16835] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16837] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16839] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16840] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16842] Read -1, expected 5832, errno = 1
+[ad14614d1a82:16843] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16844] Read -1, expected 5832, errno = 1
+[ad14614d1a82:16846] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16848] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16850] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16851] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16852] Read -1, expected 5408, errno = 1
+116 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 20.616869926452637 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16837] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16841] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16842] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16845] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16849] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16851] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16854] Read -1, expected 5000, errno = 1
+117 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 17.917874574661255 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16828] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16829] Read -1, expected 5832, errno = 1
+[ad14614d1a82:16830] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16834] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16837] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16838] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16839] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16841] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16843] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16844] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16845] Read -1, expected 5832, errno = 1
+[ad14614d1a82:16846] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16848] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16849] Read -1, expected 5408, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4608, errno = 1
+118 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 0.0 min 31.388679265975952 s
+[ad14614d1a82:16826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16827] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16829] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16831] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16832] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16833] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16835] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16836] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16839] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16840] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16842] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16846] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16847] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16848] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16849] Read -1, expected 5000, errno = 1
+[ad14614d1a82:16851] Read -1, expected 4232, errno = 1
+[ad14614d1a82:16852] Read -1, expected 4608, errno = 1
+[ad14614d1a82:16854] Read -1, expected 4232, errno = 1
+119 	 |---| Elite Fit: 22.50 	|---| Best Fit:  22.50 time: 0.0 h 2.0 min 19.7495756149292 s
+stopping workers
+Worker #  3  shutting down.
+Worker #  5  shutting down.
+Worker #  1  shutting down.
+Worker #  7  shutting down.
+Worker #  2  shutting down.
+Worker #  8  shutting down.
+Worker #  17  shutting down.
+Worker #  11  shutting down.
+Worker #  10  shutting down.
+Worker #  30  shutting down.
+Worker #  16  shutting down.
+Worker #  15  shutting down.
+Worker #  23  shutting down.
+Worker #  22  shutting down.
+Worker #  18  shutting down.
+Worker #  6  shutting down.
+Worker #  13  shutting down.
+Worker #  20  shutting down.
+Worker #  26  shutting down.
+Worker #  4  shutting down.
+Worker #  21  shutting down.
+Worker #  25  shutting down.
+Worker #  14  shutting down.
+Worker #  28  shutting down.
+Worker #  24  shutting down.
+Worker #  29  shutting down.
+Worker #  12  shutting down.
+Worker #  9  shutting down.
+Worker #  27  shutting down.
+Worker #  19  shutting down.
