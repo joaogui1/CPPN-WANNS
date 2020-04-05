@@ -59,3 +59,155 @@ My id is  vw0e35vz
 My id is  36f_0vg0
 	*** Running with hyperparameters:  p/rec_evosoro.json 	***
 My id is  td29qhc1
+0 	 |---| Elite Fit: 1.46 	|---| Best Fit:  1.46 time: 0.0 h 2.0 min 17.192663431167603 s
+1 	 |---| Elite Fit: 3.41 	|---| Best Fit:  3.20 time: 0.0 h 3.0 min 8.162676811218262 s
+2 	 |---| Elite Fit: 3.41 	|---| Best Fit:  3.36 time: 0.0 h 3.0 min 7.778937339782715 s
+3 	 |---| Elite Fit: 3.84 	|---| Best Fit:  3.84 time: 0.0 h 3.0 min 35.03590178489685 s
+4 	 |---| Elite Fit: 3.84 	|---| Best Fit:  3.84 time: 0.0 h 2.0 min 18.323718309402466 s
+5 	 |---| Elite Fit: 4.05 	|---| Best Fit:  4.05 time: 0.0 h 3.0 min 5.132189750671387 s
+6 	 |---| Elite Fit: 4.05 	|---| Best Fit:  4.05 time: 0.0 h 2.0 min 17.3947172164917 s
+7 	 |---| Elite Fit: 4.67 	|---| Best Fit:  4.63 time: 0.0 h 3.0 min 6.829166412353516 s
+8 	 |---| Elite Fit: 8.07 	|---| Best Fit:  7.99 time: 0.0 h 2.0 min 53.25202417373657 s
+9 	 |---| Elite Fit: 8.07 	|---| Best Fit:  8.07 time: 0.0 h 2.0 min 54.12124443054199 s
+10 	 |---| Elite Fit: 8.07 	|---| Best Fit:  8.07 time: 0.0 h 2.0 min 19.261787176132202 s
+11 	 |---| Elite Fit: 8.07 	|---| Best Fit:  8.07 time: 0.0 h 2.0 min 18.095863342285156 s
+12 	 |---| Elite Fit: 8.07 	|---| Best Fit:  8.07 time: 0.0 h 2.0 min 20.284975051879883 s
+13 	 |---| Elite Fit: 8.07 	|---| Best Fit:  8.07 time: 0.0 h 2.0 min 17.707698345184326 s
+14 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 53.558250188827515 s
+15 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 53.88459038734436 s
+16 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.201353788375854 s
+17 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.117196559906006 s
+18 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.228044033050537 s
+19 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.253207206726074 s
+20 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.22432017326355 s
+21 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.466322898864746 s
+22 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.298340559005737 s
+23 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.493664741516113 s
+24 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.393484115600586 s
+25 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.56130623817444 s
+26 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.344122886657715 s
+27 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.358470678329468 s
+28 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.290214776992798 s
+29 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.9250066280365 s
+30 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.455413341522217 s
+31 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 19.434885501861572 s
+32 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.368215799331665 s
+33 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.436941385269165 s
+34 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 19.946444749832153 s
+35 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 21.135506868362427 s
+36 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 16.75729012489319 s
+37 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.396713256835938 s
+38 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.36531162261963 s
+39 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.499953269958496 s
+40 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.04832911491394 s
+41 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.360607147216797 s
+42 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 19.405186891555786 s
+43 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.246997594833374 s
+44 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.308303833007812 s
+45 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.355478763580322 s
+46 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.248013973236084 s
+47 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.64099144935608 s
+48 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 16.440596103668213 s
+49 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 20.150131225585938 s
+50 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.696518421173096 s
+51 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.30694317817688 s
+52 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.28642511367798 s
+53 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.285896062850952 s
+54 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.28380298614502 s
+55 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.128832817077637 s
+56 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.266173124313354 s
+57 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.183350801467896 s
+58 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.42272138595581 s
+59 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.51560616493225 s
+60 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.58877921104431 s
+61 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.345364332199097 s
+62 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.28466033935547 s
+63 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.304837465286255 s
+64 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.379481315612793 s
+65 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 14.789810180664062 s
+66 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.155540704727173 s
+67 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 19.148184299468994 s
+68 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.904787302017212 s
+69 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 16.87770676612854 s
+70 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.20138955116272 s
+71 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.7072696685791 s
+72 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.429627656936646 s
+73 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.247456312179565 s
+74 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 15.92819595336914 s
+75 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.29335045814514 s
+76 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.53053593635559 s
+77 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.272958040237427 s
+78 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.256134033203125 s
+79 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.37781023979187 s
+80 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 16.794969081878662 s
+81 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.542952060699463 s
+82 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.614845991134644 s
+83 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.146434783935547 s
+84 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.28905487060547 s
+85 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.108286380767822 s
+86 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 19.136067867279053 s
+87 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.300055503845215 s
+88 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.21784472465515 s
+89 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.36075210571289 s
+90 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 16.553261756896973 s
+91 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 16.69956874847412 s
+92 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.398985624313354 s
+93 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.22288203239441 s
+94 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.186059951782227 s
+95 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.150833129882812 s
+96 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.486082792282104 s
+97 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.225128650665283 s
+98 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 20.89501976966858 s
+99 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.60572648048401 s
+100 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.492701292037964 s
+101 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 21.23774290084839 s
+file basic_data/fitnessFiles/softbotsOutput--id_td29qhc1.xml wasn't present
+102 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 34.665457248687744 s
+103 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.29632568359375 s
+104 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.048797369003296 s
+105 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.497966766357422 s
+106 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.519880294799805 s
+107 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.02152681350708 s
+108 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.399892568588257 s
+109 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.361539363861084 s
+110 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.324779987335205 s
+111 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.249407052993774 s
+112 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.09097170829773 s
+113 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.311293840408325 s
+114 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.85895848274231 s
+115 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.6607768535614 s
+116 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.220727920532227 s
+117 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.28199815750122 s
+118 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 17.735387802124023 s
+119 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.04 time: 0.0 h 2.0 min 18.292227506637573 s
+stopping workers
+Worker #  3  shutting down.
+Worker #  1  shutting down.
+Worker #  2  shutting down.
+Worker #  24  shutting down.
+Worker #  10  shutting down.
+Worker #  8  shutting down.
+Worker #  7  shutting down.
+Worker #  9  shutting down.
+Worker #  5  shutting down.
+Worker #  11  shutting down.
+Worker #  21  shutting down.
+Worker #  15  shutting down.
+Worker #  16  shutting down.
+Worker #  13  shutting down.
+Worker #  4  shutting down.
+Worker #  17  shutting down.
+Worker #  18  shutting down.
+Worker #  22  shutting down.
+Worker #  23  shutting down.
+Worker #  14  shutting down.
+Worker #  29  shutting down.
+Worker #  28  shutting down.
+Worker #  30  shutting down.
+Worker #  26  shutting down.
+Worker #  25  shutting down.
+Worker #  19  shutting down.
+Worker #  27  shutting down.
+Worker #  12  shutting down.
+Worker #  6  shutting down.
+Worker #  20  shutting down.
