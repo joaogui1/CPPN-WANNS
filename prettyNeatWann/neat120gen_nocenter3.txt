@@ -59,3 +59,241 @@ My id is  vnl64_b2
 My id is  3wi07cla
 	*** Running with hyperparameters:  p/evosoro_nocenter.json 	***
 My id is  9sk30fae
+0 	 |---| Elite Fit: 4.12 	|---| Best Fit:  4.12 time: 0.0 h 2.0 min 16.580288410186768 s
+1 	 |---| Elite Fit: 4.91 	|---| Best Fit:  4.91 time: 0.0 h 4.0 min 37.90386176109314 s
+2 	 |---| Elite Fit: 4.91 	|---| Best Fit:  4.91 time: 0.0 h 2.0 min 19.47153377532959 s
+3 	 |---| Elite Fit: 3.22 	|---| Best Fit:  4.91 time: 0.0 h 2.0 min 19.66520094871521 s
+4 	 |---| Elite Fit: 2.82 	|---| Best Fit:  4.91 time: 0.0 h 2.0 min 21.22188115119934 s
+5 	 |---| Elite Fit: 4.16 	|---| Best Fit:  4.91 time: 0.0 h 2.0 min 18.976757764816284 s
+6 	 |---| Elite Fit: 3.00 	|---| Best Fit:  4.91 time: 0.0 h 2.0 min 17.82188630104065 s
+7 	 |---| Elite Fit: 2.44 	|---| Best Fit:  4.91 time: 0.0 h 2.0 min 19.390165328979492 s
+8 	 |---| Elite Fit: 2.67 	|---| Best Fit:  4.91 time: 0.0 h 2.0 min 20.184845447540283 s
+9 	 |---| Elite Fit: 4.36 	|---| Best Fit:  4.91 time: 0.0 h 2.0 min 17.774502754211426 s
+10 	 |---| Elite Fit: 4.54 	|---| Best Fit:  4.91 time: 0.0 h 2.0 min 18.721829175949097 s
+11 	 |---| Elite Fit: 7.94 	|---| Best Fit:  7.94 time: 0.0 h 4.0 min 40.17073631286621 s
+12 	 |---| Elite Fit: 5.00 	|---| Best Fit:  7.94 time: 0.0 h 2.0 min 19.648820877075195 s
+13 	 |---| Elite Fit: 7.33 	|---| Best Fit:  7.94 time: 0.0 h 2.0 min 18.354317665100098 s
+14 	 |---| Elite Fit: 8.34 	|---| Best Fit:  8.34 time: 0.0 h 4.0 min 37.893707513809204 s
+15 	 |---| Elite Fit: 4.18 	|---| Best Fit:  8.34 time: 0.0 h 2.0 min 20.190908193588257 s
+16 	 |---| Elite Fit: 7.29 	|---| Best Fit:  8.34 time: 0.0 h 2.0 min 18.028993844985962 s
+17 	 |---| Elite Fit: 8.95 	|---| Best Fit:  8.95 time: 0.0 h 4.0 min 37.59159255027771 s
+18 	 |---| Elite Fit: 11.05 	|---| Best Fit:  11.05 time: 0.0 h 4.0 min 36.91126346588135 s
+19 	 |---| Elite Fit: 8.85 	|---| Best Fit:  11.05 time: 0.0 h 2.0 min 19.44735836982727 s
+20 	 |---| Elite Fit: 8.85 	|---| Best Fit:  11.05 time: 0.0 h 2.0 min 18.0000479221344 s
+21 	 |---| Elite Fit: 8.85 	|---| Best Fit:  11.05 time: 0.0 h 2.0 min 18.735962390899658 s
+22 	 |---| Elite Fit: 9.98 	|---| Best Fit:  11.05 time: 0.0 h 2.0 min 16.596439123153687 s
+23 	 |---| Elite Fit: 9.47 	|---| Best Fit:  11.05 time: 0.0 h 2.0 min 19.06561589241028 s
+24 	 |---| Elite Fit: 11.13 	|---| Best Fit:  11.13 time: 0.0 h 4.0 min 34.70829153060913 s
+25 	 |---| Elite Fit: 11.30 	|---| Best Fit:  11.30 time: 0.0 h 4.0 min 36.58608555793762 s
+26 	 |---| Elite Fit: 9.71 	|---| Best Fit:  11.30 time: 0.0 h 2.0 min 17.077369213104248 s
+27 	 |---| Elite Fit: 12.81 	|---| Best Fit:  12.81 time: 0.0 h 4.0 min 35.24959444999695 s
+28 	 |---| Elite Fit: 10.44 	|---| Best Fit:  12.81 time: 0.0 h 2.0 min 17.31161904335022 s
+29 	 |---| Elite Fit: 11.86 	|---| Best Fit:  12.81 time: 0.0 h 2.0 min 17.865201234817505 s
+30 	 |---| Elite Fit: 11.86 	|---| Best Fit:  12.81 time: 0.0 h 2.0 min 18.57638192176819 s
+31 	 |---| Elite Fit: 11.86 	|---| Best Fit:  12.81 time: 0.0 h 2.0 min 18.61339521408081 s
+32 	 |---| Elite Fit: 10.01 	|---| Best Fit:  12.81 time: 0.0 h 2.0 min 18.931254148483276 s
+33 	 |---| Elite Fit: 10.63 	|---| Best Fit:  12.81 time: 0.0 h 2.0 min 17.68081760406494 s
+34 	 |---| Elite Fit: 13.97 	|---| Best Fit:  13.97 time: 0.0 h 4.0 min 36.81568241119385 s
+35 	 |---| Elite Fit: 11.79 	|---| Best Fit:  13.97 time: 0.0 h 2.0 min 18.5532865524292 s
+36 	 |---| Elite Fit: 11.79 	|---| Best Fit:  13.97 time: 0.0 h 2.0 min 18.1263267993927 s
+37 	 |---| Elite Fit: 13.09 	|---| Best Fit:  13.97 time: 0.0 h 2.0 min 10.521565675735474 s
+38 	 |---| Elite Fit: 12.48 	|---| Best Fit:  13.97 time: 0.0 h 2.0 min 17.053639888763428 s
+39 	 |---| Elite Fit: 12.48 	|---| Best Fit:  13.97 time: 0.0 h 2.0 min 17.5189151763916 s
+40 	 |---| Elite Fit: 12.28 	|---| Best Fit:  13.97 time: 0.0 h 2.0 min 18.087727308273315 s
+41 	 |---| Elite Fit: 12.28 	|---| Best Fit:  13.97 time: 0.0 h 2.0 min 18.04982042312622 s
+42 	 |---| Elite Fit: 12.18 	|---| Best Fit:  13.97 time: 0.0 h 2.0 min 14.551807165145874 s
+43 	 |---| Elite Fit: 14.03 	|---| Best Fit:  14.03 time: 0.0 h 4.0 min 34.28403687477112 s
+44 	 |---| Elite Fit: 14.03 	|---| Best Fit:  14.03 time: 0.0 h 2.0 min 17.1693754196167 s
+45 	 |---| Elite Fit: 13.77 	|---| Best Fit:  14.03 time: 0.0 h 2.0 min 19.39533281326294 s
+46 	 |---| Elite Fit: 12.14 	|---| Best Fit:  14.03 time: 0.0 h 2.0 min 16.123301029205322 s
+47 	 |---| Elite Fit: 12.64 	|---| Best Fit:  14.03 time: 0.0 h 2.0 min 17.74310612678528 s
+48 	 |---| Elite Fit: 13.07 	|---| Best Fit:  14.03 time: 0.0 h 2.0 min 18.53031301498413 s
+49 	 |---| Elite Fit: 13.07 	|---| Best Fit:  14.03 time: 0.0 h 2.0 min 19.098389863967896 s
+50 	 |---| Elite Fit: 12.83 	|---| Best Fit:  14.03 time: 0.0 h 2.0 min 17.63947057723999 s
+51 	 |---| Elite Fit: 12.09 	|---| Best Fit:  14.03 time: 0.0 h 2.0 min 20.457119464874268 s
+52 	 |---| Elite Fit: 11.76 	|---| Best Fit:  14.03 time: 0.0 h 2.0 min 19.42465376853943 s
+53 	 |---| Elite Fit: 11.90 	|---| Best Fit:  14.03 time: 0.0 h 2.0 min 19.26384735107422 s
+54 	 |---| Elite Fit: 11.76 	|---| Best Fit:  14.03 time: 0.0 h 2.0 min 17.480759620666504 s
+55 	 |---| Elite Fit: 11.76 	|---| Best Fit:  14.03 time: 0.0 h 2.0 min 17.33634924888611 s
+56 	 |---| Elite Fit: 14.10 	|---| Best Fit:  14.10 time: 0.0 h 4.0 min 36.3005108833313 s
+57 	 |---| Elite Fit: 14.10 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 17.43361496925354 s
+58 	 |---| Elite Fit: 11.66 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 17.99326467514038 s
+59 	 |---| Elite Fit: 12.39 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 10.28244137763977 s
+60 	 |---| Elite Fit: 12.53 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 13.9302499294281 s
+61 	 |---| Elite Fit: 12.53 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 16.888297080993652 s
+62 	 |---| Elite Fit: 12.53 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 21.168010234832764 s
+63 	 |---| Elite Fit: 12.53 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 12.230091094970703 s
+64 	 |---| Elite Fit: 12.53 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 8.056888818740845 s
+65 	 |---| Elite Fit: 12.98 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 12.433678150177002 s
+66 	 |---| Elite Fit: 12.98 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 14.69507908821106 s
+67 	 |---| Elite Fit: 12.98 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 17.218307495117188 s
+68 	 |---| Elite Fit: 12.98 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 14.210471391677856 s
+69 	 |---| Elite Fit: 13.66 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 10.477437734603882 s
+70 	 |---| Elite Fit: 14.10 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 20.022348403930664 s
+71 	 |---| Elite Fit: 13.85 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 14.043071031570435 s
+72 	 |---| Elite Fit: 13.16 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 20.334421396255493 s
+73 	 |---| Elite Fit: 13.25 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 13.604566812515259 s
+74 	 |---| Elite Fit: 13.25 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 17.918466806411743 s
+75 	 |---| Elite Fit: 13.25 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 19.95828413963318 s
+76 	 |---| Elite Fit: 13.25 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 1.3892884254455566 s
+77 	 |---| Elite Fit: 13.42 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 2.9693498611450195 s
+78 	 |---| Elite Fit: 14.08 	|---| Best Fit:  14.10 time: 0.0 h 2.0 min 17.6362624168396 s
+79 	 |---| Elite Fit: 14.30 	|---| Best Fit:  14.30 time: 0.0 h 4.0 min 28.23903179168701 s
+80 	 |---| Elite Fit: 14.38 	|---| Best Fit:  14.38 time: 0.0 h 4.0 min 34.1857967376709 s
+81 	 |---| Elite Fit: 14.38 	|---| Best Fit:  14.38 time: 0.0 h 2.0 min 16.484612941741943 s
+82 	 |---| Elite Fit: 14.66 	|---| Best Fit:  14.66 time: 0.0 h 4.0 min 40.29706025123596 s
+83 	 |---| Elite Fit: 13.81 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 18.603203058242798 s
+84 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 19.569206953048706 s
+85 	 |---| Elite Fit: 14.04 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 17.437304258346558 s
+86 	 |---| Elite Fit: 13.16 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 19.55849814414978 s
+87 	 |---| Elite Fit: 13.03 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 14.520228147506714 s
+88 	 |---| Elite Fit: 13.72 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 17.467855215072632 s
+89 	 |---| Elite Fit: 14.16 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 13.627744913101196 s
+90 	 |---| Elite Fit: 13.32 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 13.554471015930176 s
+91 	 |---| Elite Fit: 13.32 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 17.042625188827515 s
+92 	 |---| Elite Fit: 13.37 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 18.34625554084778 s
+93 	 |---| Elite Fit: 13.66 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 15.105239629745483 s
+94 	 |---| Elite Fit: 13.83 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 7.123081922531128 s
+95 	 |---| Elite Fit: 13.95 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 17.503203630447388 s
+96 	 |---| Elite Fit: 13.94 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 13.669145345687866 s
+97 	 |---| Elite Fit: 13.94 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 7.198026895523071 s
+98 	 |---| Elite Fit: 13.66 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 15.146690607070923 s
+99 	 |---| Elite Fit: 13.66 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 17.4031879901886 s
+100 	 |---| Elite Fit: 12.89 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 18.41885280609131 s
+101 	 |---| Elite Fit: 13.32 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 18.27964973449707 s
+[ad14614d1a82:00821] Read -1, expected 4232, errno = 1
+102 	 |---| Elite Fit: 13.32 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 0.48764777183532715 s
+103 	 |---| Elite Fit: 13.32 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 17.61137080192566 s
+[ad14614d1a82:00804] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00806] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00819] Read -1, expected 4232, errno = 1
+104 	 |---| Elite Fit: 13.32 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 18.191908836364746 s
+[ad14614d1a82:00814] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00826] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00827] Read -1, expected 4232, errno = 1
+105 	 |---| Elite Fit: 13.40 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 18.218993663787842 s
+[ad14614d1a82:00802] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00804] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00805] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00812] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00814] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00817] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00821] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00826] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00828] Read -1, expected 4232, errno = 1
+106 	 |---| Elite Fit: 13.40 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 17.764514684677124 s
+[ad14614d1a82:00802] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00810] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00811] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00816] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00824] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00825] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00828] Read -1, expected 4232, errno = 1
+107 	 |---| Elite Fit: 13.40 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 18.31246018409729 s
+[ad14614d1a82:00802] Read -1, expected 4232, errno = 1
+108 	 |---| Elite Fit: 13.40 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 17.707724809646606 s
+[ad14614d1a82:00802] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00804] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00815] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00818] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00819] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00821] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00825] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00828] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00829] Read -1, expected 4608, errno = 1
+109 	 |---| Elite Fit: 13.40 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 18.134071350097656 s
+[ad14614d1a82:00802] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00811] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00813] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00815] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00817] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00821] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00826] Read -1, expected 4232, errno = 1
+110 	 |---| Elite Fit: 13.40 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 18.227455854415894 s
+[ad14614d1a82:00803] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00806] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00808] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00820] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00821] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00823] Read -1, expected 4232, errno = 1
+111 	 |---| Elite Fit: 13.40 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 17.416905164718628 s
+[ad14614d1a82:00803] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00804] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00806] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00807] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00820] Read -1, expected 4232, errno = 1
+112 	 |---| Elite Fit: 13.64 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 17.936896085739136 s
+[ad14614d1a82:00801] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00806] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00807] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00810] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00816] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00818] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00819] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00820] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00829] Read -1, expected 4232, errno = 1
+113 	 |---| Elite Fit: 13.64 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 17.376591205596924 s
+[ad14614d1a82:00801] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00804] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00805] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00807] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00810] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00811] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00813] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00814] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00816] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00819] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00822] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00824] Read -1, expected 4232, errno = 1
+114 	 |---| Elite Fit: 13.64 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 18.432791709899902 s
+[ad14614d1a82:00803] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00806] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00808] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00811] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00812] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00814] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00820] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00821] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00823] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00824] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00825] Read -1, expected 4608, errno = 1
+[ad14614d1a82:00827] Read -1, expected 5000, errno = 1
+115 	 |---| Elite Fit: 13.64 	|---| Best Fit:  14.66 time: 0.0 h 2.0 min 17.537381410598755 s
+[ad14614d1a82:00811] Read -1, expected 4232, errno = 1
+116 	 |---| Elite Fit: 19.35 	|---| Best Fit:  19.35 time: 0.0 h 2.0 min 54.51445460319519 s
+117 	 |---| Elite Fit: 19.35 	|---| Best Fit:  19.35 time: 0.0 h 2.0 min 17.936383485794067 s
+118 	 |---| Elite Fit: 19.35 	|---| Best Fit:  19.35 time: 0.0 h 2.0 min 17.580791473388672 s
+[ad14614d1a82:00807] Read -1, expected 4232, errno = 1
+[ad14614d1a82:00819] Read -1, expected 4232, errno = 1
+119 	 |---| Elite Fit: 19.35 	|---| Best Fit:  19.35 time: 0.0 h 2.0 min 18.45494270324707 s
+stopping workers
+Worker #  3  shutting down.
+Worker #  9  shutting down.
+Worker #  5  shutting down.
+Worker #  11  shutting down.
+Worker #  19  shutting down.
+Worker #  20  shutting down.
+Worker #  4  shutting down.
+Worker #  21  shutting down.
+Worker #  2  shutting down.
+Worker #  6  shutting down.
+Worker #  1  shutting down.
+Worker #  26  shutting down.
+Worker #  10  shutting down.
+Worker #  29  shutting down.
+Worker #  25  shutting down.
+Worker #  7  shutting down.
+Worker #  8  shutting down.
+Worker #  17  shutting down.
+Worker #  14  shutting down.
+Worker #  16  shutting down.
+Worker #  24  shutting down.
+Worker #  28  shutting down.
+Worker #  15  shutting down.
+Worker #  18  shutting down.
+Worker #  22  shutting down.
+Worker #  23  shutting down.
+Worker #  12  shutting down.
+Worker #  13  shutting down.
+Worker #  27  shutting down.
+Worker #  30  shutting down.
