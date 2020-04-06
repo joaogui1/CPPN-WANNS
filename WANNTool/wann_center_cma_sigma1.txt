@@ -1,0 +1,159 @@
+assigning the rank and nworkers 31 20
+size of model 34
+assigning the rank and nworkers 31 28
+assigning the rank and nworkers 31 9
+assigning the rank and nworkers 31 13
+assigning the rank and nworkers 31 21
+size of model 34
+assigning the rank and nworkers 31 10
+assigning the rank and nworkers 31 22
+assigning the rank and nworkers 31 25
+assigning the rank and nworkers 31 24
+size of model 34
+assigning the rank and nworkers 31 3
+size of model 34
+assigning the rank and nworkers 31 16
+size of model 34
+assigning the rank and nworkers 31 6
+size of model 34
+size of model 34
+assigning the rank and nworkers 31 8
+assigning the rank and nworkers 31 15
+size of model 34
+size of model 34
+size of model 34
+size of model 34
+size of model 34
+size of model 34
+size of model 34
+assigning the rank and nworkers 31 4
+assigning the rank and nworkers 31 14
+assigning the rank and nworkers 31 17
+assigning the rank and nworkers 31 26
+assigning the rank and nworkers 31 5
+assigning the rank and nworkers 31 29
+size of model 34
+size of model 34
+size of model 34
+size of model 34
+assigning the rank and nworkers 31 2
+assigning the rank and nworkers 31 19
+size of model 34
+size of model 34
+size of model 34
+size of model 34
+assigning the rank and nworkers 31 7
+size of model 34
+assigning the rank and nworkers 31 1
+size of model 34
+assigning the rank and nworkers 31 12
+size of model 34
+assigning the rank and nworkers 31 0
+size of model 34
+assigning the rank and nworkers 31 23
+assigning the rank and nworkers 31 30
+size of model 34
+size of model 34
+assigning the rank and nworkers 31 11
+size of model 34
+assigning the rank and nworkers 31 18
+size of model 34
+assigning the rank and nworkers 31 27
+size of model 34
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=308846, Mon Apr  6 18:53:58 2020)
+('process', 9, 'out of total ', 31, 'started')
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=265554, Mon Apr  6 18:53:58 2020)
+('process', 19, 'out of total ', 31, 'started')
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=239801, Mon Apr  6 18:53:58 2020)
+('process', 6, 'out of total ', 31, 'started')
+My id is  4fofrnu7
+My id is  2peh1l9v
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=245402, Mon Apr  6 18:53:58 2020)
+('process', 28, 'out of total ', 31, 'started')
+My id is  _ecov487
+My id is  n2kr8cc1
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=300652, Mon Apr  6 18:53:58 2020)
+('process', 16, 'out of total ', 31, 'started')
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=265006, Mon Apr  6 18:53:58 2020)
+My id is  0ay9yt7f
+('process', 10, 'out of total ', 31, 'started')
+My id is  z2salkw0
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=247955, Mon Apr  6 18:53:58 2020)
+('process', 24, 'out of total ', 31, 'started')
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=292597, Mon Apr  6 18:53:58 2020)
+('process', 5, 'out of total ', 31, 'started')
+My id is  fsyb5eaq
+My id is  weh1qyur
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=241836, Mon Apr  6 18:53:58 2020)
+('process', 22, 'out of total ', 31, 'started')
+My id is  cofcft2n
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=331992, Mon Apr  6 18:53:58 2020)
+('process', 25, 'out of total ', 31, 'started')
+My id is  1i6r0jjn
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=267755, Mon Apr  6 18:53:58 2020)
+('process', 26, 'out of total ', 31, 'started')
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=254256, Mon Apr  6 18:53:58 2020)
+('process', 21, 'out of total ', 31, 'started')
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=294250, Mon Apr  6 18:53:58 2020)
+My id is  0uqe4g9p
+('process', 13, 'out of total ', 31, 'started')
+My id is  llzvlxrf
+My id is  j2iugint
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=298261, Mon Apr  6 18:53:58 2020)
+('process', 7, 'out of total ', 31, 'started')
+My id is  v_k2agdz
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=306582, Mon Apr  6 18:53:58 2020)
+('process', 17, 'out of total ', 31, 'started')
+My id is  ocwhmfbz
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=293909, Mon Apr  6 18:53:58 2020)
+('process', 8, 'out of total ', 31, 'started')
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=304857, Mon Apr  6 18:53:58 2020)
+('process', 20, 'out of total ', 31, 'started')
+My id is  y3p6qt62
+My id is  fff7opc1
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=309611, Mon Apr  6 18:53:58 2020)
+('process', 14, 'out of total ', 31, 'started')
+My id is  q905lbee
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=254340, Mon Apr  6 18:53:58 2020)
+('process', 4, 'out of total ', 31, 'started')
+My id is  p3t83zlb
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=304270, Mon Apr  6 18:53:58 2020)
+('process', 2, 'out of total ', 31, 'started')
+My id is  a9lnlm5t
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=343685, Mon Apr  6 18:53:58 2020)
+('process', 3, 'out of total ', 31, 'started')
+My id is  xpphrw92
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=318015, Mon Apr  6 18:53:58 2020)
+('process', 12, 'out of total ', 31, 'started')
+My id is  9l3n9tf3
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=295953, Mon Apr  6 18:53:58 2020)
+('process', 23, 'out of total ', 31, 'started')
+My id is  4ui5ue21
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=286234, Mon Apr  6 18:53:58 2020)
+('process', 0, 'out of total ', 31, 'started')
+('training', 'evosoro')
+('population', 120)
+('num_worker', 30)
+('num_worker_trial', 4)
+My id is  imr3sjrj
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=357895, Mon Apr  6 18:53:58 2020)
+('process', 11, 'out of total ', 31, 'started')
+My id is  qmtbkbgk
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=271142, Mon Apr  6 18:53:58 2020)
+('process', 15, 'out of total ', 31, 'started')
+My id is  knjkwf3p
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=360796, Mon Apr  6 18:53:58 2020)
+('process', 1, 'out of total ', 31, 'started')
+My id is  zqlpzhdl
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=274345, Mon Apr  6 18:53:58 2020)
+('process', 18, 'out of total ', 31, 'started')
+My id is  3f78vehg
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=360787, Mon Apr  6 18:53:58 2020)
+('process', 30, 'out of total ', 31, 'started')
+My id is  k3shy_gf
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=332221, Mon Apr  6 18:53:58 2020)
+('process', 29, 'out of total ', 31, 'started')
+My id is  04lh5kp2
+(60_w,120)-aCMA-ES (mu_w=32.1,w_1=7%) in dimension 34 (seed=341292, Mon Apr  6 18:53:58 2020)
+('process', 27, 'out of total ', 31, 'started')
+My id is  5jfx9ra2
