@@ -196,14 +196,14 @@ def worker(weights, seed, train_mode_int=1, max_len=-1):
 
   train_mode = (train_mode_int == 1)
   model.set_model_params(weights)
-  reward_list, t_list = simulate(model,
+  reward_list, behavior_list, t_list = simulate(model,
     train_mode=train_mode, render_mode=False, num_episode=num_episode, seed=seed, max_len=max_len)
   if batch_mode == 'min':
     reward = np.min(reward_list)
   else:
     reward = np.mean(reward_list)
   t = np.mean(t_list)
-  return reward, t
+  return reward, behavior_list, t
 
 def slave():
   model.make_env()
@@ -221,8 +221,8 @@ def slave():
       assert worker_id == rank, possible_error
       jobidx = int(jobidx)
       seed = int(seed)
-      fitness, timesteps = worker(weights, seed, train_mode, max_len)
-      results.append([worker_id, jobidx, fitness, timesteps])
+      fitness, behavior, timesteps = worker(weights, seed, train_mode, max_len)
+      results.append([worker_id, jobidx, fitness, behavior, timesteps])
     result_packet = encode_result_packet(results)
     assert len(result_packet) == RESULT_PACKET_SIZE
     comm.Send(result_packet, dest=0)
