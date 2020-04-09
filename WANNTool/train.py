@@ -186,10 +186,11 @@ def decode_result_packet(packet):
   fits = fits.tolist()
   times = r[:, 3].astype(np.float)/PRECISION
   times = times.tolist()
+  behavior = r[:, 4].tolist()
   result = []
   n = len(jobs)
   for i in range(n):
-    result.append([workers[i], jobs[i], fits[i], times[i]])
+    result.append([workers[i], jobs[i], fits[i], times[i], behavior[i]])
   return result
 
 def worker(weights, seed, train_mode_int=1, max_len=-1):
@@ -222,7 +223,7 @@ def slave():
       jobidx = int(jobidx)
       seed = int(seed)
       fitness, behavior, timesteps = worker(weights, seed, train_mode, max_len)
-      results.append([worker_id, jobidx, fitness, behavior, timesteps])
+      results.append([worker_id, jobidx, fitness, timesteps, behavior])
     result_packet = encode_result_packet(results)
     assert len(result_packet) == RESULT_PACKET_SIZE
     comm.Send(result_packet, dest=0)
@@ -238,7 +239,7 @@ def send_packets_to_slaves(packet_list):
 def receive_packets_from_slaves():
   result_packet = np.empty(RESULT_PACKET_SIZE, dtype=np.int32)
 
-  reward_list_total = np.zeros((population, 2))
+  reward_list_total = np.zeros((population, 3))
 
   check_results = np.ones(population, dtype=np.int)
   for i in range(1, num_worker+1):
@@ -251,6 +252,7 @@ def receive_packets_from_slaves():
       idx = int(result[1])
       reward_list_total[idx, 0] = result[2]
       reward_list_total[idx, 1] = result[3]
+      reward_list_total[idx, 2] = result[4]
       check_results[idx] = 0
 
   check_sum = check_results.sum()
@@ -260,7 +262,7 @@ def receive_packets_from_slaves():
 def evaluate_batch(model_params, max_len=-1, stdev_mode=False):
   # duplicate model_params
   solutions = []
-  for i in range(es.popsize):
+  for _ in range(es.popsize):
     solutions.append(np.copy(model_params))
 
   seeds = np.arange(es.popsize)
@@ -350,10 +352,10 @@ def master():
     history.append(h)
 
     with open(filename, 'wt') as out:
-      res = json.dump([np.array(es.current_param()).round(4).tolist()], out, sort_keys=True, indent=2, separators=(',', ': '))
+      json.dump([np.array(es.current_param()).round(4).tolist()], out, sort_keys=True, indent=2, separators=(',', ': '))
 
     with open(filename_hist, 'wt') as out:
-      res = json.dump(history, out, sort_keys=False, indent=0, separators=(',', ':'))
+      json.dump(history, out, sort_keys=False, indent=0, separators=(',', ':'))
     sprint(gamename, h)
 
     if (t == 1):
@@ -367,7 +369,7 @@ def master():
       improvement = reward_eval - best_reward_eval
       eval_log.append([t, reward_eval, model_params_quantized])
       with open(filename_log, 'wt') as out:
-        res = json.dump(eval_log, out)
+        json.dump(eval_log, out)
       if (len(eval_log) == 1 or reward_eval > best_reward_eval):
         best_reward_eval = reward_eval
         best_model_params_eval = model_params_quantized
@@ -376,7 +378,7 @@ def master():
           sprint("reset to previous best params, where best_reward_eval =", best_reward_eval)
           es.set_mu(best_model_params_eval)
       with open(filename_best, 'wt') as out:
-        res = json.dump([best_model_params_eval, best_reward_eval, reward_stdev], out, sort_keys=True, indent=0, separators=(',', ': '))
+        json.dump([best_model_params_eval, best_reward_eval, reward_stdev], out, sort_keys=True, indent=0, separators=(',', ': '))
       sprint("improvement", t, improvement, "curr", reward_eval, "prev", prev_best_reward_eval, "best", best_reward_eval, "stdev", reward_stdev)
 
 
