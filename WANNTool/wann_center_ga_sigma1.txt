@@ -1,0 +1,128 @@
+assigning the rank and nworkers 31 18
+size of model 34
+('process', 18, 'out of total ', 31, 'started')
+assigning the rank and nworkers 31 29
+size of model 34
+('process', 29, 'out of total ', 31, 'started')
+assigning the rank and nworkers 31 30
+My id is  ixbuj_op
+My id is  mdy3qtmu
+assigning the rank and nworkers 31 1
+assigning the rank and nworkers 31 25
+size of model 34
+('process', 30, 'out of total ', 31, 'started')
+assigning the rank and nworkers 31 26
+My id is  arvwglic
+size of model 34
+('process', 1, 'out of total ', 31, 'started')
+size of model 34
+('process', 25, 'out of total ', 31, 'started')
+My id is  16ckzp7w
+My id is  iqfagjtz
+size of model 34
+('process', 26, 'out of total ', 31, 'started')
+assigning the rank and nworkers 31 20
+assigning the rank and nworkers 31 13
+assigning the rank and nworkers 31 16
+size of model 34
+('process', 20, 'out of total ', 31, 'started')
+My id is  qfnmpyng
+My id is  htc3atoa
+size of model 34
+size of model 34
+('process', 13, 'out of total ', 31, 'started')
+('process', 16, 'out of total ', 31, 'started')
+assigning the rank and nworkers 31 6
+assigning the rank and nworkers 31 23
+My id is  xjhd5f05
+My id is  062uoqug
+size of model 34
+('process', 6, 'out of total ', 31, 'started')
+assigning the rank and nworkers 31 10
+assigning the rank and nworkers 31 28
+My id is  bz7218x6
+size of model 34
+assigning the rank and nworkers 31 4
+assigning the rank and nworkers 31 11
+('process', 23, 'out of total ', 31, 'started')
+assigning the rank and nworkers 31 22
+assigning the rank and nworkers 31 27
+assigning the rank and nworkers 31 2
+assigning the rank and nworkers 31 15
+assigning the rank and nworkers 31 12
+size of model 34
+('process', 10, 'out of total ', 31, 'started')
+My id is  tkc3qsgk
+size of model 34
+('process', 28, 'out of total ', 31, 'started')
+size of model 34
+size of model 34
+('process', 4, 'out of total ', 31, 'started')
+('process', 11, 'out of total ', 31, 'started')
+My id is  6ajjs9m6
+size of model 34
+size of model 34
+('process', 27, 'out of total ', 31, 'started')
+size of model 34
+('process', 22, 'out of total ', 31, 'started')
+('process', 12, 'out of total ', 31, 'started')
+My id is  lkiozyg3
+size of model 34
+size of model 34
+('process', 2, 'out of total ', 31, 'started')
+('process', 15, 'out of total ', 31, 'started')
+assigning the rank and nworkers 31 9
+My id is  epb1b7qq
+assigning the rank and nworkers 31 5
+My id is  5m99vtid
+assigning the rank and nworkers 31 8
+My id is  ynaoroey
+My id is  q3t7et42
+My id is  aey9e_x7
+My id is  vdepoj7m
+assigning the rank and nworkers 31 17
+My id is  q7poecks
+size of model 34
+('process', 9, 'out of total ', 31, 'started')
+size of model 34
+('process', 5, 'out of total ', 31, 'started')
+assigning the rank and nworkers 31 3
+size of model 34
+('process', 8, 'out of total ', 31, 'started')
+My id is  5jehge3_
+My id is  gti1a00a
+size of model 34
+('process', 17, 'out of total ', 31, 'started')
+assigning the rank and nworkers 31 19
+My id is  ms8093z9
+size of model 34
+('process', 3, 'out of total ', 31, 'started')
+My id is  3m4c_qf2
+size of model 34
+('process', 19, 'out of total ', 31, 'started')
+My id is  f4d378zk
+assigning the rank and nworkers 31 0
+My id is  btcy9f0e
+size of model 34
+('process', 0, 'out of total ', 31, 'started')
+('training', 'evosoro')
+('population', 240)
+('num_worker', 30)
+('num_worker_trial', 8)
+My id is  gytqbz1m
+assigning the rank and nworkers 31 21
+size of model 34
+('process', 21, 'out of total ', 31, 'started')
+My id is  z2ozandi
+assigning the rank and nworkers 31 14
+size of model 34
+('process', 14, 'out of total ', 31, 'started')
+My id is  wm951g15
+assigning the rank and nworkers 31 7
+size of model 34
+('process', 7, 'out of total ', 31, 'started')
+assigning the rank and nworkers 31 24
+My id is  y8_nqmu7
+size of model 34
+('process', 24, 'out of total ', 31, 'started')
+My id is  a89ljq91
