@@ -321,19 +321,20 @@ def master():
     reward_list_total = receive_packets_from_slaves()
 
     reward_list = reward_list_total[:, 0] # get rewards
+    behavior_list = reward_list_total[:, 2] # get behaviors
 
     mean_time_step = int(np.mean(reward_list_total[:, 1])*100)/100. # get average time step
     max_time_step = int(np.max(reward_list_total[:, 1])*100)/100. # get average time step
     avg_reward = int(np.mean(reward_list)*100)/100. # get average time step
     std_reward = int(np.std(reward_list)*100)/100. # get average time step
 
-    es.tell(reward_list)
+    es.tell([reward_list, behavior_list])
 
     es_solution = es.result()
     model_params = es_solution[0] # best historical solution
     reward = es_solution[1] # best reward
     curr_reward = es_solution[2] # best of the current batch
-    print(model_params)
+    print("params: ", model_params)
     model.set_model_params(np.array(model_params).round(4))
 
     r_max = int(np.max(reward_list)*100)/100.
@@ -341,7 +342,6 @@ def master():
 
     curr_time = int(time.time()) - start_time
 
-    desc = ('game', 't', 'curr_time', 'avg_reward', 'r_min', 'r_max', 'std_reward')
     h = (t, curr_time, avg_reward, r_min, r_max, std_reward, int(es.rms_stdev()*100000)/100000., mean_time_step+1., int(max_time_step)+1)
 
     if cap_time_mode:
