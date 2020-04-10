@@ -20,7 +20,7 @@ import subprocess
 import sys
 import config
 from model import make_model, simulate
-from es import CMAES, SimpleGA, OpenES, PEPG
+from es import CMAES, SimpleGA, OpenES, PEPG, MAP_Elites
 import argparse
 import time
 
@@ -59,7 +59,7 @@ rank = comm.Get_rank()
 
 PRECISION = 10000
 SOLUTION_PACKET_SIZE = (5+num_params)*num_worker_trial
-RESULT_PACKET_SIZE = 4*num_worker_trial
+RESULT_PACKET_SIZE = 6*num_worker_trial
 ###
 
 def initialize_settings(sigma_init=0.1, sigma_decay=0.9999, initial_weight=0.0):
@@ -90,6 +90,15 @@ def initialize_settings(sigma_init=0.1, sigma_decay=0.9999, initial_weight=0.0):
       weight_decay=0.001,
       popsize=population)
     es = ga
+  elif optimizer == 'qd':
+    qd = MAP_Elites(num_params,
+      sigma_init=sigma_init,
+      sigma_decay=sigma_decay,
+      sigma_limit=0.02,
+      weight_decay=0.001,
+      initial_weight=initial_weight,
+      popsize=population)
+    es = qd
   elif optimizer == 'cma':
     cma = CMAES(num_params,
       sigma_init=sigma_init,
@@ -124,7 +133,7 @@ def initialize_settings(sigma_init=0.1, sigma_decay=0.9999, initial_weight=0.0):
 
   PRECISION = 10000
   SOLUTION_PACKET_SIZE = (5+num_params)*num_worker_trial
-  RESULT_PACKET_SIZE = 4*num_worker_trial
+  RESULT_PACKET_SIZE = 6*num_worker_trial
 ###
 
 def sprint(*args):
@@ -175,8 +184,10 @@ def decode_solution_packet(packet):
 
 def encode_result_packet(results):
   r = np.array(results)
+  print(r)
   r[:, 2:4] *= PRECISION
-  return r.flatten().astype(np.int32)
+  r[:, :4] = r[:, :4].astype(np.int32)
+  return r.flatten()
 
 def decode_result_packet(packet):
   r = packet.reshape(num_worker_trial, 4)
@@ -186,7 +197,7 @@ def decode_result_packet(packet):
   fits = fits.tolist()
   times = r[:, 3].astype(np.float)/PRECISION
   times = times.tolist()
-  behavior = r[:, 4].tolist()
+  behavior = r[:, 4:].tolist()
   result = []
   n = len(jobs)
   for i in range(n):
@@ -197,14 +208,15 @@ def worker(weights, seed, train_mode_int=1, max_len=-1):
 
   train_mode = (train_mode_int == 1)
   model.set_model_params(weights)
-  reward_list, behavior_list, t_list = simulate(model,
+  reward_list, t_list, behavior_list = simulate(model,
     train_mode=train_mode, render_mode=False, num_episode=num_episode, seed=seed, max_len=max_len)
   if batch_mode == 'min':
     reward = np.min(reward_list)
   else:
     reward = np.mean(reward_list)
   t = np.mean(t_list)
-  return reward, behavior_list, t
+  behavior = np.mean(behavior_list, axis=0)
+  return reward, behavior, t
 
 def slave():
   model.make_env()
@@ -223,8 +235,9 @@ def slave():
       jobidx = int(jobidx)
       seed = int(seed)
       fitness, behavior, timesteps = worker(weights, seed, train_mode, max_len)
-      results.append([worker_id, jobidx, fitness, timesteps, behavior])
+      results.append([worker_id, jobidx, fitness, timesteps, *behavior])
     result_packet = encode_result_packet(results)
+    # print(f'{result_packet}, {len(result_packet)}, {RESULT_PACKET_SIZE}')
     assert len(result_packet) == RESULT_PACKET_SIZE
     comm.Send(result_packet, dest=0)
 

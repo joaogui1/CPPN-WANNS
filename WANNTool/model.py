@@ -95,13 +95,14 @@ def evaluate(model):
   total_reward = 0.0
   N = 1
   for i in range(N):
-    reward, t = simulate(model, train_mode=False, render_mode=False, num_episode=1)
+    reward, t, _ = simulate(model, train_mode=False, render_mode=False, num_episode=1)
     total_reward += reward[0]
   return (total_reward / float(N))
 
 def simulate(model, train_mode=False, render_mode=True, num_episode=5, seed=-1, max_len=-1):
 
   reward_list = []
+  behavior_list = []
   t_list = []
 
   is_biped = (model.env_name.find("BipedalWalker") >= 0)
@@ -109,8 +110,6 @@ def simulate(model, train_mode=False, render_mode=True, num_episode=5, seed=-1, 
   orig_mode = True  # hack for bipedhard's reward augmentation during training (set to false for hack)
   if is_biped:
     orig_mode = False
-
-  dct_compress_mode = False
 
   max_episode_length = 1000
 
@@ -123,7 +122,7 @@ def simulate(model, train_mode=False, render_mode=True, num_episode=5, seed=-1, 
     np.random.seed(seed)
     model.env.seed(seed)
 
-  for episode in range(num_episode):
+  for _ in range(num_episode):
 
     obs = model.env.reset()
 
@@ -134,8 +133,6 @@ def simulate(model, train_mode=False, render_mode=True, num_episode=5, seed=-1, 
     stumbled = False # hack for bipedhard's reward augmentation during training. turned off.
     reward_threshold = 300 # consider we have won if we got more than this
 
-    num_glimpse = 0
-
     for t in range(max_episode_length):
       
       if render_mode:
@@ -144,8 +141,6 @@ def simulate(model, train_mode=False, render_mode=True, num_episode=5, seed=-1, 
           time.sleep(0.01)
 
       action = model.get_action(obs)
-
-      prev_obs = obs
 
       obs, reward, done, info = model.env.step(action)
 
@@ -171,9 +166,10 @@ def simulate(model, train_mode=False, render_mode=True, num_episode=5, seed=-1, 
       print("reward", total_reward, "timesteps", t)
 
     reward_list.append(total_reward)
+    behavior_list.append(info['behavior'])
     t_list.append(t)
 
-  return reward_list, t_list
+  return reward_list, t_list, behavior_list
 
 def main():
 
@@ -239,7 +235,7 @@ def main():
         model.set_model_params(params)
         rewards = []
         for i in range(eval_steps):
-          reward, steps_taken = simulate(model, train_mode=False, render_mode=False, num_episode=1, seed=the_seed+i)
+          reward, steps_taken, _ = simulate(model, train_mode=False, render_mode=False, num_episode=1, seed=the_seed+i)
           rewards.append(reward[0])
         print("weight", the_weight, "average_reward", np.mean(rewards), "standard_deviation", np.std(rewards))
     else:
@@ -249,7 +245,7 @@ def main():
         params = model.get_uniform_random_model_params(stdev=weight_stdev)-game.weight_bias
         model.set_model_params(params)
         '''
-        reward, steps_taken = simulate(model, train_mode=False, render_mode=False, num_episode=1, seed=the_seed+i)
+        reward, steps_taken, _ = simulate(model, train_mode=False, render_mode=False, num_episode=1, seed=the_seed+i)
         print(i, reward)
         rewards.append(reward[0])
       print("seed", the_seed, "average_reward", np.mean(rewards), "standard_deviation", np.std(rewards))
@@ -257,7 +253,7 @@ def main():
     if record_video:
       model.env = Monitor(model.env, directory='/tmp/'+gamename,video_callable=lambda episode_id: True, write_upon_reset=True, force=True)
     for i in range(1):
-      reward, steps_taken = simulate(model,
+      reward, steps_taken, _ = simulate(model,
         train_mode=False, render_mode=render_mode, num_episode=1, seed=the_seed+i)
       print ("terminal reward", reward, "average steps taken", np.mean(steps_taken)+1)
 

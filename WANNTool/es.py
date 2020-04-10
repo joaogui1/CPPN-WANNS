@@ -239,12 +239,13 @@ class MAP_Elites:
                sigma_limit=0.01,      # stop annealing if less than this
                popsize=256,           # population size
                weight_decay=0.01,     # weight decay coefficient
+               initial_weight=0.0,
                num_bins = 108*108,    # number of MAP-Elites bins
                bin_x = 2,             # Size of each bin in the x dimension
                bin_y = 2              # Size of each bin in the y dimension
               ):
 
-    self.default = np.zeros(num_params)
+    self.default = np.full(num_params, initial_weight)
     self.num_params = num_params
     self.sigma_init = sigma_init
     self.sigma_decay = sigma_decay
@@ -272,11 +273,9 @@ class MAP_Elites:
       c[idx] = b[idx]
       return c
     
-    bins = zip(np.random.randint(low=1, high=109, size=self.popsize),
-               np.random.randint(low=1, high=109, size=self.popsize))
     for i in range(self.popsize):
-      idx_a = np.random.choice(bins)
-      idx_b = np.random.choice(bins)
+      idx_a = tuple(np.random.choice(109, 2))
+      idx_b = tuple(np.random.choice(109, 2))
       child_params = mate(self.archive.get(idx_a, self.default), 
                           self.archive.get(idx_b, self.default))
       solutions.append(child_params + self.epsilon[i])

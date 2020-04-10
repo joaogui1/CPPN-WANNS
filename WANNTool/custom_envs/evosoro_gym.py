@@ -106,12 +106,15 @@ class EvosoroEnv(gym.Env):
     self.state[0] %= self.orig_size[0]
     self.state[1] %= self.orig_size[1]
 
+    total_voxels = None
+    active_voxels = None
+
     if self.state[2] == self.orig_size[2]:
       total_voxels = np.sum([[1 if j != '0' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
       active_voxels = np.sum([[1 if j > '2' else 0 for j in self.phenotype[i]] for i in range(self.orig_size[2])])
       if total_voxels < 1/8 * np.prod(self.orig_size) or active_voxels < 1/24 * np.prod(self.orig_size):
         # print(f"Individual {self.id} has no fitness")
-        return self.state, 0.0, True, {}
+        return self.state, 0.0, True, {'behavior':(total_voxels, active_voxels)}
       # print(total_voxels)
 
      # print(f"before write voxelyze id: {self.id}")
@@ -148,7 +151,7 @@ class EvosoroEnv(gym.Env):
     self.state[3] = np.sqrt(np.sum(np.square(np.asarray(self.state[:3]) - 2.5)))
     obs = self.state
 
-    return obs, reward, done, {}
+    return obs, reward, done, {'behavior':(total_voxels, active_voxels)}
 
   def render(self):
     if self.state[2] == self.orig_size[2]:
