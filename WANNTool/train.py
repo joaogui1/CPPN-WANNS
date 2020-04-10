@@ -88,7 +88,8 @@ def initialize_settings(sigma_init=0.1, sigma_decay=0.9999, initial_weight=0.0):
       sigma_limit=0.02,
       elite_ratio=0.1,
       weight_decay=0.001,
-      popsize=population)
+      popsize=population,
+      initial_weight=initial_weight)
     es = ga
   elif optimizer == 'cma':
     cma = CMAES(num_params,

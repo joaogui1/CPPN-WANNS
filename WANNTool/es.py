@@ -141,6 +141,7 @@ class SimpleGA:
                elite_ratio=0.1,       # percentage of the elites
                forget_best=False,     # forget the historical best elites
                weight_decay=0.01,     # weight decay coefficient
+               initial_weight=0.0     # initial mean weight
               ):
 
     self.num_params = num_params
@@ -153,7 +154,7 @@ class SimpleGA:
     self.elite_popsize = int(self.popsize * self.elite_ratio)
 
     self.sigma = self.sigma_init
-    self.elite_params = np.zeros((self.elite_popsize, self.num_params))
+    self.elite_params = np.full((self.elite_popsize, self.num_params), initial_weight)
     self.elite_rewards = np.zeros(self.elite_popsize)
     self.best_param = np.zeros(self.num_params)
     self.best_reward = 0
@@ -395,10 +396,10 @@ class PEPG:
 
     self.forget_best = forget_best
     self.batch_reward = np.zeros(self.batch_size * 2)
-    self.mu = initial_weight*np.ones(self.num_params)#np.zeros(self.num_params)
+    self.mu = np.full(self.num_params, initial_weight)#np.zeros(self.num_params)
     self.sigma = np.ones(self.num_params) * self.sigma_init
-    self.curr_best_mu = initial_weight*np.ones(self.num_params)#np.zeros(self.num_params)
-    self.best_mu = initial_weight*np.ones(self.num_params)#np.zeros(self.num_params)
+    self.curr_best_mu = np.full(self.num_params, initial_weight)#np.zeros(self.num_params)
+    self.best_mu = np.full(self.num_params, initial_weight)#np.zeros(self.num_params)
     self.best_reward = 0
     self.first_interation = True
     self.weight_decay = weight_decay
