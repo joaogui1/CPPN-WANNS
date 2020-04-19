@@ -64,6 +64,7 @@ class Neat():
     """
     for i in range(np.shape(reward)[0]):
       self.pop[i].fitness = reward[i]
+      self.pop[i].nConn   = self.pop[i].nConn
 
   def initPop(self):
     """Initialize population with a list of random individuals
@@ -90,11 +91,11 @@ class Neat():
     outs  = (p['ann_nInput']+1) + np.arange(0,p['ann_nOutput']) # Output Ids
 
     conn = np.empty((5,nConn,))
-    conn[0,:] = np.arange(0,nConn,1)    # Connection Id
-    conn[1,:] = np.tile(ins, len(outs)) # Source Nodes
-    conn[2,:] = np.tile(outs,len(ins) ) # Destination Nodes
-    conn[3,:] = np.nan                  # Weight Values
-    conn[4,:] = 1                       # Enabled?
+    conn[0,:] = np.arange(0,nConn,1)      # Connection Id
+    conn[1,:] = np.tile(ins, len(outs))   # Source Nodes
+    conn[2,:] = np.repeat(outs,len(ins) ) # Destination Nodes
+    conn[3,:] = np.nan                    # Weight Values
+    conn[4,:] = 1                         # Enabled?
 
     # Create population of individuals with varied weights
     pop = []
